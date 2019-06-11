@@ -8,3 +8,6 @@ old_versions - Contains copies of previous versions of programming project files
 
 master_changelog - Contains a merged copy of changes from each version
 overallToDo - Contains a to-do list of tasks needed to be done
+
+New Unity Project 2 - Robby's Physics Engine/GUI prototype
+World Gui - Allie's spell/map interface prototype
