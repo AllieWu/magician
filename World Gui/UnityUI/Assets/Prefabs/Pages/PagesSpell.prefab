@@ -1909,7 +1909,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8330542859326938745}
-  - component: {fileID: 7986565473826262287}
+  - component: {fileID: 6513202871044249299}
+  - component: {fileID: 8016957681790112674}
   m_Layer: 5
   m_Name: PagesSpell
   m_TagString: Untagged
@@ -1939,22 +1940,38 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 427.8, y: 235.8}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!111 &7986565473826262287
-Animation:
+--- !u!114 &6513202871044249299
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8330542858181798261}
   m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27465f07e34861949ab8045f6bdbaa9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  anim: {fileID: 8016957681790112674}
+--- !u!95 &8016957681790112674
+Animator:
   serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations:
-  - {fileID: 7400000, guid: cd3a975ad88dfa84f9a3a027c98e7ef8, type: 2}
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8330542858181798261}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 533e4f8b099ec374a856a6e7d3ada054, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &8330542858189532039
 GameObject:
   m_ObjectHideFlags: 0
@@ -2844,8 +2861,6 @@ GameObject:
   - component: {fileID: 8330542858399095889}
   - component: {fileID: 8330542858399095890}
   - component: {fileID: 8330542858399095891}
-  - component: {fileID: 8330542858399095900}
-  - component: {fileID: 4475245832146961351}
   m_Layer: 5
   m_Name: PrevButton
   m_TagString: Untagged
@@ -2967,41 +2982,6 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, Unity.ugui, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
---- !u!114 &8330542858399095900
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8330542858399095902}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 44f25cb225676154ca72f7bb6572e75c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  prefabs: []
-  currentPage: {fileID: 0}
-  parent: {fileID: 0}
-  anim: {fileID: 0}
---- !u!95 &4475245832146961351
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8330542858399095902}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 533e4f8b099ec374a856a6e7d3ada054, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &8330542858417839862
 GameObject:
   m_ObjectHideFlags: 0

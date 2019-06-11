@@ -60,6 +60,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\PageScript.cs" />
     <Compile Include="Assets\PkgImports\NeonShapes\SelfDestroyScript.cs" />
     <Compile Include="Assets\Scripts\ButtomScript.cs" />
     <Compile Include="Assets\Scripts\PageController.cs" />
