@@ -8,9 +8,9 @@ public abstract class Spell : MonoBehaviour
 
     public Spell(float cd, float dm, float ct)
     {
-        this.cooldown = cd;
-        this.damage = dm;
-        this.castTime = ct;
+        cooldown = cd;
+        damage = dm;
+        castTime = ct;
     }
 
     public abstract void Cast();

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class FireballBehavior : MonoBehaviour
 {
-    public float damage, splashDamage, speed, splashRadius;
+    public float splashDamage, speed, splashRadius;
     private Vector2 direction;
     private Rigidbody2D rb2d;
     private FireballSpell fb;
@@ -12,10 +12,14 @@ public class FireballBehavior : MonoBehaviour
     private void Start()
     {
         fb = GameObject.Find("Player Body").GetComponent<FireballSpell>();
-        //GetComponent<Material>().color = new Color(1, 0, 0, 1);
         rb2d = GetComponent<Rigidbody2D>();
         direction = GameObject.Find("Player Body").GetComponent<PlayerController>().lookDirection;
-        //Debug.Log(direction);
+
+        // Change color
+        Renderer rend = GetComponent<Renderer>();
+        Material mat = new Material(Shader.Find("Standard"));
+        mat.color = Color.red;
+        rend.material = mat;
     }
 
     private void FixedUpdate()

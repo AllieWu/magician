@@ -61,6 +61,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\CharacterHealth.cs" />
+    <Compile Include="Assets\Scripts\ColorChanger.cs" />
     <Compile Include="Assets\Scripts\EnemyBehavior.cs" />
     <Compile Include="Assets\Scripts\EnemyController.cs" />
     <Compile Include="Assets\Scripts\EnemySpawner.cs" />
@@ -72,9 +73,13 @@
     <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Scripts\ProjectileBehavior.cs" />
     <Compile Include="Assets\Scripts\RangedEnemyController.cs" />
+    <Compile Include="Assets\Scripts\Spell Scripts\EarthPillar\EarthPillarBehavior.cs" />
+    <Compile Include="Assets\Scripts\Spell Scripts\EarthPillar\EarthPillarSpell.cs" />
     <Compile Include="Assets\Scripts\Spell Scripts\Fireball\FireballBehavior.cs" />
     <Compile Include="Assets\Scripts\Spell Scripts\Fireball\FireballSpell.cs" />
     <Compile Include="Assets\Scripts\Spell Scripts\Spell.cs" />
+    <Compile Include="Assets\Scripts\Spell Scripts\Tsunami\TsunamiBehavior.cs" />
+    <Compile Include="Assets\Scripts\Spell Scripts\Tsunami\TsunamiSpell.cs" />
     <Compile Include="Assets\Scripts\TextManager.cs" />
     <Compile Include="Assets\Scripts\XPController.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">

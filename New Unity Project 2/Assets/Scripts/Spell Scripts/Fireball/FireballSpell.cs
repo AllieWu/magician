@@ -6,12 +6,10 @@ public class FireballSpell : Spell
 {
     private Vector3 look;
     public GameObject fbPrefab;
-    //private GameObject player;
     private Quaternion rotation;
 
     public FireballSpell(float cd, float dm, float ct) : base(cd, dm, ct)
     {
-        //player = GameObject.Find("Player Body");
         //fbPrefab = GameObject.Find("Fireball");
     }
 

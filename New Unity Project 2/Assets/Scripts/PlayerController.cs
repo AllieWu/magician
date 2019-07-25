@@ -7,22 +7,29 @@ public class PlayerController : MonoBehaviour
 {
     [Header("Combat Settings")]
     public float cooldown;
-    private float nextFireTime1, nextFireTime2;
+    private float nextFireTime1, nextFireTime2, nextFireTime3;
     private Transform location;
     private Quaternion projRotation;
     public GameObject projectile;
     public Vector3 lookDirection;
     private Camera cam;
     private Vector3 point;
+    public bool dead;
 
     [Header("XP Settings")]
     public Slider xpBar;
     public Text xpInfo;
     public int currentXP, nextLevelXP, previousLevelXP, playerLevel;
 
+    [Header("Movement Settings")]
+    public float speed;                                             // Player's Movement Speed
+    private float moveHorizontal, moveVertical;                     // x input, y input
+    public Vector3 movement;                                        // Where the player wants to move, where the player does move based on obstacles, where the obstacles are
+    public Rigidbody2D body;                                        // The object being moved
+
     // playerLevel to be read from SaveScript
     // currentHealth to be read from SaveScript
-    
+
     private void Start()
     {
         //initialize savescript variables
@@ -32,6 +39,7 @@ public class PlayerController : MonoBehaviour
         location = GetComponent<Transform>();
         nextFireTime1 = Time.time;
         nextFireTime2 = Time.time;
+        nextFireTime3 = Time.time;
         cam = Camera.main;
 
         //Setting up XP Bar
@@ -41,6 +49,9 @@ public class PlayerController : MonoBehaviour
         previousLevelXP = 0;
         xpBar.value = (currentXP) / (nextLevelXP);
         xpInfo.text = "Level: " + playerLevel + "     XP: " + currentXP + "/" + nextLevelXP;
+
+        body = GetComponent<Rigidbody2D>();
+        dead = false;
     }
 
     private void Update()
@@ -59,8 +70,25 @@ public class PlayerController : MonoBehaviour
             gameObject.GetComponent<FireballSpell>().Cast();
             nextFireTime2 = Time.time + gameObject.GetComponent<FireballSpell>().cooldown;
         }
+        else if (Input.GetAxisRaw("Fire3") != 0 && Time.time > nextFireTime3)
+        {
+            gameObject.GetComponent<TsunamiSpell>().Cast();
+            nextFireTime3 = Time.time + gameObject.GetComponent<TsunamiSpell>().cooldown;
+            //Debug.Log(gameObject.GetComponent<TsunamiSpell>().cooldown);
+        }
+    }
 
-        //Debug.Log(lookDirection);
+    private void FixedUpdate()
+    {
+        if(!dead)
+        {
+            moveHorizontal = Input.GetAxisRaw("Horizontal");
+            moveVertical = Input.GetAxisRaw("Vertical");
+            movement = new Vector3(moveHorizontal, moveVertical);
+
+            body.AddForce(movement.normalized * speed * Time.deltaTime);
+        }
+        
     }
 
     public void AddXP(int XP)

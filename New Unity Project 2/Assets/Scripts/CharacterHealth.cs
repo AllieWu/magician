@@ -50,5 +50,6 @@ public class CharacterHealth : MonoBehaviour
     {
         currentHealth = 0;
         dead = true;
+        GetComponent<PlayerController>().dead = true;
     }
 }
