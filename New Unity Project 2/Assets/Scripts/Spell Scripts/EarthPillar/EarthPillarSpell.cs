@@ -30,6 +30,6 @@ public class EarthPillarSpell : Spell
     private IEnumerator WaitAndCast(float castTimer)
     {
         yield return new WaitForSecondsRealtime(castTimer);
-        Instantiate(epPrefab, point, rotation);
+        Instantiate(epPrefab, new Vector2(point.x, point.y), rotation);
     }
 }

@@ -7,7 +7,7 @@ public class PlayerController : MonoBehaviour
 {
     [Header("Combat Settings")]
     public float cooldown;
-    private float nextFireTime1, nextFireTime2, nextFireTime3;
+    private float nextFireTime1, nextFireTime2, nextFireTime3, nextFireTime4;
     private Transform location;
     private Quaternion projRotation;
     public GameObject projectile;
@@ -40,6 +40,7 @@ public class PlayerController : MonoBehaviour
         nextFireTime1 = Time.time;
         nextFireTime2 = Time.time;
         nextFireTime3 = Time.time;
+        nextFireTime4 = Time.time;
         cam = Camera.main;
 
         //Setting up XP Bar
@@ -75,6 +76,11 @@ public class PlayerController : MonoBehaviour
             gameObject.GetComponent<TsunamiSpell>().Cast();
             nextFireTime3 = Time.time + gameObject.GetComponent<TsunamiSpell>().cooldown;
             //Debug.Log(gameObject.GetComponent<TsunamiSpell>().cooldown);
+        }
+        else if (Input.GetAxisRaw("Jump") != 0 && Time.time > nextFireTime4)
+        {
+            gameObject.GetComponent<EarthPillarSpell>().Cast();
+            nextFireTime4 = Time.time + gameObject.GetComponent<EarthPillarSpell>().cooldown;
         }
     }
 

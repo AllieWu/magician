@@ -364,7 +364,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7125d7e427cd7c84cabed8dddd4a6ffe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 15
+  damage: 12
   cooldown: 2
   castTime: 0.25
   epPrefab: {fileID: 6083412894811447189, guid: 064256d3613a21240a155857c3336bf9,
