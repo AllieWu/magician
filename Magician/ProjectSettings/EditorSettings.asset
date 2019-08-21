@@ -8,6 +8,11 @@ EditorSettings:
   m_SerializationMode: 2
   m_LineEndingsForNewScripts: 2
   m_DefaultBehaviorMode: 1
+<<<<<<< HEAD
+  m_PrefabRegularEnvironment: {fileID: 0}
+  m_PrefabUIEnvironment: {fileID: 0}
+=======
+>>>>>>> master
   m_SpritePackerMode: 4
   m_SpritePackerPaddingPower: 1
   m_EtcTextureCompressorBehavior: 1
@@ -16,6 +21,12 @@ EditorSettings:
   m_EtcTextureBestCompressor: 4
   m_ProjectGenerationIncludedExtensions: txt;xml;fnt;cd
   m_ProjectGenerationRootNamespace: 
+<<<<<<< HEAD
+  m_CollabEditorSettings:
+    inProgressEnabled: 1
+  m_EnableTextureStreamingInPlayMode: 1
+=======
   m_UserGeneratedProjectSuffix: 
   m_CollabEditorSettings:
     inProgressEnabled: 1
+>>>>>>> master
