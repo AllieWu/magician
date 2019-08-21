@@ -1,0 +1,10 @@
+main +2 light
+main +1 light
+main
+main +1 dark
+main +2 dark
+
+belly
+belly dark
+belly inbetween
+behind

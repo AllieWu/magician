@@ -1,0 +1,27 @@
+body - 3 shades
+tail - 2 shades
+behind leg - 2 shades
+tail - 2 shades
+nose - 1 shade
+eye - shade
+
+
+SHADE INTENSITY
+body color -> body shade 1 -> body shade 2 -> tail -> body outline -> behind/tail shade -> behind shade
+
+body color
+body outline
+body shade 1
+body shade 2
+
+back leg color/tail shade
+back shade
+tail color
+
+ear color
+ear shade
+
+eye
+nose
+
+
