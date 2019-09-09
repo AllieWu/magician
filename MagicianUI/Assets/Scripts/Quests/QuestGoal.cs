@@ -18,6 +18,15 @@ public class QuestGoal : ScriptableObject
     public int requiredAmt;
     public int currentAmt;
 
+
+    private void OnEnable()
+    {
+        System.Random rnd = new System.Random();
+        goalType = GoalType.Kill;
+        requiredAmt = rnd.Next(0, 50);
+        currentAmt = 0;
+    }
+
     public bool IsReached()
     {
         return (currentAmt >= requiredAmt);

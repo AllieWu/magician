@@ -75,6 +75,8 @@
     <Compile Include="Assets\Scripts\Quests\QuestController.cs" />
     <Compile Include="Assets\Scripts\Quests\QuestGiver.cs" />
     <Compile Include="Assets\Scripts\Quests\QuestGoal.cs" />
+    <Compile Include="Assets\Scripts\Quests\Quests.cs" />
+    <Compile Include="Assets\Scripts\Quests\QuestsController.cs" />
     <Compile Include="Assets\Scripts\Quests\QuestSetController.cs" />
     <Compile Include="Assets\Scripts\SetController.cs" />
     <Reference Include="Unity.Timeline.Editor">

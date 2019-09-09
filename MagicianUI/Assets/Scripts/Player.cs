@@ -23,6 +23,4 @@ public class Player : MonoBehaviour
     double mastery_water { get; set; }
     double mastery_earth { get; set; }
     double mastery_wind { get; set; }
-
-    public Quest[] quests = { };
 }

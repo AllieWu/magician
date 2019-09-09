@@ -11,9 +11,9 @@ public class QuestController : MonoBehaviour
 
     private void Start()
     {
-        if (quest != null)
+        if (quest != null && quest.GetQuestStatus())
         {
-            UpdateText(quest.title, quest.goldReward.ToString(), quest.expReward.ToString());
+            UpdateText(quest);
             Debug.Log(quest.GetQuestInfo());
         }
 
@@ -25,22 +25,34 @@ public class QuestController : MonoBehaviour
             return;
 
         quest = newQuest;
-        UpdateText(quest.title, quest.goldReward.ToString(), quest.expReward.ToString());
+        UpdateText(quest);
     }
 
-    public void RemoveQuest(Quest quest)
+    public void RemoveQuest()
     {
         if (quest == null)
             return;
 
+        Quests.instance.Remove(quest);
         quest = null;
-        UpdateText("", "", "");
+        UpdateText(null);
     }
 
-    private void UpdateText(string title, string gold, string exp)
+    public void UpdateText(Quest quest)
     {
-        titleText.text = title;
-        goldText.text = gold + "g";
-        expText.text = exp + "Xp";
+        if (quest == null)
+        {
+            titleText.text = goldText.text = expText.text = "";
+            return;
+        }
+
+        titleText.text = quest.GetQuestTitle();
+        goldText.text = quest.GetGoldReward() + "Gold";
+        expText.text = quest.GetExpReward() + "EXP";
+    }
+
+    public Quest GetQuest()
+    {
+        return quest;
     }
 }
