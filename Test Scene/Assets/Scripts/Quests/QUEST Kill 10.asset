@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: QUEST Kill 10
   m_EditorClassIdentifier: 
   isActive: 1
-  title: TEST QUEST
+  title: QUEST Kill 10 (TEST)
   description: This is a test quest
   expReward: 5
   goldReward: 100
