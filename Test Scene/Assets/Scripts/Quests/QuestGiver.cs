@@ -5,7 +5,7 @@ using System.Collections;
 public class QuestGiver : MonoBehaviour
 {
     public Quest quest;
-    public Player player;
+    //public Player player;
 
     public Text titleText;
     public Text descText;
