@@ -28,6 +28,7 @@ public class SetController : MonoBehaviour
         pages = new GameObject[] { spellsPage, invPage, questsPage, mapPage };
     }
 
+
     // updates the current ui set displayed in the condensed ui
     public void SetCurrentSet(int index)
     {

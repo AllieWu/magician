@@ -9,11 +9,12 @@ public class QuestController : MonoBehaviour
     public Text goldText;
     public Text expText;
 
+
     private void Start()
     {
         if (quest != null && quest.GetQuestStatus())
         {
-            UpdateText(quest);
+            UpdateText();
             Debug.Log(quest.GetQuestInfo());
         }
 
@@ -25,20 +26,31 @@ public class QuestController : MonoBehaviour
             return;
 
         quest = newQuest;
-        UpdateText(quest);
+        UpdateText();
     }
 
-    public void RemoveQuest()
+    // Clear the slot
+    public void ClearSlot()
     {
-        if (quest == null)
-            return;
+        if (quest != null)
+        {
+            quest = null;
 
-        Quests.instance.Remove(quest);
-        quest = null;
-        UpdateText(null);
+            RemoveQuestFromQuests();
+        }
     }
 
-    public void UpdateText(Quest quest)
+
+    // If the remove Quest is pressed, this function will be called.
+    public void RemoveQuestFromQuests()
+    {
+        Debug.Log("quest slot RemoveQuestFromQuests() called");
+        Quests.instance.Remove(quest);
+        UpdateText();
+    }
+
+
+    public void UpdateText()
     {
         if (quest == null)
         {

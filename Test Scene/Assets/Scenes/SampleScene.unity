@@ -1501,7 +1501,7 @@ PrefabInstance:
     - target: {fileID: 2211563325931808559, guid: 486c363d19aaab447a3deed67681e35b,
         type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 149821717539540599, guid: 486c363d19aaab447a3deed67681e35b,
         type: 3}
@@ -5509,6 +5509,7 @@ GameObject:
   - component: {fileID: 1486345684}
   - component: {fileID: 1486345685}
   - component: {fileID: 1486345687}
+  - component: {fileID: 1486345686}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -5544,6 +5545,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   items: []
   space: 25
+--- !u!114 &1486345686
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1486345683}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d19a3cb68208f14b9d7b7606da2f468, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainUI: {fileID: 2075609598}
 --- !u!114 &1486345687
 MonoBehaviour:
   m_ObjectHideFlags: 0

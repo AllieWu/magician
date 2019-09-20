@@ -71,7 +71,6 @@
     <Compile Include="Assets\Scripts\Enemies\RangedEnemyController.cs" />
     <Compile Include="Assets\Scripts\Inventory\Inventory.cs" />
     <Compile Include="Assets\Scripts\Inventory\InventoryController.cs" />
-    <Compile Include="Assets\Scripts\Inventory\InvSetController.cs" />
     <Compile Include="Assets\Scripts\Inventory\Item.cs" />
     <Compile Include="Assets\Scripts\Inventory\SlotController.cs" />
     <Compile Include="Assets\Scripts\Map\MapSetController.cs" />
@@ -96,6 +95,7 @@
     <Compile Include="Assets\Scripts\Spell Scripts\Spell.cs" />
     <Compile Include="Assets\Scripts\Spell Scripts\Tsunami\TsunamiBehavior.cs" />
     <Compile Include="Assets\Scripts\Spell Scripts\Tsunami\TsunamiSpell.cs" />
+    <Compile Include="Assets\Scripts\UIController.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/Allie/Documents/GitHub/magician/Test Scene/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
