@@ -22,10 +22,11 @@ public class QuestController : MonoBehaviour
 
     public void AddQuest(Quest newQuest)
     {
-        if (quest != null)
-            return;
-
         quest = newQuest;
+
+        if (newQuest == null)
+            Debug.Log("newQuest is null");
+
         UpdateText();
     }
 
@@ -38,6 +39,7 @@ public class QuestController : MonoBehaviour
 
             RemoveQuestFromQuests();
         }
+        UpdateText();
     }
 
 
@@ -52,15 +54,19 @@ public class QuestController : MonoBehaviour
 
     public void UpdateText()
     {
+        
         if (quest == null)
         {
+            Debug.Log("QuestController UpdateText() called!, changing text to: empty quest");
             titleText.text = goldText.text = expText.text = "";
             return;
         }
 
+        Debug.Log("QuestController UpdateText() called!, changing text to: " + quest.GetGoldReward());
         titleText.text = quest.GetQuestTitle();
         goldText.text = quest.GetGoldReward() + "Gold";
         expText.text = quest.GetExpReward() + "EXP";
+        Debug.Log(Quests.instance.quests.Count);
     }
 
     public Quest GetQuest()
