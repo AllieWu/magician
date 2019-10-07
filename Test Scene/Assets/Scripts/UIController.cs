@@ -12,13 +12,60 @@ public class UIController : MonoBehaviour
         {
             mainUI.SetActive(!mainUI.activeSelf);
         }
-        if (Input.GetButtonDown("Inventory"))
+        else if (Input.GetButtonDown("ToggleSpells"))
         {
-            mainUI.GetComponent<SetController>().SetCurrentSet(1);
+            if (!mainUI.activeSelf)
+            {
+                mainUI.SetActive(true);
+                mainUI.GetComponent<SetController>().SetCurrentSet(0);
+            }
+            else
+            {
+                mainUI.SetActive(false);
+                mainUI.GetComponent<SetController>().SetCurrentSet(0);
+            }
         }
-        if (Input.GetButtonDown("Quests"))
+        else if (Input.GetButtonDown("ToggleInventory"))
         {
-            mainUI.GetComponent<SetController>().SetCurrentSet(2);
+            mainUI.SetActive(true);
+            if (mainUI.GetComponent<SetController>().GetCurrentSet() != 1)
+            {
+                mainUI.SetActive(true);
+                mainUI.GetComponent<SetController>().SetCurrentSet(1);
+            }
+            else
+            {
+                mainUI.SetActive(false);
+                mainUI.GetComponent<SetController>().SetCurrentSet(0);
+            }
+        }
+        else if (Input.GetButtonDown("ToggleQuests"))
+        {
+            mainUI.SetActive(true);
+            if (mainUI.GetComponent<SetController>().GetCurrentSet() != 2)
+            {
+                mainUI.SetActive(true);
+                mainUI.GetComponent<SetController>().SetCurrentSet(2);
+            }
+            else
+            {
+                mainUI.SetActive(false);
+                mainUI.GetComponent<SetController>().SetCurrentSet(0);
+            }
+        }
+        else if (Input.GetButtonDown("ToggleMap"))
+        {
+            mainUI.SetActive(true);
+            if (mainUI.GetComponent<SetController>().GetCurrentSet() != 3)
+            {
+                mainUI.SetActive(true);
+                mainUI.GetComponent<SetController>().SetCurrentSet(3);
+            }
+            else
+            {
+                mainUI.SetActive(false);
+                mainUI.GetComponent<SetController>().SetCurrentSet(0);
+            }
         }
     }
 }
