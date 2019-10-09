@@ -26,13 +26,6 @@ public class QuestsController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
-        if (Input.GetButtonDown("Quests"))
-        {
-            questsUI.SetActive(!questsUI.activeSelf);
-            UpdateQuestUI();
-        }
-
         if (Input.GetButtonDown("AddDefaultQuest"))
         {
             Quests.instance.Add(ScriptableObject.CreateInstance<Quest>());  // add in a default quest to quests
@@ -52,15 +45,16 @@ public class QuestsController : MonoBehaviour
                 if (i < Quests.instance.quests.Count)
                     questcontrollers[i].AddQuest(Quests.instance.quests[i]);
                 else
-                    questcontrollers[i].RemoveQuest();
+                    questcontrollers[i].ClearSlot();
             }
-            else if (Inventory.instance.items.Count == 0)
+            else if (Quests.instance.quests.Count == 0)
             {
-                questcontrollers[0].RemoveQuest();
+                questcontrollers[0].ClearSlot();
             }
         }
     }
  
+
     private void UpdateQuestDescription(Quest quest)
     {
         selectedQuestTitle.text = quest.GetQuestTitle();
@@ -68,6 +62,7 @@ public class QuestsController : MonoBehaviour
         selectedQuestGold.text = quest.GetGoldReward() + "G";
         selectedQuestExp.text = quest.GetExpReward() + "XP";
     }
+
 
     private void ToggleDescriptionAndRemoveButton(GameObject questSlot)
     {
@@ -85,6 +80,7 @@ public class QuestsController : MonoBehaviour
         removeButton.SetActive(!removeButton.activeSelf);
     }
 
+
     public void UpdateSelectedQuest(GameObject questSlot)
     {
         selectedQuestSlot = questSlot;
@@ -95,12 +91,14 @@ public class QuestsController : MonoBehaviour
         ToggleDescriptionAndRemoveButton(questSlot);
     }
 
+
     public void RemoveSelectedQuest()
     {
         Debug.Log("RemoveSelectedQuest called!");
         if (selectedQuestSlot.GetComponent<QuestController>().GetQuest() != null)
         {
             Debug.Log("Clicked quest != null... attempting to remove!");
+            //selectedQuestSlot.GetComponent<QuestController>().RemoveQuestFromQuests();
             Quests.instance.Remove(selectedQuestSlot.GetComponent<QuestController>().GetQuest());
         }
 
