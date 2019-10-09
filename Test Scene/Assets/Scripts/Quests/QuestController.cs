@@ -9,12 +9,11 @@ public class QuestController : MonoBehaviour
     public Text goldText;
     public Text expText;
 
-
     private void Start()
     {
         if (quest != null && quest.GetQuestStatus())
         {
-            UpdateText();
+            UpdateText(quest);
             Debug.Log(quest.GetQuestInfo());
         }
 
@@ -22,51 +21,34 @@ public class QuestController : MonoBehaviour
 
     public void AddQuest(Quest newQuest)
     {
-        quest = newQuest;
-
-        if (newQuest == null)
-            Debug.Log("newQuest is null");
-
-        UpdateText();
-    }
-
-    // Clear the slot
-    public void ClearSlot()
-    {
         if (quest != null)
-        {
-            quest = null;
+            return;
 
-            RemoveQuestFromQuests();
-        }
-        UpdateText();
+        quest = newQuest;
+        UpdateText(quest);
     }
 
-
-    // If the remove Quest is pressed, this function will be called.
-    public void RemoveQuestFromQuests()
+    public void RemoveQuest()
     {
-        Debug.Log("quest slot RemoveQuestFromQuests() called");
+        if (quest == null)
+            return;
+
         Quests.instance.Remove(quest);
-        UpdateText();
+        quest = null;
+        UpdateText(null);
     }
 
-
-    public void UpdateText()
+    public void UpdateText(Quest quest)
     {
-        
         if (quest == null)
         {
-            Debug.Log("QuestController UpdateText() called!, changing text to: empty quest");
             titleText.text = goldText.text = expText.text = "";
             return;
         }
 
-        Debug.Log("QuestController UpdateText() called!, changing text to: " + quest.GetGoldReward());
         titleText.text = quest.GetQuestTitle();
         goldText.text = quest.GetGoldReward() + "Gold";
         expText.text = quest.GetExpReward() + "EXP";
-        Debug.Log(Quests.instance.quests.Count);
     }
 
     public Quest GetQuest()

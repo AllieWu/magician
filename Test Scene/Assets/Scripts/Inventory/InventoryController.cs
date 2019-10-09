@@ -30,6 +30,12 @@ public class InventoryController : MonoBehaviour
     // Check to see if we should open/close the inventory
     void Update()
     {
+        if (Input.GetButtonDown("Inventory"))
+        {
+            inventoryUI.SetActive(!inventoryUI.activeSelf);
+            UpdateUI();
+        }
+
         if (Input.GetButtonDown("AddDefaultItem"))
         {
             Inventory.instance.Add(ScriptableObject.CreateInstance<Item>());  // add in a default Item to inventory

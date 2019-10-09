@@ -26,7 +26,6 @@ public class Quest : ScriptableObject
     public void Complete()
     {
         isActive = false;
-        Quests.instance.Remove(this);
         Debug.Log("Finished Quest!");
     }
 
