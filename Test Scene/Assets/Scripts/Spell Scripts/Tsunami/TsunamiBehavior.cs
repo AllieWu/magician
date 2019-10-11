@@ -37,19 +37,19 @@ public class TsunamiBehavior : MonoBehaviour
     }
 
     // What happens when the projectile hits another object with a collider
-    private void OnTriggerEnter2D(Collider2D col)
+    private void OnCollisionEnter2D(Collision2D col)
     {
-        if (col.tag == "Boundary")
+        if (col.gameObject.tag == "Boundary")
         {
             Destroy(gameObject);
         }
-        else if (col.tag == "Enemy")
+        else if (col.gameObject.tag == "Enemy")
         {
-            if (!hit.Contains(col.attachedRigidbody))
+            if (!hit.Contains(col.otherRigidbody))
             {
                 col.gameObject.GetComponent<EnemyController>().DealDamage(t.damage);
-                DoKnockback(col.attachedRigidbody);
-                hit.Add(col.attachedRigidbody);
+                DoKnockback(col.otherRigidbody);
+                hit.Add(col.otherRigidbody);
             }
         }
     }

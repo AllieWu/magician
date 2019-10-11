@@ -48,7 +48,7 @@ public class Unit : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D col)
     {
-        if (col.gameObject.tag == "Player")
+        if (col.tag == "Player")
         {
             StartCoroutine(pathing);
         }
@@ -56,7 +56,7 @@ public class Unit : MonoBehaviour
 
     void OnTriggerExit2D(Collider2D col)
     {
-        if (col.gameObject.tag == "Player")
+        if (col.tag == "Player")
         {
             StopCoroutine(pathing);
             StopCoroutine(followPathCoroutine);
@@ -69,7 +69,7 @@ public class Unit : MonoBehaviour
 
         while (true)
         {
-            Debug.Log("RefreshPathRan");
+            //Debug.Log("RefreshPathRan");
             if (inRange)
             {
                 if (targetPositionOld != (Vector2)target.position)
@@ -81,13 +81,13 @@ public class Unit : MonoBehaviour
                     StartCoroutine("FollowPath");
                 }
 
-                Debug.Log("inRange");
+                //Debug.Log("inRange");
 
                 yield return new WaitForSeconds(.25f);
             }
             else
             {
-                Debug.Log("outRange");
+                //Debug.Log("outRange");
                 StopCoroutine("FollowPath");
                 yield return new WaitForSeconds(.25f);
             }
@@ -148,9 +148,9 @@ public class Unit : MonoBehaviour
     IEnumerator AttackClose(Vector3 targetPosition)
     {
         transform.position = Vector2.MoveTowards(transform.position, targetPosition, 0);
-        Debug.Log("set to 0");
+        //Debug.Log("set to 0");
         yield return new WaitForSeconds(0.5f);
-        Debug.Log("waited 1 seconds");
+        //Debug.Log("waited 1 seconds");
         Vector2 direction = targetPosition - transform.position;
         rb2d.AddForce(direction.normalized * 60 * Time.deltaTime);
         yield return new WaitForSeconds(1);
@@ -166,7 +166,7 @@ public class Unit : MonoBehaviour
 
             attacking = true;
             pause = true;
-            Debug.Log("attack");
+            //Debug.Log("attack");
             closeAttackCoroutine = AttackClose(col.gameObject.transform.position);
             StartCoroutine(closeAttackCoroutine);
         }
@@ -186,7 +186,7 @@ public class CustomSecondTrigger : MonoBehaviour
     {
         if (col.gameObject.tag == "Player")
         {
-            Debug.Log("inrange");
+            //Debug.Log("inrange");
             Sendee.SendMessage("attackAction", col);
         }
     }
