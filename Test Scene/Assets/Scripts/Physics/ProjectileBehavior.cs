@@ -39,7 +39,7 @@ public class ProjectileBehavior : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D col)
     {
-        Debug.Log("Collision");
+        //Debug.Log("Collision");
         if (col.gameObject.tag == "Boundary")
         {
             //Debug.Log("Hit Wall");

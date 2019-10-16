@@ -173,7 +173,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyHealthBar: {fileID: 3513130124092931210}
-  level: 2
+  level: 10
 --- !u!1 &3595282961633750470
 GameObject:
   m_ObjectHideFlags: 0

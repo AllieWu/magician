@@ -5979,7 +5979,7 @@ MonoBehaviour:
   removalDelay: 0
   spawnRadius: 6
   initPoolCount: 2
-  totEnemies: 10
+  totEnemies: 100
   concurrentEnemies: 2
   enemiesKilled: 0
   target: {fileID: 1521277080}
