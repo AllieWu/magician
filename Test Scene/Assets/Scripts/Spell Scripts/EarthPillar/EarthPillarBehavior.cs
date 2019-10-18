@@ -43,7 +43,7 @@ public class EarthPillarBehavior : MonoBehaviour
             Rigidbody2D body = col.gameObject.GetComponent<Rigidbody2D>();
             if(!hit.Contains(body))
             {
-                col.gameObject.GetComponent<EnemyController>().DealDamage(ep.damage);
+                col.gameObject.GetComponent<Unit>().DealDamage(ep.damage);
                 DoKnockback(body);
                 hit.Add(body);
             }

@@ -1,15 +1,16 @@
-﻿using UnityEngine;
-using System.Collections;
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
 
-public class Unit : MonoBehaviour
+public class Unit : EnemyGeneral
 {
 
-    private Transform target;
-    public float speed = 20;
-
+    //enemy variables
     Grid grid;
 
     Vector2[] path;
+    private Transform target;
     int targetIndex;
 
     private bool inRange = false;
@@ -28,6 +29,22 @@ public class Unit : MonoBehaviour
 
     void Start()
     {
+
+
+        //level = gameObject.GetComponent<InforScript>().level;
+        // ^^ example of how info script information could work
+        // info script information would be calc'd in info script to remove clutter
+
+        //level = 2;
+        maxHealth = Mathf.Ceil(10 + level ^ (3/2));
+        xp = 10 * level;
+        damage = 2 * level;
+        currentHealth = maxHealth;
+        dead = false;
+        enemyHealthBar.fillAmount = currentHealth / maxHealth;
+
+
+        //enemy movement and attack
         inRange = true;
         pathing = RefreshPath();
         followPathCoroutine = FollowPath();
@@ -46,7 +63,25 @@ public class Unit : MonoBehaviour
         triggerObject.Sendee = gameObject;
     }
 
-    void OnTriggerEnter2D(Collider2D col)
+    // Deals damage to the player if they come into contact with the enemy
+    private void OnCollisionEnter2D(Collision2D col)
+    {
+        if (col.gameObject.tag == "Player")
+        {
+            col.gameObject.GetComponent<PlayerController>().DealDamage(damage); 
+        }
+    }
+
+    // Deals damage every so often if the player if they stay in contact with the enemy
+    private void OnCollisionStay2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Player")
+        {
+            //implement this
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D col)
     {
         if (col.tag == "Player")
         {
@@ -54,7 +89,7 @@ public class Unit : MonoBehaviour
         }
     }
 
-    void OnTriggerExit2D(Collider2D col)
+    private void OnTriggerExit2D(Collider2D col)
     {
         if (col.tag == "Player")
         {
@@ -69,7 +104,6 @@ public class Unit : MonoBehaviour
 
         while (true)
         {
-            //Debug.Log("RefreshPathRan");
             if (inRange)
             {
                 if (targetPositionOld != (Vector2)target.position)
@@ -81,13 +115,10 @@ public class Unit : MonoBehaviour
                     StartCoroutine("FollowPath");
                 }
 
-                //Debug.Log("inRange");
-
                 yield return new WaitForSeconds(.25f);
             }
             else
             {
-                //Debug.Log("outRange");
                 StopCoroutine("FollowPath");
                 yield return new WaitForSeconds(.25f);
             }
@@ -131,7 +162,7 @@ public class Unit : MonoBehaviour
             for (int i = targetIndex; i < path.Length; i++)
             {
                 Gizmos.color = Color.black;
-                //Gizmos.DrawCube((Vector3)path[i], Vector3.one *.5f);
+                Gizmos.DrawCube((Vector3)path[i], Vector3.one *.5f);
 
                 if (i == targetIndex)
                 {
@@ -148,9 +179,7 @@ public class Unit : MonoBehaviour
     IEnumerator AttackClose(Vector3 targetPosition)
     {
         transform.position = Vector2.MoveTowards(transform.position, targetPosition, 0);
-        //Debug.Log("set to 0");
         yield return new WaitForSeconds(0.5f);
-        //Debug.Log("waited 1 seconds");
         Vector2 direction = targetPosition - transform.position;
         rb2d.AddForce(direction.normalized * 60 * Time.deltaTime);
         yield return new WaitForSeconds(1);
@@ -163,12 +192,26 @@ public class Unit : MonoBehaviour
     {
         if (!attacking)
         {
-
             attacking = true;
             pause = true;
-            //Debug.Log("attack");
             closeAttackCoroutine = AttackClose(col.gameObject.transform.position);
             StartCoroutine(closeAttackCoroutine);
+        }
+    }
+
+    public void DealDamage(float damageDealt)
+    {
+        if (!dead)
+        {
+            currentHealth -= damageDealt;
+            enemyHealthBar.fillAmount = currentHealth / maxHealth;
+
+            if (currentHealth <= 0)
+            {
+                StopCoroutine(pathing);
+                StopCoroutine(followPathCoroutine);
+                Die();
+            }
         }
     }
 }
@@ -186,7 +229,6 @@ public class CustomSecondTrigger : MonoBehaviour
     {
         if (col.gameObject.tag == "Player")
         {
-            //Debug.Log("inrange");
             Sendee.SendMessage("attackAction", col);
         }
     }

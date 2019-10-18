@@ -48,7 +48,7 @@ public class ProjectileBehavior : MonoBehaviour
         else if (col.gameObject.tag == "Enemy")
         {
             //Debug.Log("Hit Enemy");
-            col.gameObject.GetComponent<EnemyController>().DealDamage(damage);
+            col.gameObject.GetComponent<Unit>().DealDamage(damage);
             Destroy(this.gameObject);
         }
     }
