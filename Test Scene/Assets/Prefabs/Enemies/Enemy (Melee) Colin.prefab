@@ -15,7 +15,6 @@ GameObject:
   - component: {fileID: 4733556692011355943}
   - component: {fileID: 73497997341035910}
   - component: {fileID: -4458628289412401203}
-  - component: {fileID: 184285937433150534}
   m_Layer: 10
   m_Name: Enemy (Melee) Colin
   m_TagString: Enemy
@@ -143,6 +142,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eed9fa370fb303441bd1bf04337a4b31, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemyHealthBar: {fileID: 3513130124092931210}
+  level: 2
   speed: 5
 --- !u!58 &-4458628289412401203
 CircleCollider2D:
@@ -160,20 +161,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 10
---- !u!114 &184285937433150534
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 73497997341035911}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5bc9472024c58de4b850c5bd4f3a11af, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  enemyHealthBar: {fileID: 3513130124092931210}
-  level: 10
 --- !u!1 &3595282961633750470
 GameObject:
   m_ObjectHideFlags: 0

@@ -36,7 +36,7 @@ public class FireballBehavior : MonoBehaviour
         }
         else if (col.gameObject.tag == "Enemy")
         {
-            col.gameObject.GetComponent<EnemyController>().DealDamage(fb.damage);
+            col.gameObject.GetComponent<Unit>().DealDamage(fb.damage);
             DoSplash(rb2d.position, splashRadius);
             Destroy(this.gameObject);
         }
@@ -49,7 +49,7 @@ public class FireballBehavior : MonoBehaviour
         {
             if(hitColliders[i].gameObject.tag == "Enemy")
             {
-                hitColliders[i].gameObject.GetComponent<EnemyController>().DealDamage(splashDamage);
+                hitColliders[i].gameObject.GetComponent<Unit>().DealDamage(splashDamage);
             }
         }
     }

@@ -59,7 +59,7 @@ public class TsunamiBehavior : MonoBehaviour
             }
             */
 
-            col.gameObject.GetComponent<EnemyController>().DealDamage(t.damage);
+            col.gameObject.GetComponent<Unit>().DealDamage(t.damage);
             DoKnockback(col.rigidbody);
             Physics2D.IgnoreCollision(col.collider, GetComponent<Collider2D>());
         }
