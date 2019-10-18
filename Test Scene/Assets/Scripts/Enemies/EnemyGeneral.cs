@@ -21,6 +21,9 @@ public class EnemyGeneral : MonoBehaviour
     [HideInInspector]
     public int xp, damage;
 
+    public bool drops;
+    public GameObject itemDrop;
+
     public void Die()
     {
         currentHealth = 0;
@@ -28,5 +31,11 @@ public class EnemyGeneral : MonoBehaviour
         Destroy(this.gameObject);
         GameObject.Find("Enemy Spawner").GetComponent<EnemySpawner>().enemiesKilled++;
         GameObject.Find("Player").GetComponent<PlayerController>().AddXP(xp);
+
+        if (drops)
+        {
+            Debug.Log("AHHHH I DIED AND I SHOULD DROP STUFF");
+            Instantiate(itemDrop, transform.position, transform.rotation);
+        }
     }
 }

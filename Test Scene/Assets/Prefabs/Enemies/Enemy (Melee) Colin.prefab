@@ -145,6 +145,15 @@ MonoBehaviour:
   enemyHealthBar: {fileID: 3513130124092931210}
   level: 2
   speed: 5
+  generalvariabletest: 20
+  maxHealth: 0
+  currentHealth: 0
+  dead: 0
+  xp: 0
+  damage: 0
+  drops: 1
+  itemDrop: {fileID: 3708690929414449645, guid: 78d89b655aed287498ae60469ff5f543,
+    type: 3}
 --- !u!58 &-4458628289412401203
 CircleCollider2D:
   m_ObjectHideFlags: 0

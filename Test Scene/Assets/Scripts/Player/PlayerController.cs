@@ -150,4 +150,13 @@ public class PlayerController : MonoBehaviour
         //Debug.Log(xpBar.value);
         xpInfo.text = "Level: " + playerLevel + "     XP: " + currentXP + "/" + nextLevelXP;
     }
+
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.CompareTag("Drop"))
+        {
+            Inventory.instance.Add(other.gameObject.GetComponent<Drop>().item);
+            Destroy(other.gameObject);
+        }
+    }
 }
