@@ -28,13 +28,13 @@ public class FireballBehavior : MonoBehaviour
     }
 
     // What happens when the projectile hits another object with a collider
-    private void OnTriggerEnter2D(Collider2D col)
+    private void OnCollisionEnter2D(Collision2D col)
     {
-        if (col.tag == "Boundary")
+        if (col.gameObject.tag == "Boundary")
         {
             Destroy(this.gameObject);
         }
-        else if (col.tag == "Enemy")
+        else if (col.gameObject.tag == "Enemy")
         {
             col.gameObject.GetComponent<EnemyController>().DealDamage(fb.damage);
             DoSplash(rb2d.position, splashRadius);

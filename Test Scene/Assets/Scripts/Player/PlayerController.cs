@@ -72,7 +72,9 @@ public class PlayerController : MonoBehaviour
 
         if (Input.GetAxisRaw("Fire1") != 0 && Time.time > nextFireTime1)
         {
-            Instantiate(projectile, location.position + lookDirection.normalized, projRotation);
+            //Debug.Log(location.position);
+            //Debug.Log(lookDirection.normalized);
+            Instantiate(projectile, location.position + new Vector3(lookDirection.normalized.x, lookDirection.normalized.y, 0), projRotation);
             nextFireTime1 = Time.time + cooldown;
         }
         else if (Input.GetAxisRaw("Fire2") != 0 && Time.time > nextFireTime2)
