@@ -11,3 +11,4 @@ overallToDo - Contains a to-do list of tasks needed to be done
 
 New Unity Project 2 - Robby's Physics Engine/GUI prototype
 World Gui - Allie's spell/map interface prototype
+Test Scene - a WIP sandbox that has a working GUI (map, inventory, spells, etc.), physics engine, combat system, spells and enemy AI
