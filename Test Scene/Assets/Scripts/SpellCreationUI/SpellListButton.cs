@@ -9,14 +9,20 @@ public class SpellListButton : MonoBehaviour
     public Text spellName;
     public Image spellIcon;
 
+    private SpellSlot spellSlot;
+    private SpellScrollList scrollList;
 
     void Start()
     {
         
     }
 
-    public void Setup()
+    public void Setup(SpellSlot currentSpell, SpellScrollList currentScrollList)
     {
+        spellSlot = currentSpell;
+        spellName.text = spellSlot.spellName;
+        spellIcon.sprite = spellSlot.icon;
 
+        scrollList = currentScrollList;
     }
 }

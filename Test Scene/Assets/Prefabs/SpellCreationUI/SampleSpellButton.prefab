@@ -94,7 +94,7 @@ GameObject:
   - component: {fileID: 2461625998019773933}
   - component: {fileID: 8733686250122367509}
   m_Layer: 0
-  m_Name: Button
+  m_Name: SampleSpellButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
