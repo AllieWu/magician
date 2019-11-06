@@ -5,6 +5,12 @@ using UnityEngine;
 public class UIController : MonoBehaviour
 {
     public GameObject mainUI = null;
+    public Canvas SpellCreationUI = null;
+
+    private void Start()
+    {
+        SpellCreationUI.enabled = false;
+    }
 
     private void Update()
     {
@@ -66,6 +72,10 @@ public class UIController : MonoBehaviour
                 mainUI.SetActive(false);
                 mainUI.GetComponent<SetController>().SetCurrentSet(0);
             }
+        }
+        else if (Input.GetButtonDown("ToggleSpellCreation"))
+        {
+            SpellCreationUI.enabled = (!SpellCreationUI.enabled);
         }
     }
 }

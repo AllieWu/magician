@@ -22,7 +22,8 @@ public class SpellScrollList : MonoBehaviour
         RefreshDisplay();
     }
 
-    private void RefreshDisplay()
+    //If nothing gets added to this class other than AddButtons() then delete this method
+    public void RefreshDisplay()
     {
         AddButtons();
     }
@@ -31,6 +32,7 @@ public class SpellScrollList : MonoBehaviour
     {
         for (int i = 0; i < spellList.Count; i++)
         {
+            Debug.Log("AddButtons");
             SpellSlot spell = spellList[i];
             GameObject newButton = buttonObjectPool.GetObject();
             newButton.transform.SetParent(contentPanel);
