@@ -10,8 +10,13 @@ public class Drop : MonoBehaviour
     private void Start()
     {
         SpriteRenderer renderer = this.GetComponent<SpriteRenderer>();
+        item.icon = Resources.Load<Sprite>("Tier1Essence");
         renderer.sprite = item.icon;
         renderer.transform.localScale = new Vector2(0.25f, 0.25f);
     }
 
+    public Item GetItem()
+    {
+        return item;
+    }
 }

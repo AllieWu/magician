@@ -24,7 +24,7 @@ public class SlotController : MonoBehaviour
         }
         else
         {
-            slotIcon.sprite = null;
+            slotIcon.sprite = Resources.Load<Sprite>("RedCircle");
             slotIcon.enabled = false;
         }
     }
@@ -40,9 +40,8 @@ public class SlotController : MonoBehaviour
         if (newItem.icon == null)
             Debug.Log("newItem.icon is null");
 
-        slotIcon.sprite = item.icon;
-        slotIcon.enabled = true;
-
+        ItemContainer.GetComponent<Image>().sprite = newItem.icon;
+        ItemContainer.GetComponent<Image>().enabled = true;
     }
 
 

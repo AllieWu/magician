@@ -155,7 +155,7 @@ public class PlayerController : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Drop"))
         {
-            Inventory.instance.Add(other.gameObject.GetComponent<Drop>().item);
+            Inventory.instance.Add(other.gameObject.GetComponent<Drop>().GetItem());
             Destroy(other.gameObject);
         }
     }

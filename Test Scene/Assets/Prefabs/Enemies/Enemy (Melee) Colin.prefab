@@ -152,8 +152,7 @@ MonoBehaviour:
   xp: 0
   damage: 0
   drops: 1
-  itemDrop: {fileID: 3708690929414449645, guid: 78d89b655aed287498ae60469ff5f543,
-    type: 3}
+  itemDrop: {fileID: 111497764681530460, guid: 06c8c1516b8a377498635b696a5cd3f8, type: 3}
 --- !u!58 &-4458628289412401203
 CircleCollider2D:
   m_ObjectHideFlags: 0

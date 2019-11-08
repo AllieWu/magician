@@ -17,6 +17,7 @@ public class Item : ScriptableObject
 
     private void OnEnable()
     {
+        /*
         System.Random rnd = new System.Random();
         ItemID = 0;
         TypeID = 1;
@@ -24,6 +25,7 @@ public class Item : ScriptableObject
         Description = "This item is new. Shocking.";
         icon = (rnd.Next(0, 2) == 0) ? Resources.Load<Sprite>("RedCircle") : Resources.Load<Sprite>("BlueCircle");
         showInInventory = true;
+        */
     }
 
 
@@ -49,5 +51,9 @@ public class Item : ScriptableObject
         return ($"\tItem ID: {ItemID} || Name: {Name} || Type ID: {TypeID} || Description: {Description}");
     }
 
+    public Sprite GetIcon()
+    {
+        return icon;
+    }
 
 }
