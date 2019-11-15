@@ -23,36 +23,36 @@ public class Inventory : MonoBehaviour
     public delegate void OnItemChanged();
     public OnItemChanged onItemChangedCallback;
 
-    public List<Item> items = new List<Item>(); // Our current list of items in the inventory
+    public Dictionary<Item, int> itemsDict = new Dictionary<Item, int>();
+    public List<Item> keys = new List<Item>(); // Our current list of items in the inventory
     public int space = 25;  // Amount of item spaces
-
-
-    private void Start()
-    {
-        Debug.Log("Inventory.cs Start()");
-    }
-
 
     // Add a new item if enough room
     public void Add(Item item)
     {
         if (item.showInInventory)
         {
-            if (items.Count >= space)
-            {
-                Debug.Log("Not enough room.");
-                return;
-            }
+            keys = new List<Item>(this.itemsDict.Keys);
 
-            Debug.Log("Adding Item:");
-            Debug.Log(item.GetItemInfo());
-            items.Add(item);
-
-            for (int i = 0; i < items.Count; i++)
+            int index = keys.FindIndex(i => i.ItemID == item.ItemID);
+            if (index >= 0)
             {
-                if (items[i].icon == null)
-                    Debug.Log("item.icon at index " + i.ToString() + " is null");
+                itemsDict[keys[index]] += 1;
+                
             }
+            else
+            {
+                if (itemsDict.Count >= space)
+                {
+                    Debug.Log("Not enough room.");
+                    return;
+                }
+
+                Debug.Log("Adding Item:");
+                Debug.Log(item.GetItemInfo());
+                itemsDict[item] = 1;
+
+            }   
             //if (onItemChangedCallback != null)
             //   onItemChangedCallback.Invoke();
         }
@@ -62,7 +62,8 @@ public class Inventory : MonoBehaviour
     // Remove an item
     public void Remove(Item item)
     {
-        items.Remove(item);
+        itemsDict.Remove(item);
+        keys.Remove(item);
 
         if (onItemChangedCallback != null)
             onItemChangedCallback.Invoke();

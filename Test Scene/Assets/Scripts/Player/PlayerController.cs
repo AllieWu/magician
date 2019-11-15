@@ -32,6 +32,11 @@ public class PlayerController : MonoBehaviour
     private float currentHealth;
     public Slider healthBar;
 
+    [Header("Other")]
+    public GameObject hud;
+    public bool CanOpenTeleporter = false;
+    public bool CanOpenSpellCreation = false;
+
     // playerLevel to be read from SaveScript
     // currentHealth to be read from SaveScript
 
@@ -157,6 +162,32 @@ public class PlayerController : MonoBehaviour
         {
             Inventory.instance.Add(other.gameObject.GetComponent<Drop>().GetItem());
             Destroy(other.gameObject);
+        }
+        else if (other.gameObject.CompareTag("Teleporter"))
+        {
+            Debug.Log("Collided with Teleporter");
+            hud.GetComponent<HUD>().OpenMessagePanel("");
+            CanOpenTeleporter = true;
+        }
+        else if (other.gameObject.CompareTag("SpellCreator"))
+        {
+            Debug.Log("Collided with Spell Creator");
+            hud.GetComponent<HUD>().OpenMessagePanel("");
+            CanOpenSpellCreation = true;
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.gameObject.CompareTag("Teleporter"))
+        {
+            hud.GetComponent<HUD>().CloseMessagePanel("");
+            CanOpenTeleporter = false;
+        }
+        else if (other.gameObject.CompareTag("SpellCreator"))
+        {
+            hud.GetComponent<HUD>().CloseMessagePanel("");
+            CanOpenSpellCreation = false;
         }
     }
 }

@@ -16,6 +16,7 @@ public class InventoryController : MonoBehaviour
     public Text selectedItemName;
     public Text selectedItemDesc;
     public Text selectedItemTypeID;
+    public Text selectedCountItem;
 
 
     void Start()
@@ -47,14 +48,14 @@ public class InventoryController : MonoBehaviour
         SlotController[] slots = GetComponentsInChildren<SlotController>();
         for (int i = 0; i < slots.Length; i++)
         {
-            if (Inventory.instance.items.Count > 0)
+            if (Inventory.instance.keys.Count > 0)
             {
-                if (i < Inventory.instance.items.Count && Inventory.instance.items[i].showInInventory)
-                    slots[i].AddItem(Inventory.instance.items[i]);
+                if (i < Inventory.instance.keys.Count && Inventory.instance.keys[i].showInInventory)
+                    slots[i].AddItem(Inventory.instance.keys[i]);
                 else
                     slots[i].ClearSlot();
             }
-            else if (Inventory.instance.items.Count == 0)
+            else if (Inventory.instance.keys.Count == 0)
             {
                 slots[0].ClearSlot();
             }
@@ -69,6 +70,7 @@ public class InventoryController : MonoBehaviour
         selectedItemName.text = item.Name;
         selectedItemDesc.text = item.Description;
         selectedItemTypeID.text = item.TypeID.ToString();
+        selectedCountItem.text = "x" + Inventory.instance.itemsDict[item].ToString();
     }
 
 

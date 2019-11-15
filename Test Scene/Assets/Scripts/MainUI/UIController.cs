@@ -5,11 +5,12 @@ using UnityEngine;
 public class UIController : MonoBehaviour
 {
     public GameObject mainUI = null;
-    public Canvas SpellCreationUI = null;
+    public GameObject spellCreationUI = null;
+    public GameObject teleportUI = null;
+    public GameObject player = null;
 
     private void Start()
     {
-        SpellCreationUI.enabled = false;
     }
 
     private void Update()
@@ -73,9 +74,16 @@ public class UIController : MonoBehaviour
                 mainUI.GetComponent<SetController>().SetCurrentSet(0);
             }
         }
-        else if (Input.GetButtonDown("ToggleSpellCreation"))
+        else if (Input.GetKeyDown(KeyCode.F))
         {
-            SpellCreationUI.enabled = (!SpellCreationUI.enabled);
+            if (player.GetComponent<PlayerController>().CanOpenTeleporter)
+            {
+                teleportUI.SetActive(!teleportUI.activeSelf);
+            }
+            else if (player.GetComponent<PlayerController>().CanOpenSpellCreation)
+            {
+                spellCreationUI.SetActive(!spellCreationUI.activeSelf);
+            }
         }
     }
 }

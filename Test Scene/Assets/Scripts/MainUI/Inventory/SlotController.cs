@@ -33,6 +33,7 @@ public class SlotController : MonoBehaviour
     // Add item to the slot
     public void AddItem(Item newItem)
     {
+        Debug.Log("Adding Item to slot with name " + newItem.Name);
         item = newItem;
 
         if (newItem == null)

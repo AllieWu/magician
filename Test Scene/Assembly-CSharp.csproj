@@ -64,7 +64,6 @@
   <ItemGroup>
     <Compile Include="Assets\Packages\Modern_GUI_Skin\Demo_Assets\scripts\GUI_Demo.cs" />
     <Compile Include="Assets\Packages\NeonShapes\SelfDestroyScript.cs" />
-    <Compile Include="Assets\Scripts\Drop.cs" />
     <Compile Include="Assets\Scripts\Enemies\EnemyBehavior.cs" />
     <Compile Include="Assets\Scripts\Enemies\EnemyController.cs" />
     <Compile Include="Assets\Scripts\Enemies\EnemyGeneral.cs" />
@@ -76,6 +75,9 @@
     <Compile Include="Assets\Scripts\Enemies\Pathfinding\Pathfinding.cs" />
     <Compile Include="Assets\Scripts\Enemies\RangedEnemyController.cs" />
     <Compile Include="Assets\Scripts\Enemies\Unit.cs" />
+    <Compile Include="Assets\Scripts\Interactables\Drop.cs" />
+    <Compile Include="Assets\Scripts\Interactables\Teleporter.cs" />
+    <Compile Include="Assets\Scripts\MainUI\HUD.cs" />
     <Compile Include="Assets\Scripts\MainUI\Inventory\Inventory.cs" />
     <Compile Include="Assets\Scripts\MainUI\Inventory\InventoryController.cs" />
     <Compile Include="Assets\Scripts\MainUI\Inventory\Item.cs" />
