@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 5231931583169304371}
   - component: {fileID: 1908603015339486608}
   - component: {fileID: 2230312271367727187}
+  - component: {fileID: -2784380229816829452}
   m_Layer: 12
   m_Name: Fireball
   m_TagString: Untagged
@@ -133,3 +134,15 @@ MonoBehaviour:
   splashDamage: 5
   speed: 7
   splashRadius: 4
+--- !u!114 &-2784380229816829452
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 366086071689048744}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d67a56ce12e0014ba41d3be4169031d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

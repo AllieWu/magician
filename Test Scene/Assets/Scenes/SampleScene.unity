@@ -4382,7 +4382,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7709522c7a4fcb64eb427cba9456117e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefab: {fileID: 0}
+  prefab: {fileID: 2461625998019773923, guid: c4cceac44133f484aaf4ebe548826fb9, type: 3}
 --- !u!1 &599227278
 GameObject:
   m_ObjectHideFlags: 0
@@ -6322,12 +6322,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spellList:
-  - spellName: Fireball
-    icon: {fileID: 0}
-  - spellName: Tsunami
-    icon: {fileID: 0}
-  - spellName: Earth Pillar
-    icon: {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   contentPanel: {fileID: 865803177}
   buttonObjectPool: {fileID: 559545887}
 --- !u!114 &865803180

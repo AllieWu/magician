@@ -9,7 +9,7 @@ public class SpellListButton : MonoBehaviour
     public Text spellName;
     public Image spellIcon;
 
-    private SpellSlot spellSlot;
+    private SpellInfo spellSlot;
     private SpellScrollList scrollList;
 
     void Start()
@@ -17,7 +17,7 @@ public class SpellListButton : MonoBehaviour
         button.onClick.AddListener(HandleClick);
     }
 
-    public void Setup(SpellSlot currentSpell, SpellScrollList currentScrollList)
+    public void Setup(SpellInfo currentSpell, SpellScrollList currentScrollList)
     {
         spellSlot = currentSpell;
         spellName.text = spellSlot.spellName;
@@ -29,6 +29,6 @@ public class SpellListButton : MonoBehaviour
     public void HandleClick()
     {
         //should be something along the lines of scrollList.DisplaySpellInfo(spellSlot);
-        //need to make a DisplaySpellInfo() function first 
+        //need to make a DisplaySpellInfo() function first
     }
 }

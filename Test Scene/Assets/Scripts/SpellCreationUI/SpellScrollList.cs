@@ -4,21 +4,23 @@ using UnityEngine;
 using UnityEngine.UI;
 
 [System.Serializable]
-public class SpellSlot
-{
-    public string spellName;
-    public Sprite icon;
-}
 
 public class SpellScrollList : MonoBehaviour
 {
-    public List<SpellSlot> spellList;
+    public List<SpellInfo> spellList;
     public Transform contentPanel;
     public SimpleObjectPool buttonObjectPool;
+
+    private void Awake()
+    {
+        //adding spellInfos to the list on the inspector
+    }
 
     // Start is called before the first frame update
     void Start()
     {
+        //spellList = GameObject.Find('Whatever has the SpellCrafter Class');
+
         RefreshDisplay();
     }
 
@@ -33,7 +35,7 @@ public class SpellScrollList : MonoBehaviour
         for (int i = 0; i < spellList.Count; i++)
         {
             Debug.Log("AddButtons");
-            SpellSlot spell = spellList[i];
+            SpellInfo spell = spellList[i];
             GameObject newButton = buttonObjectPool.GetObject();
             newButton.transform.SetParent(contentPanel);
 
