@@ -8,6 +8,6 @@ public class FireballSpellInfo : SpellInfo
     {
         spellName = "Fireball";
         unlocked = true; //Need to change to an actual way to make it locked and unlocked eventually
-
+        spell = GameObject.Find("SpellManager").GetComponent<FireballSpell>();
     }
 }

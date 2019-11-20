@@ -4,7 +4,7 @@ using UnityEngine;
 
 public abstract class SpellInfo : MonoBehaviour
 {
-    public Spell spell; //set in inspector
+    public Spell spell;
     public string spellName;
     public bool unlocked;
     public int[][,] materialsNeeded;
