@@ -37,8 +37,8 @@ public class Inventory : MonoBehaviour
             int index = keys.FindIndex(i => i.ItemID == item.ItemID);
             if (index >= 0)
             {
+                Debug.Log("We found this item! We currently have " + itemsDict[keys[index]].ToString());
                 itemsDict[keys[index]] += 1;
-                
             }
             else
             {
@@ -48,13 +48,12 @@ public class Inventory : MonoBehaviour
                     return;
                 }
 
-                Debug.Log("Adding Item:");
                 Debug.Log(item.GetItemInfo());
-                itemsDict[item] = 1;
-
-            }   
+                itemsDict.Add(item, 1);
+            }
             //if (onItemChangedCallback != null)
             //   onItemChangedCallback.Invoke();
+            keys = new List<Item>(this.itemsDict.Keys);
         }
     }
 
@@ -62,11 +61,14 @@ public class Inventory : MonoBehaviour
     // Remove an item
     public void Remove(Item item)
     {
-        itemsDict.Remove(item);
-        keys.Remove(item);
+        if (item!=null)
+        {
+            itemsDict.Remove(item);
+            keys = new List<Item>(this.itemsDict.Keys);
+        }
 
-        if (onItemChangedCallback != null)
-            onItemChangedCallback.Invoke();
+        //if (onItemChangedCallback != null)
+        //  onItemChangedCallback.Invoke();
     }
 
 

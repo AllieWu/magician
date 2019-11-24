@@ -16,7 +16,7 @@ public class InventoryController : MonoBehaviour
     public Text selectedItemName;
     public Text selectedItemDesc;
     public Text selectedItemTypeID;
-    public Text selectedCountItem;
+    public Text selectedItemCount;
 
 
     void Start()
@@ -36,6 +36,7 @@ public class InventoryController : MonoBehaviour
             Inventory.instance.Add(ScriptableObject.CreateInstance<Item>());  // add in a default Item to inventory
             UpdateUI();
         }
+        UpdateUI();
     }
 
 
@@ -51,7 +52,9 @@ public class InventoryController : MonoBehaviour
             if (Inventory.instance.keys.Count > 0)
             {
                 if (i < Inventory.instance.keys.Count && Inventory.instance.keys[i].showInInventory)
+                {
                     slots[i].AddItem(Inventory.instance.keys[i]);
+                }
                 else
                     slots[i].ClearSlot();
             }
@@ -70,7 +73,7 @@ public class InventoryController : MonoBehaviour
         selectedItemName.text = item.Name;
         selectedItemDesc.text = item.Description;
         selectedItemTypeID.text = item.TypeID.ToString();
-        selectedCountItem.text = "x" + Inventory.instance.itemsDict[item].ToString();
+        selectedItemCount.text = "x" + Inventory.instance.itemsDict[item].ToString();
     }
 
 

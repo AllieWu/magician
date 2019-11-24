@@ -29,7 +29,7 @@ public class PlayerController : MonoBehaviour
 
     [Header("Health Settings")]
     public float maxHealth;
-    private float currentHealth;
+    public float currentHealth;
     public Slider healthBar;
 
     [Header("Other")]

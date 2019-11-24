@@ -34,7 +34,7 @@ public class EnemyGeneral : MonoBehaviour
 
         if (drops)
         {
-            Debug.Log("AHHHH I DIED AND I SHOULD DROP STUFF");
+            //Debug.Log("AHHHH I DIED AND I SHOULD DROP STUFF");
             Instantiate(itemDrop, transform.position, transform.rotation);
         }
     }
