@@ -1,5 +1,6 @@
 ﻿using System.IO;
 using System.Runtime.Serialization.Formatters.Binary;
+using System.Collections.Generic;
 using UnityEngine;
 using System;
 using System.Runtime.Serialization;
@@ -7,19 +8,54 @@ using System.Reflection;
 
 public class Game : MonoBehaviour
 {
+    private Dictionary<(int,int,string,string,Sprite,bool),int> ExpandItemsDict(Dictionary<Item, int> input)
+    {
+        Dictionary<(int, int, string, string, Sprite, bool), int> output = new Dictionary<(int, int, string, string, Sprite, bool), int>();
+
+        foreach (var item in input)
+        {
+            output.Add((item.Key.ItemID,item.Key.TypeID,item.Key.Name,item.Key.Description,item.Key.icon,item.Key.showInInventory),item.Value);
+        }
+        return output;
+    }
+
+    private List<(int,int,string,string,Sprite,bool)> GetExpandedItemsDictKeys(Dictionary<(int, int, string, string, Sprite, bool), int> input)
+    {
+        List<(int, int, string, string, Sprite, bool)> output = new List<(int, int, string, string, Sprite, bool)>();
+
+        foreach (var item in input)
+        {
+            output.Add(item.Key);
+        }
+        return output;
+    }
+
+    private Dictionary<Item, int> CompressItemsDict (Dictionary<(int, int, string, string, Sprite, bool), int> input)
+    {
+        Dictionary<Item, int> output = new Dictionary<Item, int>();
+
+        foreach (var item in input)
+        {
+            output.Add(new Item(item.Key), item.Value);
+        }
+        return output;
+    }
+
     private Save CreateSaveGameObject()
     {
         Save save = new Save();
         PlayerController player = GetComponent<UIController>().player.GetComponent<PlayerController>();
 
+        // player 
         save.maxHealth = player.maxHealth;
         save.currentHealth = player.currentHealth;
         save.playerLevel = player.playerLevel;
         save.currentXP = player.currentXP;
         save.nextLevelXP = player.currentXP;
         save.previousLevelXP = player.previousLevelXP;
-        save.itemsDict = Inventory.instance.itemsDict;
-        save.keys = Inventory.instance.keys;
+        
+        save.itemsDict = ExpandItemsDict(Inventory.instance.itemsDict);
+        save.keys = GetExpandedItemsDictKeys(save.itemsDict);
 
         return save;
     }
@@ -53,8 +89,8 @@ public class Game : MonoBehaviour
         player.playerLevel = save.playerLevel;
         player.maxHealth = save.maxHealth;
         player.currentXP = save.currentXP;
-        Inventory.instance.itemsDict = save.itemsDict;
-        Inventory.instance.keys = save.keys;
+        Inventory.instance.itemsDict = CompressItemsDict(save.itemsDict);
+        //Inventory.instance.keys = save.keys;
 
         Debug.Log("Game Loaded");
     }

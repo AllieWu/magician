@@ -13,7 +13,7 @@ public class Item : ScriptableObject
     public string Description;
     public Sprite icon;
     public bool showInInventory;
-
+    private (int, int, string, string, Sprite, bool) key;
 
     private void OnEnable()
     {
@@ -26,6 +26,16 @@ public class Item : ScriptableObject
         icon = (rnd.Next(0, 2) == 0) ? Resources.Load<Sprite>("RedCircle") : Resources.Load<Sprite>("BlueCircle");
         showInInventory = true;
         */
+    }
+
+    public Item((int itemid, int typeid, string name, string desc, Sprite ico, bool show) inp)
+    {
+        ItemID = inp.itemid;
+        TypeID = inp.typeid;
+        Name = inp.name;
+        Description = inp.desc;
+        icon = inp.ico;
+        showInInventory = inp.show;
     }
 
 
