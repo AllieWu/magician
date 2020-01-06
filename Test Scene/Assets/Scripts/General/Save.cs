@@ -12,7 +12,7 @@ public class Save
     public float maxHealth = 0f;
     public float currentHealth = 0f;
 
-    public Dictionary<(int, int, string, string, Sprite, bool), int> itemsDict = new Dictionary<(int, int, string, string, Sprite, bool), int>;
+    public Dictionary<(int, int, string, string, Sprite, bool), int> itemsDict = new Dictionary<(int, int, string, string, Sprite, bool), int>();
     public List<(int, int, string, string, Sprite, bool)> keys = new List<(int, int, string, string, Sprite, bool)>();
     public int space = 25;
 }

@@ -1,0 +1,2 @@
+C:\Users\prini\Documents\GitHub\magician\Test Scene\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+C:\Users\prini\Documents\GitHub\magician\Test Scene\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
