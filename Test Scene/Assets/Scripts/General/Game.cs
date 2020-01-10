@@ -8,35 +8,46 @@ using System.Reflection;
 
 public class Game : MonoBehaviour
 {
-    private Dictionary<(int,int,string,string,Sprite,bool),int> ExpandItemsDict(Dictionary<Item, int> input)
+    private Dictionary<(int,int,string,string,bool),int> ExpandItemsDict(Dictionary<Item, int> input)
     {
-        Dictionary<(int, int, string, string, Sprite, bool), int> output = new Dictionary<(int, int, string, string, Sprite, bool), int>();
+        Dictionary<(int, int, string, string, bool), int> output = new Dictionary<(int, int, string, string, bool), int>();
 
         foreach (var item in input)
         {
-            output.Add((item.Key.ItemID,item.Key.TypeID,item.Key.Name,item.Key.Description,item.Key.icon,item.Key.showInInventory),item.Value);
+            output.Add((item.Key.ItemID,item.Key.TypeID,item.Key.Name,item.Key.Description,item.Key.showInInventory),item.Value);
         }
         return output;
     }
 
-    private List<(int,int,string,string,Sprite,bool)> GetExpandedItemsDictKeys(Dictionary<(int, int, string, string, Sprite, bool), int> input)
+    private List<(int,int,string,string,bool)> GetExpandedItemsDictKeys(List<Item> input)
     {
-        List<(int, int, string, string, Sprite, bool)> output = new List<(int, int, string, string, Sprite, bool)>();
+        List<(int, int, string, string, bool)> output = new List<(int, int, string, string, bool)>();
 
         foreach (var item in input)
         {
-            output.Add(item.Key);
+            output.Add((item.ItemID, item.TypeID, item.Name, item.Description, item.showInInventory));
         }
         return output;
     }
 
-    private Dictionary<Item, int> CompressItemsDict (Dictionary<(int, int, string, string, Sprite, bool), int> input)
+    private Dictionary<Item, int> CompressItemsDict (Dictionary<(int, int, string, string, bool), int> input)
     {
         Dictionary<Item, int> output = new Dictionary<Item, int>();
 
         foreach (var item in input)
         {
             output.Add(new Item(item.Key), item.Value);
+        }
+        return output;
+    }
+
+    private List<Item> GetCompressedItemDictKeys(List<(int, int, string, string, bool)> input)
+    {
+        List<Item> output = new List<Item>();
+
+        foreach (var item in input)
+        {
+            output.Add(new Item(item));
         }
         return output;
     }
@@ -55,7 +66,7 @@ public class Game : MonoBehaviour
         save.previousLevelXP = player.previousLevelXP;
         
         save.itemsDict = ExpandItemsDict(Inventory.instance.itemsDict);
-        save.keys = GetExpandedItemsDictKeys(save.itemsDict);
+        save.keys = GetExpandedItemsDictKeys(Inventory.instance.keys);
 
         return save;
     }
@@ -90,7 +101,7 @@ public class Game : MonoBehaviour
         player.maxHealth = save.maxHealth;
         player.currentXP = save.currentXP;
         Inventory.instance.itemsDict = CompressItemsDict(save.itemsDict);
-        //Inventory.instance.keys = save.keys;
+        Inventory.instance.keys = GetCompressedItemDictKeys(save.keys);
 
         Debug.Log("Game Loaded");
     }

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5883a1b481e22a49ab6d47fdc457a15, type: 3}
   m_Name: Tier1Essence
   m_EditorClassIdentifier: 
-  ItemID: 0
+  ItemID: 1
   TypeID: 1
   Name: Tier 1 Essence.
   Description: used in crafting Tier 1 cards.

@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 
+
 /*
 // To represent an instance of an object
 */
@@ -26,15 +27,16 @@ public class Item : ScriptableObject
         icon = (rnd.Next(0, 2) == 0) ? Resources.Load<Sprite>("RedCircle") : Resources.Load<Sprite>("BlueCircle");
         showInInventory = true;
         */
+        icon = (Resources.Load<Sprite>(ItemID.ToString())) ? Resources.Load<Sprite>(ItemID.ToString()) : Resources.Load<Sprite>("Red Circle");
     }
 
-    public Item((int itemid, int typeid, string name, string desc, Sprite ico, bool show) inp)
+    public Item((int itemid, int typeid, string name, string desc, bool show) inp)
     {
         ItemID = inp.itemid;
         TypeID = inp.typeid;
         Name = inp.name;
         Description = inp.desc;
-        icon = inp.ico;
+        icon = (Resources.Load<Sprite>(ItemID.ToString())) ? Resources.Load<Sprite>(ItemID.ToString()) : Resources.Load<Sprite>("Red Circle");
         showInInventory = inp.show;
     }
 

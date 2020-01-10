@@ -5,10 +5,14 @@ using UnityEngine;
 public class UIController : MonoBehaviour
 {
     bool GameIsPaused = false;
-    public GameObject mainUI = null;
-    public GameObject spellCreationUI = null;
-    public GameObject teleportUI = null;
     public GameObject player = null;
+
+    public GameObject pauseUI = null;
+    public GameObject spellCreationUI = null;
+    public GameObject mainUI = null;
+    public GameObject teleportUI = null;
+    public GameObject optionsMenu = null;
+    public GameObject controlsMenu = null;
 
     private void Start()
     {
@@ -18,51 +22,64 @@ public class UIController : MonoBehaviour
     {
         if (Input.GetButtonDown("Toggle UI") || Input.GetButtonDown("ToggleSpells"))
         {
-            if (GameIsPaused) { Resume(mainUI); }
-            else { Pause(mainUI); }
             mainUI.GetComponent<SetController>().SetCurrentSet(0);
+            mainUI.SetActive(!mainUI.activeSelf);
         }
         else if (Input.GetButtonDown("ToggleInventory"))
-        {
-            if (GameIsPaused) { Resume(mainUI); }
-            else { Pause(mainUI); }
+        { 
             mainUI.GetComponent<SetController>().SetCurrentSet(1);
+            mainUI.SetActive(!mainUI.activeSelf);
         }
         else if (Input.GetButtonDown("ToggleQuests"))
         {
-            if (GameIsPaused) { Resume(mainUI); }
-            else { Pause(mainUI); }
             mainUI.GetComponent<SetController>().SetCurrentSet(2);
+            mainUI.SetActive(!mainUI.activeSelf);
         }
         else if (Input.GetButtonDown("ToggleMap"))
         {
-            if (GameIsPaused) { Resume(mainUI); }
-            else { Pause(mainUI); }
             mainUI.GetComponent<SetController>().SetCurrentSet(3);
+            mainUI.SetActive(!mainUI.activeSelf);
         }
         else if (Input.GetKeyDown(KeyCode.F))
         {
             if (player.GetComponent<PlayerController>().CanOpenTeleporter)
-            {
                 teleportUI.SetActive(!teleportUI.activeSelf);
-            }
             else if (player.GetComponent<PlayerController>().CanOpenSpellCreation)
-            {
                 spellCreationUI.SetActive(!spellCreationUI.activeSelf);
-            }
         }
+        else if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            if (optionsMenu.activeSelf)
+            {
+                optionsMenu.SetActive(!optionsMenu.activeSelf);
+                pauseUI.SetActive(true);
+
+            }
+            else if (controlsMenu.activeSelf)
+            {
+                optionsMenu.SetActive(!controlsMenu.activeSelf);
+                pauseUI.SetActive(true);
+            }
+            else
+                pauseUI.SetActive(!pauseUI.activeSelf);
+        }
+
+        // if a UI is open and the game isn't paused, pause
+        if ((pauseUI.activeSelf || mainUI.activeSelf || teleportUI.activeSelf || optionsMenu.activeSelf || controlsMenu.activeSelf) && !GameIsPaused)
+            Pause();
+        // if no UIs are open and the game is paused, resume
+        else if (!pauseUI.activeSelf && !mainUI.activeSelf && !teleportUI.activeSelf && !optionsMenu.activeSelf && !controlsMenu.activeSelf && GameIsPaused)
+            Resume();
     }
 
-    public void Resume(GameObject UI)
+    public void Resume()
     {
-        UI.SetActive(false);
         Time.timeScale = 1f;
         GameIsPaused = false;
     }
 
-    public void Pause(GameObject UI)
+    public void Pause()
     {
-        UI.SetActive(true);
         Time.timeScale = 0f;
         GameIsPaused = true;
     }
