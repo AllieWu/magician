@@ -115,6 +115,7 @@
     <Compile Include="Assets\Scripts\SpellCreationUI\SpellListButton.cs" />
     <Compile Include="Assets\Scripts\SpellCreationUI\SpellManager.cs" />
     <Compile Include="Assets\Scripts\SpellCreationUI\SpellScrollList.cs" />
+    <Compile Include="Assets\SpellInfoPanel.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/prini/Documents/GitHub/magician/Test Scene/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>

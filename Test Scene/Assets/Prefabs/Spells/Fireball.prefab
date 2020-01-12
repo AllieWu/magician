@@ -146,3 +146,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d67a56ce12e0014ba41d3be4169031d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  spell: {fileID: 0}
+  spellName: Fireball
+  unlocked: 1
+  icon: {fileID: 21300000, guid: 97dfe3a457352fe4b9daa84c004da465, type: 3}
