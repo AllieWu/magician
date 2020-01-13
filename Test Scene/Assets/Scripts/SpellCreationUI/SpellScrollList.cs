@@ -34,7 +34,7 @@ public class SpellScrollList : MonoBehaviour
     {
         for (int i = 0; i < spellList.Count; i++)
         {
-            Debug.Log("AddButtons");
+            //Debug.Log("AddButtons");
             SpellInfo spell = spellList[i];
             GameObject newButton = buttonObjectPool.GetObject();
             newButton.transform.SetParent(contentPanel);

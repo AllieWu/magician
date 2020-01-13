@@ -75,6 +75,7 @@
     <Compile Include="Assets\Scripts\Enemies\Pathfinding\Pathfinding.cs" />
     <Compile Include="Assets\Scripts\Enemies\RangedEnemyController.cs" />
     <Compile Include="Assets\Scripts\Enemies\Unit.cs" />
+    <Compile Include="Assets\Scripts\General\ChildActivator.cs" />
     <Compile Include="Assets\Scripts\General\Game.cs" />
     <Compile Include="Assets\Scripts\General\HUD.cs" />
     <Compile Include="Assets\Scripts\General\MainMenu.cs" />
@@ -112,10 +113,11 @@
     <Compile Include="Assets\Scripts\SpellCreationUI\SimpleObjectPool.cs" />
     <Compile Include="Assets\Scripts\SpellCreationUI\SpellCrafter.cs" />
     <Compile Include="Assets\Scripts\SpellCreationUI\SpellInfo.cs" />
+    <Compile Include="Assets\Scripts\SpellCreationUI\SpellInfoPanel.cs" />
     <Compile Include="Assets\Scripts\SpellCreationUI\SpellListButton.cs" />
     <Compile Include="Assets\Scripts\SpellCreationUI\SpellManager.cs" />
     <Compile Include="Assets\Scripts\SpellCreationUI\SpellScrollList.cs" />
-    <Compile Include="Assets\SpellInfoPanel.cs" />
+    <Compile Include="Assets\Scripts\SpellCreationUI\TierSelectButton.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/prini/Documents/GitHub/magician/Test Scene/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>

@@ -9,7 +9,8 @@ public abstract class SpellInfo : MonoBehaviour
     public bool unlocked;
     public int[][,] materialsNeeded;
     public float[][,] spellStats;
-    public int[][] modifiers;
+    public int[][] modifiers; //might just be able to make it [,] if its num of modifiers allowed, but would have to 
+                              //keep it the way it is if it is which modifiers are allowed
     public Sprite icon; //set in inspector
 
     /*
