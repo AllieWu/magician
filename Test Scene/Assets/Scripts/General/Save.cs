@@ -12,7 +12,8 @@ public class Save
     public float maxHealth = 0f;
     public float currentHealth = 0f;
 
-    public Dictionary<(int, int, string, string, bool), int> itemsDict = new Dictionary<(int, int, string, string, bool), int>();
-    public List<(int, int, string, string, bool)> keys = new List<(int, int, string, string, bool)>();
+    //public Dictionary<(int, int, string, string, bool), int> itemsDict = new Dictionary<(int, int, string, string, bool), int>();
+    //public List<(int, int, string, string, bool)> keys = new List<(int, int, string, string, bool)>();
+    public Inventory inv;
     public int space = 25;
 }

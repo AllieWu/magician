@@ -8,6 +8,7 @@ using System.Reflection;
 
 public class Game : MonoBehaviour
 {
+    /*
     private Dictionary<(int,int,string,string,bool),int> ExpandItemsDict(Dictionary<Item, int> input)
     {
         Dictionary<(int, int, string, string, bool), int> output = new Dictionary<(int, int, string, string, bool), int>();
@@ -51,6 +52,7 @@ public class Game : MonoBehaviour
         }
         return output;
     }
+    */
 
     private Save CreateSaveGameObject()
     {
@@ -64,9 +66,10 @@ public class Game : MonoBehaviour
         save.currentXP = player.currentXP;
         save.nextLevelXP = player.currentXP;
         save.previousLevelXP = player.previousLevelXP;
-        
-        save.itemsDict = ExpandItemsDict(Inventory.instance.itemsDict);
-        save.keys = GetExpandedItemsDictKeys(Inventory.instance.keys);
+
+        save.inv = Inventory.instance;
+        //save.itemsDict = ExpandItemsDict(Inventory.instance.itemsDict);
+        //save.keys = GetExpandedItemsDictKeys(Inventory.instance.keys);
 
         return save;
     }
@@ -100,8 +103,11 @@ public class Game : MonoBehaviour
         player.playerLevel = save.playerLevel;
         player.maxHealth = save.maxHealth;
         player.currentXP = save.currentXP;
-        Inventory.instance.itemsDict = CompressItemsDict(save.itemsDict);
-        Inventory.instance.keys = GetCompressedItemDictKeys(save.keys);
+
+        Inventory.instance = save.inv;
+
+        //Inventory.instance.itemsDict = CompressItemsDict(save.itemsDict);
+        //Inventory.instance.keys = GetCompressedItemDictKeys(save.keys);
 
         Debug.Log("Game Loaded");
     }
