@@ -83,6 +83,7 @@ public class Game : MonoBehaviour
         Stream stream = File.Open(Directory.GetCurrentDirectory()+filePath, FileMode.Create);
         BinaryFormatter bformatter = new BinaryFormatter();
         bformatter.Binder = new VersionDeserializationBinder();
+        stream.Position = 0;
         bformatter.Serialize(stream, save);
         stream.Close();
     }
@@ -91,6 +92,8 @@ public class Game : MonoBehaviour
     {
         Save save = new Save();
         Stream stream = File.Open(Directory.GetCurrentDirectory()+filePath, FileMode.Open);
+        stream.Position = 0;
+
         BinaryFormatter bformatter = new BinaryFormatter();
         bformatter.Binder = new VersionDeserializationBinder();
         save = (Save)bformatter.Deserialize(stream);
