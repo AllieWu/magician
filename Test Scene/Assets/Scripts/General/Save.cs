@@ -5,15 +5,14 @@ using UnityEngine;
 [System.Serializable]
 public class Save
 {
-    public int currentXP = 0;
-    public int nextLevelXP = 0;
-    public int previousLevelXP = 0;
-    public int playerLevel = 0;
-    public float maxHealth = 0f;
-    public float currentHealth = 0f;
+    public int _currentXP { get; set; }
+    public int _nextLevelXP { get; set; }
+    public int _previousLevelXP { get; set; }
+    public int _playerLevel { get; set; }
+    public float _maxHealth { get; set; }
+    public float _currentHealth { get; set; }
 
     //public Dictionary<(int, int, string, string, bool), int> itemsDict = new Dictionary<(int, int, string, string, bool), int>();
     //public List<(int, int, string, string, bool)> keys = new List<(int, int, string, string, bool)>();
-    public Inventory inv;
-    public int space = 25;
+    // public Inventory inv;
 }

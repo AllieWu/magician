@@ -190,4 +190,31 @@ public class PlayerController : MonoBehaviour
             CanOpenSpellCreation = false;
         }
     }
+
+    public void SavePlayerData()
+    {
+        Debug.Log("SavePlayerData() Called!");
+      
+        
+        Save mySave = new Save()
+        {
+            _currentXP = currentXP,
+            _currentHealth = currentHealth,
+            _maxHealth = maxHealth,
+            _nextLevelXP = nextLevelXP,
+            _playerLevel = playerLevel,
+            _previousLevelXP = previousLevelXP
+        };
+
+        SaveData.Save<Save>(mySave, "save1");
+      
+    }
+
+    public void LoadPlayerData()
+    {
+        Debug.Log("LoadPlayerData() Called!"); 
+        Save playerData = SaveData.Load<Save>("save1");
+    }
+
+
 }

@@ -81,6 +81,7 @@
     <Compile Include="Assets\Scripts\General\MainMenu.cs" />
     <Compile Include="Assets\Scripts\General\PauseMenu.cs" />
     <Compile Include="Assets\Scripts\General\Save.cs" />
+    <Compile Include="Assets\Scripts\General\SaveData.cs" />
     <Compile Include="Assets\Scripts\Interactables\Drop.cs" />
     <Compile Include="Assets\Scripts\Interactables\Teleporter.cs" />
     <Compile Include="Assets\Scripts\MainUI\Inventory\Inventory.cs" />

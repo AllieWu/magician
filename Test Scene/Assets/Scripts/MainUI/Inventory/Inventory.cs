@@ -2,8 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[Serializable]
-public class Inventory : ScriptableObject
+public class Inventory : MonoBehaviour
 {
 
     #region Singleton
