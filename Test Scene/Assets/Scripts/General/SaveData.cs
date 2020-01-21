@@ -43,7 +43,7 @@ public class SaveData
         BinaryFormatter formatter = new BinaryFormatter();
         // Open up a filestream, combining the path and object key
         FileStream fileStream = new FileStream(path + fileName + ".txt", FileMode.Create);
-
+        Debug.Log("Will save in " + path + "fileName" + ".txt");
         // Try/Catch/Finally block that will attempt to serialize/write-to-stream, closing stream when complete
         try
         {

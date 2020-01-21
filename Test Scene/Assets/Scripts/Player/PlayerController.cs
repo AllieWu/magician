@@ -193,9 +193,6 @@ public class PlayerController : MonoBehaviour
 
     public void SavePlayerData()
     {
-        Debug.Log("SavePlayerData() Called!");
-      
-        
         Save mySave = new Save()
         {
             _currentXP = currentXP,
@@ -203,7 +200,8 @@ public class PlayerController : MonoBehaviour
             _maxHealth = maxHealth,
             _nextLevelXP = nextLevelXP,
             _playerLevel = playerLevel,
-            _previousLevelXP = previousLevelXP
+            _previousLevelXP = previousLevelXP,
+            _itemsDict = Inventory.instance.GetInvData()
         };
 
         SaveData.Save<Save>(mySave, "save1");
@@ -212,8 +210,16 @@ public class PlayerController : MonoBehaviour
 
     public void LoadPlayerData()
     {
-        Debug.Log("LoadPlayerData() Called!"); 
         Save playerData = SaveData.Load<Save>("save1");
+
+        currentXP = playerData._currentXP;
+        currentHealth = playerData._currentHealth;
+        maxHealth = playerData._maxHealth;
+        nextLevelXP = playerData._nextLevelXP;
+        previousLevelXP = playerData._previousLevelXP;
+        playerLevel = playerData._playerLevel;
+        Inventory.instance.SetInvData(playerData._itemsDict);
+        Inventory.instance.UpdateKeys();
     }
 
 

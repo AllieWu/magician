@@ -12,7 +12,5 @@ public class Save
     public float _maxHealth { get; set; }
     public float _currentHealth { get; set; }
 
-    //public Dictionary<(int, int, string, string, bool), int> itemsDict = new Dictionary<(int, int, string, string, bool), int>();
-    //public List<(int, int, string, string, bool)> keys = new List<(int, int, string, string, bool)>();
-    // public Inventory inv;
+    public Dictionary<(int, int, string, string, bool), int> _itemsDict { get; set; }
 }
