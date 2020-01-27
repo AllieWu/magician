@@ -78,6 +78,7 @@
     <Compile Include="Assets\Scripts\General\ChildActivator.cs" />
     <Compile Include="Assets\Scripts\General\Game.cs" />
     <Compile Include="Assets\Scripts\General\HUD.cs" />
+    <Compile Include="Assets\Scripts\General\LoadScene.cs" />
     <Compile Include="Assets\Scripts\General\MainMenu.cs" />
     <Compile Include="Assets\Scripts\General\PauseMenu.cs" />
     <Compile Include="Assets\Scripts\General\Save.cs" />
