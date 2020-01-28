@@ -84,6 +84,7 @@
     <Compile Include="Assets\Scripts\General\Save.cs" />
     <Compile Include="Assets\Scripts\General\SaveData.cs" />
     <Compile Include="Assets\Scripts\Interactables\Drop.cs" />
+    <Compile Include="Assets\Scripts\Interactables\OnHover.cs" />
     <Compile Include="Assets\Scripts\Interactables\Teleporter.cs" />
     <Compile Include="Assets\Scripts\MainUI\Inventory\Inventory.cs" />
     <Compile Include="Assets\Scripts\MainUI\Inventory\InventoryController.cs" />
