@@ -2139,16 +2139,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 31924616}
     m_Modifications:
-    - target: {fileID: 1717335889811217664, guid: 486c363d19aaab447a3deed67681e35b,
-        type: 3}
-      propertyPath: m_Name
-      value: QuestSet
-      objectReference: {fileID: 0}
-    - target: {fileID: 1717335889811217664, guid: 486c363d19aaab447a3deed67681e35b,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 1717335889811217671, guid: 486c363d19aaab447a3deed67681e35b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2253,6 +2243,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1717335889811217664, guid: 486c363d19aaab447a3deed67681e35b,
+        type: 3}
+      propertyPath: m_Name
+      value: QuestSet
+      objectReference: {fileID: 0}
+    - target: {fileID: 1717335889811217664, guid: 486c363d19aaab447a3deed67681e35b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8365420766368329644, guid: 486c363d19aaab447a3deed67681e35b,
         type: 3}
@@ -8358,16 +8358,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 31924616}
     m_Modifications:
-    - target: {fileID: 2433227453744837417, guid: 2a2608ad59235dd43932213089ef9fbe,
-        type: 3}
-      propertyPath: m_Name
-      value: InvSet
-      objectReference: {fileID: 0}
-    - target: {fileID: 2433227453744837417, guid: 2a2608ad59235dd43932213089ef9fbe,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 2433227453744837414, guid: 2a2608ad59235dd43932213089ef9fbe,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8472,6 +8462,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2433227453744837417, guid: 2a2608ad59235dd43932213089ef9fbe,
+        type: 3}
+      propertyPath: m_Name
+      value: InvSet
+      objectReference: {fileID: 0}
+    - target: {fileID: 2433227453744837417, guid: 2a2608ad59235dd43932213089ef9fbe,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1215907853123493457, guid: 2a2608ad59235dd43932213089ef9fbe,
         type: 3}
@@ -14234,6 +14234,7 @@ GameObject:
   - component: {fileID: 1521277083}
   - component: {fileID: 1521277082}
   - component: {fileID: 1521277081}
+  - component: {fileID: 1521277089}
   - component: {fileID: 1521277084}
   m_Layer: 9
   m_Name: Player
@@ -14431,6 +14432,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1521277079}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1521277089
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1521277079}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f40e8cd565efcf4c9622c14de7dcf91, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 0
+  cooldown: 0
+  castTime: 0
 --- !u!1 &1534724772
 GameObject:
   m_ObjectHideFlags: 0
@@ -17535,16 +17551,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 31924616}
     m_Modifications:
-    - target: {fileID: 2182931350177741016, guid: 65776c838eb778d41902b7e89260443a,
-        type: 3}
-      propertyPath: m_Name
-      value: MapSet
-      objectReference: {fileID: 0}
-    - target: {fileID: 2182931350177741016, guid: 65776c838eb778d41902b7e89260443a,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 2182931350177741017, guid: 65776c838eb778d41902b7e89260443a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -17658,6 +17664,16 @@ PrefabInstance:
     - target: {fileID: 2182931350177741017, guid: 65776c838eb778d41902b7e89260443a,
         type: 3}
       propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2182931350177741016, guid: 65776c838eb778d41902b7e89260443a,
+        type: 3}
+      propertyPath: m_Name
+      value: MapSet
+      objectReference: {fileID: 0}
+    - target: {fileID: 2182931350177741016, guid: 65776c838eb778d41902b7e89260443a,
+        type: 3}
+      propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2182931350177741021, guid: 65776c838eb778d41902b7e89260443a,

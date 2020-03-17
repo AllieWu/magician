@@ -120,8 +120,6 @@
     <Compile Include="Assets\Scripts\Spell Scripts\Attack\Tsunami\TsunamiSpell.cs" />
     <Compile Include="Assets\Scripts\Spell Scripts\Spell.cs" />
     <Compile Include="Assets\Scripts\Spell Scripts\Utility\Teleport.cs" />
-    <Compile Include="Assets\Scripts\Spell Scripts\Utility\Teleport\TeleportBehaviour.cs" />
-    <Compile Include="Assets\Scripts\Spell Scripts\Utility\Teleport\TeleportSpell.cs" />
     <Compile Include="Assets\Scripts\SpellCreationUI\SimpleObjectPool.cs" />
     <Compile Include="Assets\Scripts\SpellCreationUI\SpellCrafter.cs" />
     <Compile Include="Assets\Scripts\SpellCreationUI\SpellInfo.cs" />

@@ -93,10 +93,16 @@ public class PlayerController : MonoBehaviour
             nextFireTime3 = Time.time + gameObject.GetComponent<TsunamiSpell>().cooldown;
             //Debug.Log(gameObject.GetComponent<TsunamiSpell>().cooldown);
         }
-        else if (Input.GetAxisRaw("Jump") != 0 && Time.time > nextFireTime4)
+        /*else if (Input.GetAxisRaw("Fire4") != 0 && Time.time > nextFireTime4)
         {
             gameObject.GetComponent<EarthPillarSpell>().Cast();
             nextFireTime4 = Time.time + gameObject.GetComponent<EarthPillarSpell>().cooldown;
+        }*/
+
+        // Teleportation!
+        else if (Input.GetKeyDown(KeyCode.Space))
+        {
+            gameObject.GetComponent<Teleport>().Cast();
         }
     }
 
