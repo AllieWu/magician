@@ -9,7 +9,7 @@ public class EarthPillarSpell : Spell
     private Quaternion rotation;
     private Camera cam;
 
-    public EarthPillarSpell(float cd, float dm, float ct) : base(cd, dm, ct)
+    public EarthPillarSpell(float cd, float dm, float ct, bool ul, string ac, int id) : base(cd, dm, ct, ul, ac, id)
     {
         //
     }

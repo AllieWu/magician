@@ -8,7 +8,7 @@ public class TsunamiSpell : Spell
     public GameObject tPrefab;
     private Quaternion rotation;
 
-    public TsunamiSpell(float cd, float dm, float ct) : base(cd, dm, ct)
+    public TsunamiSpell(float cd, float dm, float ct, bool ul, string ac, int id) : base(cd, dm, ct, ul, ac, id)
     {
         //tPrefab = GameObject.Find("Tsunami");
     }

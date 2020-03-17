@@ -8,9 +8,10 @@ public class FireballSpell : Spell
     public GameObject fbPrefab;
     private Quaternion rotation;
 
-    public FireballSpell(float cd, float dm, float ct) : base(cd, dm, ct)
+    public FireballSpell(float cd, float dm, float ct, bool ul, string ac, int id) : base(cd, dm, ct, ul, ac, id)
     {
         //fbPrefab = GameObject.Find("Fireball");
+        
     }
 
     public override void Cast()
