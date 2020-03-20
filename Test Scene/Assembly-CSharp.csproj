@@ -69,6 +69,7 @@
     <Compile Include="Assets\Scripts\Archived\SpellCreationUI\SpellInfo.cs" />
     <Compile Include="Assets\Scripts\Archived\SpellCreationUI\SpellInfoPanel.cs" />
     <Compile Include="Assets\Scripts\Archived\SpellCreationUI\SpellListButton.cs" />
+    <Compile Include="Assets\Scripts\Archived\SpellCreationUI\Spells\FireballSpellInfo.cs" />
     <Compile Include="Assets\Scripts\Archived\SpellCreationUI\SpellScrollList.cs" />
     <Compile Include="Assets\Scripts\Archived\SpellCreationUI\TierSelectButton.cs" />
     <Compile Include="Assets\Scripts\Enemies\EnemyBehavior.cs" />
@@ -120,9 +121,10 @@
     <Compile Include="Assets\Scripts\ProceduralGeneration\roomVert.cs" />
     <Compile Include="Assets\Scripts\Spell Scripts\Attack\EarthPillar\EarthPillarBehavior.cs" />
     <Compile Include="Assets\Scripts\Spell Scripts\Attack\EarthPillar\EarthPillarSpell.cs" />
+    <Compile Include="Assets\Scripts\Spell Scripts\Attack\FireArrow\FireArrowBehavior.cs" />
+    <Compile Include="Assets\Scripts\Spell Scripts\Attack\FireArrow\FireArrowSpell.cs" />
     <Compile Include="Assets\Scripts\Spell Scripts\Attack\Fireball\FireballBehavior.cs" />
     <Compile Include="Assets\Scripts\Spell Scripts\Attack\Fireball\FireballSpell.cs" />
-    <Compile Include="Assets\Scripts\Spell Scripts\Attack\Fireball\FireballSpellInfo.cs" />
     <Compile Include="Assets\Scripts\Spell Scripts\Attack\Tsunami\TsunamiBehavior.cs" />
     <Compile Include="Assets\Scripts\Spell Scripts\Attack\Tsunami\TsunamiSpell.cs" />
     <Compile Include="Assets\Scripts\Spell Scripts\Spell.cs" />

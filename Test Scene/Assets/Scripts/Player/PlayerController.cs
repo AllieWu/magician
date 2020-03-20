@@ -98,6 +98,11 @@ public class PlayerController : MonoBehaviour
             gameObject.GetComponent<EarthPillarSpell>().Cast();
             nextFireTime4 = Time.time + gameObject.GetComponent<EarthPillarSpell>().cooldown;
         }*/
+        else if (Input.GetAxisRaw("Fire4") != 0 && Time.time > nextFireTime4)
+        {
+            gameObject.GetComponent<FireArrowSpell>().Cast();
+            nextFireTime4 = Time.time + gameObject.GetComponent<FireArrowSpell>().cooldown;
+        }
 
         // Teleportation!
         else if (Input.GetKeyDown(KeyCode.Space))

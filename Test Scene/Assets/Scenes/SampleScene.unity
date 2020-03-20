@@ -14136,6 +14136,7 @@ GameObject:
   - component: {fileID: 1521277083}
   - component: {fileID: 1521277082}
   - component: {fileID: 1521277081}
+  - component: {fileID: 1521277090}
   - component: {fileID: 1521277089}
   - component: {fileID: 1521277084}
   m_Layer: 9
@@ -14174,7 +14175,7 @@ MonoBehaviour:
   damage: 12
   cooldown: 2
   castTime: 0.25
-  spellID: 0
+  spellID: 2
   availClass: 
   epPrefab: {fileID: 4340257587549872647, guid: 018b15023403e604da4a75a676ec5056,
     type: 3}
@@ -14193,7 +14194,7 @@ MonoBehaviour:
   damage: 7
   cooldown: 1.25
   castTime: 0
-  spellID: 0
+  spellID: 1
   availClass: 
   tPrefab: {fileID: 1112683158546750419, guid: 2f9829b02c97bc6439690c8813f17544, type: 3}
 --- !u!114 &1521277083
@@ -14357,6 +14358,25 @@ MonoBehaviour:
   castTime: 0
   spellID: 0
   availClass: 
+--- !u!114 &1521277090
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1521277079}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 683c3186fb7fcbf4b8507c9dac224e5a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 3
+  cooldown: 0.75
+  castTime: 0
+  spellID: 3
+  availClass: 
+  faPrefab: {fileID: 3160342145044249846, guid: ae0f5225e7ba3b3439843822feb93b5e,
+    type: 3}
 --- !u!1 &1534724772
 GameObject:
   m_ObjectHideFlags: 0
