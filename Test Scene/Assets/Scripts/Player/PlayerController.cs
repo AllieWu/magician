@@ -35,13 +35,28 @@ public class PlayerController : MonoBehaviour
     [Header("Other")]
     public GameObject hud;
     public bool CanOpenTeleporter = false;
-    public bool CanOpenSpellCreation = false;
+    public bool CanOpenJobChanger = false;
 
+    public List<BaseJob> jobs;
     // playerLevel to be read from SaveScript
     // currentHealth to be read from SaveScript
 
     private void Start()
     {
+        jobs = new List<BaseJob>();
+        // start off as a wizard monk 
+        jobs.Add(new Wizard());
+        jobs.Add(new Monk());
+        foreach (BaseJob job in jobs)
+        {
+            // initialize job class's spells and name
+            job.initialize(); ;
+            Debug.Log("Player is class: " + job.jobName + " and has access to the following spells:");
+            foreach (int spell in job.spellids)
+            {
+                Debug.Log(spell.ToString() + ", ");
+            }
+        }
         //initialize savescript variables
 
         //xpBar.value = (currentXP - previousLevelXP) / (nextLevelXP - previousLevelXP);
@@ -180,11 +195,11 @@ public class PlayerController : MonoBehaviour
             hud.GetComponent<HUD>().OpenMessagePanel("");
             CanOpenTeleporter = true;
         }
-        else if (other.gameObject.CompareTag("SpellCreator"))
+        else if (other.gameObject.CompareTag("JobChanger"))
         {
-            Debug.Log("Collided with Spell Creator");
+            Debug.Log("Collided with Job Changer");
             hud.GetComponent<HUD>().OpenMessagePanel("");
-            CanOpenSpellCreation = true;
+            CanOpenJobChanger = true;
         }
     }
 
@@ -195,10 +210,10 @@ public class PlayerController : MonoBehaviour
             hud.GetComponent<HUD>().CloseMessagePanel("");
             CanOpenTeleporter = false;
         }
-        else if (other.gameObject.CompareTag("SpellCreator"))
+        else if (other.gameObject.CompareTag("JobChanger"))
         {
             hud.GetComponent<HUD>().CloseMessagePanel("");
-            CanOpenSpellCreation = false;
+            CanOpenJobChanger = false;
         }
     }
 

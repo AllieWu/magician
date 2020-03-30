@@ -8,7 +8,10 @@ TagManager:
   - Boundary
   - Drop
   - Teleporter
-  - SpellCreator
+  - Red
+  - Green
+  - Blue
+  - JobChanger
   layers:
   - Default
   - TransparentFX
