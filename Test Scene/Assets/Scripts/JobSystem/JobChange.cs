@@ -18,6 +18,14 @@ public class JobChange : MonoBehaviour
         }
     }
 
+    public void UpdatePlayer()
+    {
+        playercontroller.spellids =  new List<int>();
+        foreach (BaseJob job in playercontroller.jobs)
+            playercontroller.spellids.AddRange(job.spellids); // update player's available spells
+        
+    }
+
     public void AddJob(string _jobName)
     {
         if (playercontroller.jobs.Count == 2) // maxed out at 2, must delete a job first
@@ -39,6 +47,8 @@ public class JobChange : MonoBehaviour
                 newJob = new Druid();
             newJob.initialize();
             playercontroller.jobs.Add(newJob);
+
+            UpdatePlayer(); // update the player's available spellids
         }
         UpdateText();
     }
@@ -52,6 +62,7 @@ public class JobChange : MonoBehaviour
         }
         else
             Debug.Log("You cannot give up the " + _jobName + " path because you never started!");
+        UpdatePlayer(); // update the player's available spells
         UpdateText();
     }
 }

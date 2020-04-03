@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -7,7 +8,7 @@ public class PlayerController : MonoBehaviour
 {
     [Header("Combat Settings")]
     public float cooldown;
-    private float nextFireTime1, nextFireTime2, nextFireTime3, nextFireTime4;
+    private float nextDefaultTime, nextFireballTime, nextTsunamiTime, nextEarthPillarTime, nextFireArrowTime;
     private Transform location;
     private Quaternion projRotation;
     public GameObject projectile;
@@ -38,34 +39,31 @@ public class PlayerController : MonoBehaviour
     public bool CanOpenJobChanger = false;
 
     public List<BaseJob> jobs;
+    public List<int> spellids;
+
     // playerLevel to be read from SaveScript
     // currentHealth to be read from SaveScript
 
     private void Start()
     {
+        List<string> defaultSpellControl = new List<string> { "MB1", "MB2", "MB3" }; // we're going to pair as many spells to controls as we can
+
         jobs = new List<BaseJob>();
         // start off as a wizard monk 
         jobs.Add(new Wizard());
         jobs.Add(new Monk());
+
         foreach (BaseJob job in jobs)
         {
-            // initialize job class's spells and name
-            job.initialize(); ;
-            Debug.Log("Player is class: " + job.jobName + " and has access to the following spells:");
-            foreach (int spell in job.spellids)
-            {
-                Debug.Log(spell.ToString() + ", ");
-            }
+            job.initialize(); // initialize job class's spells and name
+            spellids.AddRange(job.spellids); // update player's available spells
         }
         //initialize savescript variables
 
         //xpBar.value = (currentXP - previousLevelXP) / (nextLevelXP - previousLevelXP);
 
         location = GetComponent<Transform>();
-        nextFireTime1 = Time.time;
-        nextFireTime2 = Time.time;
-        nextFireTime3 = Time.time;
-        nextFireTime4 = Time.time;
+        nextDefaultTime = nextFireballTime = nextTsunamiTime = nextEarthPillarTime = nextFireArrowTime = Time.time;
         cam = Camera.main;
 
         //Setting up XP Bar
@@ -90,37 +88,17 @@ public class PlayerController : MonoBehaviour
         lookDirection = point - location.position;
         projRotation = Quaternion.LookRotation(Vector3.forward, lookDirection);
 
-        if (Input.GetAxisRaw("Fire1") != 0 && Time.time > nextFireTime1)
-        {
-            //Debug.Log(location.position);
-            //Debug.Log(lookDirection.normalized);
-            Instantiate(projectile, location.position + new Vector3(lookDirection.normalized.x, lookDirection.normalized.y, 0), projRotation);
-            nextFireTime1 = Time.time + cooldown;
-        }
-        else if (Input.GetAxisRaw("Fire2") != 0 && Time.time > nextFireTime2)
-        {
-            gameObject.GetComponent<FireballSpell>().Cast();
-            nextFireTime2 = Time.time + gameObject.GetComponent<FireballSpell>().cooldown;
-        }
-        else if (Input.GetAxisRaw("Fire3") != 0 && Time.time > nextFireTime3)
-        {
-            gameObject.GetComponent<TsunamiSpell>().Cast();
-            nextFireTime3 = Time.time + gameObject.GetComponent<TsunamiSpell>().cooldown;
-            //Debug.Log(gameObject.GetComponent<TsunamiSpell>().cooldown);
-        }
-        /*else if (Input.GetAxisRaw("Fire4") != 0 && Time.time > nextFireTime4)
-        {
-            gameObject.GetComponent<EarthPillarSpell>().Cast();
-            nextFireTime4 = Time.time + gameObject.GetComponent<EarthPillarSpell>().cooldown;
-        }*/
-        else if (Input.GetAxisRaw("Fire4") != 0 && Time.time > nextFireTime4)
-        {
-            gameObject.GetComponent<FireArrowSpell>().Cast();
-            nextFireTime4 = Time.time + gameObject.GetComponent<FireArrowSpell>().cooldown;
-        }
+        // UPDATED - does not take into account spell cool downs.. this was used to take it into account before : Time.time > nextFireTime1
+        if (Input.GetAxisRaw("Fire1") != 0) //Left MB
+            castSpell(0);
+        else if (Input.GetAxisRaw("Fire2") != 0) // Right MB
+            castSpell(1);
+        else if (Input.GetAxisRaw("Fire3") != 0) // Middle MB
+            castSpell(2);
+        else if (Input.GetAxisRaw("Fire4") != 0) // Extra MB
+            castSpell(3);
 
-        // Teleportation!
-        else if (Input.GetKeyDown(KeyCode.Space))
+        else if (Input.GetKeyDown(KeyCode.Space)) // Teleportation!
         {
             gameObject.GetComponent<Teleport>().Cast();
         }
@@ -128,7 +106,7 @@ public class PlayerController : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if(!dead)
+        if (!dead)
         {
             moveHorizontal = Input.GetAxisRaw("Horizontal");
             moveVertical = Input.GetAxisRaw("Vertical");
@@ -136,7 +114,7 @@ public class PlayerController : MonoBehaviour
 
             body.AddForce(movement.normalized * speed * Time.deltaTime);
         }
-        
+
     }
 
     private float CalculateHealth()
@@ -146,15 +124,15 @@ public class PlayerController : MonoBehaviour
 
     public void DealDamage(float damageDealt)
     {
-        if(!dead)
+        if (!dead)
         {
             currentHealth -= damageDealt;
 
-            if(currentHealth <= 0)
+            if (currentHealth <= 0)
             {
                 Die();
             }
-            
+
             healthBar.value = CalculateHealth();
         }
     }
@@ -169,7 +147,7 @@ public class PlayerController : MonoBehaviour
     {
         currentXP += XP;
 
-        while(currentXP > nextLevelXP)
+        while (currentXP > nextLevelXP)
         {
             playerLevel++;
             nextLevelXP = (int)Mathf.Floor(Mathf.Pow(playerLevel + 10, (float)1.75)) - 30;
@@ -231,7 +209,7 @@ public class PlayerController : MonoBehaviour
         };
 
         SaveData.Save<Save>(mySave, "save1");
-      
+
     }
 
     public void LoadPlayerData()
@@ -249,4 +227,66 @@ public class PlayerController : MonoBehaviour
     }
 
 
+    /* SPELL CASTING FUNCTIONS */
+    public void castSpell(int n)
+    {
+        if (n <= spellids.Count-1)
+        {
+            if (spellids[n] == 0) // fireball
+                castFireball();
+            else if (spellids[n] == 1) // tsunami
+                castTsunami();
+            else if (spellids[n] == 2) // earth pillar
+                castEarthPillar();
+            else // there's something wrong with the setup just cast default lol
+                castDefault();
+        }
+        else // there's something wrong with the setup just cast default lol
+            castDefault();
+    }
+
+    void castDefault()
+    {
+        if (Time.time > nextDefaultTime)
+        {
+            Instantiate(projectile, location.position + new Vector3(lookDirection.normalized.x, lookDirection.normalized.y, 0), projRotation);
+            nextDefaultTime = Time.time + cooldown;
+        }       
+    }
+
+    void castFireball()
+    {
+        if (Time.time > nextFireballTime)
+        {
+            gameObject.GetComponent<FireballSpell>().Cast();
+            nextFireballTime = Time.time + gameObject.GetComponent<FireballSpell>().cooldown;
+        }
+    }
+
+    void castTsunami()
+    {
+        if (Time.time > nextTsunamiTime)
+        {
+            gameObject.GetComponent<TsunamiSpell>().Cast();
+            nextTsunamiTime = Time.time + gameObject.GetComponent<TsunamiSpell>().cooldown;
+        }
+    }
+
+    void castEarthPillar()
+    {
+        if (Time.time > nextEarthPillarTime)
+        {
+            gameObject.GetComponent<EarthPillarSpell>().Cast();
+            nextEarthPillarTime = Time.time + gameObject.GetComponent<EarthPillarSpell>().cooldown;
+        }
+    }
+
+    void castFireArrow()
+    {
+        if (Time.time > nextFireArrowTime)
+        {
+            gameObject.GetComponent<FireArrowSpell>().Cast();
+            nextFireArrowTime = Time.time + gameObject.GetComponent<FireArrowSpell>().cooldown;
+        }
+    }
 }
