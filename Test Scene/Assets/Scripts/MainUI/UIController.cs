@@ -20,7 +20,7 @@ public class UIController : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetButtonDown("Toggle UI") || Input.GetButtonDown("ToggleSpells"))
+        if (Input.GetButtonDown("ToggleUI") || Input.GetButtonDown("ToggleSpells"))
         {
             mainUI.GetComponent<SetController>().SetCurrentSet(0);
             mainUI.SetActive(!mainUI.activeSelf);
