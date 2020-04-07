@@ -93,13 +93,13 @@ public class PlayerController : MonoBehaviour
         projRotation = Quaternion.LookRotation(Vector3.forward, lookDirection);
 
         // UPDATED - does not take into account spell cool downs.. this was used to take it into account before : Time.time > nextFireTime1
-        if (inputManager.isInput[0])//if (Input.GetAxisRaw("Fire1") != 0) //Left MB
+        if (Input.GetMouseButtonDown(0)) //Left MB
             castSpell(0);
-        else if (inputManager.isInput[1])//else if (Input.GetAxisRaw("Fire2") != 0) // Right MB
+        else if (Input.GetMouseButtonDown(1)) // Right MB
             castSpell(1);
-        else if (inputManager.isInput[2])//else if (Input.GetAxisRaw("Fire3") != 0) // Middle MB
+        else if (Input.GetMouseButtonDown(2)) // Middle MB
             castSpell(2);
-        else if (inputManager.isInput[3])//else if (Input.GetAxisRaw("Fire4") != 0) // Extra MB
+        else if (Input.GetMouseButtonDown(3)) // Extra MB
             castSpell(3);
         else if (Input.GetKeyDown(KeyCode.Space)) // Teleportation!
         {

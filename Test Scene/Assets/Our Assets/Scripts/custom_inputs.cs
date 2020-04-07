@@ -198,11 +198,13 @@ public class custom_inputs : MonoBehaviour
 
         if (!PlayerPrefs.HasKey("KeyCodes") || !PlayerPrefs.HasKey("KeyCodes2"))
         {
+            Debug.Log("RESETTING TO DEFAULTS");
             reset2defaults();
         }
         tempLength = PlayerPrefs.GetInt("KeyLength");
         if (PlayerPrefs.HasKey("KeyCodes") && tempLength == DescriptionString.Length)
         {
+            Debug.Log("LOADING CONFIG");
             loadConfig();
         }
 
@@ -230,7 +232,6 @@ public class custom_inputs : MonoBehaviour
         {
             // handle the controlls 
            inputSetBools();  
-        //   inputhandling();
         }
 
 
@@ -284,7 +285,7 @@ public class custom_inputs : MonoBehaviour
         // sets the isInput[] bool to true or false
         for (int inP = 0; inP < DescriptionString.Length; inP++)
         {
-            Debug.Log("LOOKING IF YOU PRESSED " + inputKey[inP].ToString());
+            //Debug.Log("LOOKING IF YOU PRESSED " + inputKey[inP].ToString());
             if ((Input.GetKey(inputKey[inP]) || (joystickActive[inP] && (Input.GetAxis(joystickString[inP]) > 0.95f))) || (Input.GetKey(inputKey2[inP]) || (joystickActive2[inP] && (Input.GetAxis(joystickString2[inP]) > 0.95f))))
             {
                isInput[inP] = true;

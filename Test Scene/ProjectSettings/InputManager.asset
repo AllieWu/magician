@@ -441,7 +441,7 @@ InputManager:
     m_Name: ToggleUI
     descriptiveName: 
     descriptiveNegativeName: 
-    negativeButton: down
+    negativeButton: 
     positiveButton: tab
     altNegativeButton: 
     altPositiveButton: 
@@ -539,6 +539,22 @@ InputManager:
     descriptiveNegativeName: 
     negativeButton: 
     positiveButton: '-'
+    altNegativeButton: 
+    altPositiveButton: 
+    gravity: 1000
+    dead: 0.001
+    sensitivity: 1000
+    snap: 0
+    invert: 0
+    type: 0
+    axis: 0
+    joyNum: 0
+  - serializedVersion: 3
+    m_Name: spell1
+    descriptiveName: 
+    descriptiveNegativeName: 
+    negativeButton: 
+    positiveButton: 1
     altNegativeButton: 
     altPositiveButton: 
     gravity: 1000
