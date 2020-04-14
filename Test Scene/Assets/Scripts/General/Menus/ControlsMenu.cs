@@ -26,6 +26,22 @@ public class ControlsMenu : MonoBehaviour
                 menuPanel.GetChild(i).GetComponentInChildren<Text>().text = InputManager.IM.spell3.ToString();
             else if (menuPanel.GetChild(i).name == "Spell4Key")
                 menuPanel.GetChild(i).GetComponentInChildren<Text>().text = InputManager.IM.spell4.ToString();
+
+            else if (menuPanel.GetChild(i).name == "ToggleSpellsKey")
+                menuPanel.GetChild(i).GetComponentInChildren<Text>().text = InputManager.IM.togglespells.ToString();
+            else if (menuPanel.GetChild(i).name == "ToggleInventoryKey")
+                menuPanel.GetChild(i).GetComponentInChildren<Text>().text = InputManager.IM.toggleinventory.ToString();
+            else if (menuPanel.GetChild(i).name == "ToggleQuestsKey")
+                menuPanel.GetChild(i).GetComponentInChildren<Text>().text = InputManager.IM.togglequests.ToString();
+            else if (menuPanel.GetChild(i).name == "ToggleMapKey")
+                menuPanel.GetChild(i).GetComponentInChildren<Text>().text = InputManager.IM.togglemap.ToString();
+
+            else if (menuPanel.GetChild(i).name == "InteractKey")
+                menuPanel.GetChild(i).GetComponentInChildren<Text>().text = InputManager.IM.interact.ToString();
+            else if (menuPanel.GetChild(i).name == "AddDefaultItemKey")
+                menuPanel.GetChild(i).GetComponentInChildren<Text>().text = InputManager.IM.adddefaultitem.ToString();
+            else if (menuPanel.GetChild(i).name == "AddDefaultQuestKey")
+                menuPanel.GetChild(i).GetComponentInChildren<Text>().text = InputManager.IM.adddefaultquest.ToString();
         }
 
     }
@@ -95,6 +111,49 @@ public class ControlsMenu : MonoBehaviour
             InputManager.IM.spell4 = newKey; //set spell4 to new keycode
             buttonText.text = InputManager.IM.spell4.ToString(); //set button text to new key
             PlayerPrefs.SetString("spell4Key", InputManager.IM.spell4.ToString()); //save new key to playerprefs
+        }
+        else if (keyName == "togglespells")
+        {
+            InputManager.IM.togglespells = newKey; //set togglespells to new keycode
+            buttonText.text = InputManager.IM.togglespells.ToString(); //set button text to new key
+            PlayerPrefs.SetString("togglespellsKey", InputManager.IM.togglespells.ToString()); //save new key to playerprefs
+        }
+        else if (keyName == "toggleinventory")
+        {
+            InputManager.IM.toggleinventory = newKey; //set toggleinventory to new keycode
+            buttonText.text = InputManager.IM.toggleinventory.ToString(); //set button text to new key
+            PlayerPrefs.SetString("toggleinventoryKey", InputManager.IM.toggleinventory.ToString()); //save new key to playerprefs
+        }
+        else if (keyName == "togglequests")
+        {
+            InputManager.IM.togglequests = newKey; //set togglequests to new keycode
+            buttonText.text = InputManager.IM.togglequests.ToString(); //set button text to new key
+            PlayerPrefs.SetString("togglequestsKey", InputManager.IM.togglequests.ToString()); //save new key to playerprefs
+        }
+        else if (keyName == "togglemap")
+        {
+            InputManager.IM.togglemap = newKey; //set togglemap to new keycode
+            buttonText.text = InputManager.IM.togglemap.ToString(); //set button text to new key
+            PlayerPrefs.SetString("togglemapKey", InputManager.IM.togglemap.ToString()); //save new key to playerprefs
+        }
+        else if (keyName == "interact")
+        {
+            InputManager.IM.interact = newKey; //set interact to new keycode
+            buttonText.text = InputManager.IM.interact.ToString(); //set button text to new key
+            PlayerPrefs.SetString("interactKey", InputManager.IM.interact.ToString()); //save new key to playerprefs
+        }
+        else if (keyName == "adddefaultitem")
+        {
+            InputManager.IM.adddefaultitem = newKey; //set adddefaultitem to new keycode
+            buttonText.text = InputManager.IM.adddefaultitem.ToString(); //set button text to new key
+            PlayerPrefs.SetString("adddefaultitemKey", InputManager.IM.adddefaultitem.ToString()); //save new key to playerprefs
+        }
+
+        else if (keyName == "adddefaultquest")
+        {
+            InputManager.IM.adddefaultquest = newKey; //set adddefaultquest to new keycode
+            buttonText.text = InputManager.IM.adddefaultquest.ToString(); //set button text to new key
+            PlayerPrefs.SetString("adddefaultquestKey", InputManager.IM.adddefaultquest.ToString()); //save new key to playerprefs
         }
         yield return null;
     }

@@ -50,7 +50,7 @@ public class InputManager : MonoBehaviour
          * their bindings are loaded next time. Default values
          * are assigned to each Keycode via the second parameter
          * of the GetString() function*/
-        interact = (KeyCode)System.Enum.Parse(typeof(KeyCode), PlayerPrefs.GetString("interactKey", "f"));
+        interact = (KeyCode)System.Enum.Parse(typeof(KeyCode), PlayerPrefs.GetString("interactKey", "F"));
 
         up = (KeyCode)System.Enum.Parse(typeof(KeyCode), PlayerPrefs.GetString("upKey", "W"));
         down = (KeyCode)System.Enum.Parse(typeof(KeyCode), PlayerPrefs.GetString("downKey", "S"));
@@ -62,8 +62,8 @@ public class InputManager : MonoBehaviour
         spell3 = (KeyCode)System.Enum.Parse(typeof(KeyCode), PlayerPrefs.GetString("spell3Key", "alpha3"));
         spell4 = (KeyCode)System.Enum.Parse(typeof(KeyCode), PlayerPrefs.GetString("spell4Key", "alpha4"));
 
-        adddefaultitem = (KeyCode)System.Enum.Parse(typeof(KeyCode), PlayerPrefs.GetString("adddefaultitemKey", "="));
-        adddefaultquest = (KeyCode)System.Enum.Parse(typeof(KeyCode), PlayerPrefs.GetString("adddefaultquestKey", "-"));
+        adddefaultitem = (KeyCode)System.Enum.Parse(typeof(KeyCode), PlayerPrefs.GetString("adddefaultitemKey", "equals"));
+        adddefaultquest = (KeyCode)System.Enum.Parse(typeof(KeyCode), PlayerPrefs.GetString("adddefaultquestKey", "minus"));
 
         togglespells = (KeyCode)System.Enum.Parse(typeof(KeyCode), PlayerPrefs.GetString("togglespellsKey", "tab"));
         toggleinventory = (KeyCode)System.Enum.Parse(typeof(KeyCode), PlayerPrefs.GetString("toggleinventoryKey", "I"));

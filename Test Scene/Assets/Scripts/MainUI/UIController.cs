@@ -20,27 +20,27 @@ public class UIController : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKey(InputManager.IM.togglespells))
+        if (Input.GetKeyDown(InputManager.IM.togglespells) && !controlsMenu.activeSelf)
         {
             mainUI.GetComponent<SetController>().SetCurrentSet(0);
             mainUI.SetActive(!mainUI.activeSelf);
         }
-        else if (Input.GetKey(InputManager.IM.toggleinventory))
+        else if (Input.GetKeyDown(InputManager.IM.toggleinventory) && !controlsMenu.activeSelf)
         { 
             mainUI.GetComponent<SetController>().SetCurrentSet(1);
             mainUI.SetActive(!mainUI.activeSelf);
         }
-        else if (Input.GetKey(InputManager.IM.togglequests))
+        else if (Input.GetKeyDown(InputManager.IM.togglequests) && !controlsMenu.activeSelf)
         {
             mainUI.GetComponent<SetController>().SetCurrentSet(2);
             mainUI.SetActive(!mainUI.activeSelf);
         }
-        else if (Input.GetKey(InputManager.IM.togglemap))
+        else if (Input.GetKeyDown(InputManager.IM.togglemap) && !controlsMenu.activeSelf)
         {
             mainUI.GetComponent<SetController>().SetCurrentSet(3);
             mainUI.SetActive(!mainUI.activeSelf);
         }
-        else if (Input.GetKey(InputManager.IM.interact))
+        else if (Input.GetKeyDown(InputManager.IM.interact))
         {
             if (player.GetComponent<PlayerController>().CanOpenTeleporter)
                 teleportUI.SetActive(!teleportUI.activeSelf);

@@ -93,13 +93,13 @@ public class PlayerController : MonoBehaviour
 
         // LOOK FOR ANY KEY PRESSES
         // SPELLS
-        if (Input.GetKey(InputManager.IM.spell1))
+        if (Input.GetKeyDown(InputManager.IM.spell1))
             castSpell(0);
-        else if (Input.GetKey(InputManager.IM.spell2))
+        else if (Input.GetKeyDown(InputManager.IM.spell2))
             castSpell(1);
-        else if (Input.GetKey(InputManager.IM.spell3))
+        else if (Input.GetKeyDown(InputManager.IM.spell3))
             castSpell(2);
-        else if (Input.GetKey(InputManager.IM.spell4))
+        else if (Input.GetKeyDown(InputManager.IM.spell4))
             castSpell(3);
         else if (Input.GetKeyDown(KeyCode.Space)) // Teleportation!
             gameObject.GetComponent<Teleport>().Cast();
