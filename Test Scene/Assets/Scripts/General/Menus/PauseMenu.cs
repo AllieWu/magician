@@ -12,7 +12,7 @@ public class PauseMenu : MonoBehaviour
 
     public void GoToControls()
     {
-
+        
     }
 
     public void LoadMenu()

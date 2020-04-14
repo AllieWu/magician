@@ -26,12 +26,7 @@ public class QuestsController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetButtonDown("AddDefaultQuest"))
-        {
-            Quests.instance.Add(ScriptableObject.CreateInstance<Quest>());  // add in a default quest to quests
-            UpdateQuestUI();
-        }
-        
+        UpdateQuestUI();
     }
 
     public void UpdateQuestUI()

@@ -42,9 +42,6 @@ public class PlayerController : MonoBehaviour
     public List<BaseJob> jobs;
     public List<int> spellids;
 
-    [Header("Controls and Inputs")]
-    public custom_inputs inputManager;
-
     // playerLevel to be read from SaveScript
     // currentHealth to be read from SaveScript
 
@@ -62,6 +59,8 @@ public class PlayerController : MonoBehaviour
             job.initialize(); // initialize job class's spells and name
             spellids.AddRange(job.spellids); // update player's available spells
         }
+        spellids.ForEach(id => Debug.Log(id.ToString() + ", "));
+
         //initialize savescript variables
 
         //xpBar.value = (currentXP - previousLevelXP) / (nextLevelXP - previousLevelXP);
@@ -92,19 +91,24 @@ public class PlayerController : MonoBehaviour
         lookDirection = point - location.position;
         projRotation = Quaternion.LookRotation(Vector3.forward, lookDirection);
 
-        // UPDATED - does not take into account spell cool downs.. this was used to take it into account before : Time.time > nextFireTime1
-        if (Input.GetMouseButtonDown(0)) //Left MB
+        // LOOK FOR ANY KEY PRESSES
+        // SPELLS
+        if (Input.GetKey(InputManager.IM.spell1))
             castSpell(0);
-        else if (Input.GetMouseButtonDown(1)) // Right MB
+        else if (Input.GetKey(InputManager.IM.spell2))
             castSpell(1);
-        else if (Input.GetMouseButtonDown(2)) // Middle MB
+        else if (Input.GetKey(InputManager.IM.spell3))
             castSpell(2);
-        else if (Input.GetMouseButtonDown(3)) // Extra MB
+        else if (Input.GetKey(InputManager.IM.spell4))
             castSpell(3);
         else if (Input.GetKeyDown(KeyCode.Space)) // Teleportation!
-        {
             gameObject.GetComponent<Teleport>().Cast();
-        }
+
+        // 'CHEAT' CODES - ADDING INVENTORY ITEMS & QUESTS 
+        else if (Input.GetKey(InputManager.IM.adddefaultitem))
+            Inventory.instance.Add(ScriptableObject.CreateInstance<Item>());
+        else if (Input.GetKey(InputManager.IM.adddefaultquest))
+            Quests.instance.Add(ScriptableObject.CreateInstance<Quest>());
     }
 
     private void FixedUpdate()
@@ -132,9 +136,7 @@ public class PlayerController : MonoBehaviour
             currentHealth -= damageDealt;
 
             if (currentHealth <= 0)
-            {
                 Die();
-            }
 
             healthBar.value = CalculateHealth();
         }
@@ -233,8 +235,11 @@ public class PlayerController : MonoBehaviour
     /* SPELL CASTING FUNCTIONS */
     public void castSpell(int n)
     {
+        Debug.Log(n.ToString());
+        Debug.Log((spellids.Count - 1).ToString());
         if (n <= spellids.Count-1)
         {
+            Debug.Log("castSpell(" + n.ToString() + ") called... spellids[n] is " + spellids[n].ToString());
             if (spellids[n] == 0) // fireball
                 castFireball();
             else if (spellids[n] == 1) // tsunami

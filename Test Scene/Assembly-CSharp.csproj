@@ -62,7 +62,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Our Assets\Scripts\custom_inputs.cs" />
     <Compile Include="Assets\Packages\Modern_GUI_Skin\Demo_Assets\scripts\GUI_Demo.cs" />
     <Compile Include="Assets\Packages\NeonShapes\SelfDestroyScript.cs" />
     <Compile Include="Assets\Scripts\Archived\SpellCreationUI\SimpleObjectPool.cs" />
@@ -89,6 +88,8 @@
     <Compile Include="Assets\Scripts\General\GameData\Save.cs" />
     <Compile Include="Assets\Scripts\General\GameData\SaveData.cs" />
     <Compile Include="Assets\Scripts\General\LoadScene.cs" />
+    <Compile Include="Assets\Scripts\General\Menus\ControlsMenu.cs" />
+    <Compile Include="Assets\Scripts\General\Menus\InputManager.cs" />
     <Compile Include="Assets\Scripts\General\Menus\MainMenu.cs" />
     <Compile Include="Assets\Scripts\General\Menus\PauseMenu.cs" />
     <Compile Include="Assets\Scripts\Interactables\Drop.cs" />

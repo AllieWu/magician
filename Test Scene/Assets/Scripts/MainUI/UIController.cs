@@ -20,27 +20,27 @@ public class UIController : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetButtonDown("ToggleUI") || Input.GetButtonDown("ToggleSpells"))
+        if (Input.GetKey(InputManager.IM.togglespells))
         {
             mainUI.GetComponent<SetController>().SetCurrentSet(0);
             mainUI.SetActive(!mainUI.activeSelf);
         }
-        else if (Input.GetButtonDown("ToggleInventory"))
+        else if (Input.GetKey(InputManager.IM.toggleinventory))
         { 
             mainUI.GetComponent<SetController>().SetCurrentSet(1);
             mainUI.SetActive(!mainUI.activeSelf);
         }
-        else if (Input.GetButtonDown("ToggleQuests"))
+        else if (Input.GetKey(InputManager.IM.togglequests))
         {
             mainUI.GetComponent<SetController>().SetCurrentSet(2);
             mainUI.SetActive(!mainUI.activeSelf);
         }
-        else if (Input.GetButtonDown("ToggleMap"))
+        else if (Input.GetKey(InputManager.IM.togglemap))
         {
             mainUI.GetComponent<SetController>().SetCurrentSet(3);
             mainUI.SetActive(!mainUI.activeSelf);
         }
-        else if (Input.GetKeyDown(KeyCode.F))
+        else if (Input.GetKey(InputManager.IM.interact))
         {
             if (player.GetComponent<PlayerController>().CanOpenTeleporter)
                 teleportUI.SetActive(!teleportUI.activeSelf);
@@ -50,7 +50,7 @@ public class UIController : MonoBehaviour
                 jobChangerUI.SetActive(!jobChangerUI.activeSelf);
             }
         }
-        else if (Input.GetKeyDown(KeyCode.Escape))
+        else if (Input.GetKeyDown(KeyCode.Escape)) // manually use KeyCode.Escape, not a changeable binding
         {
             if (optionsMenu.activeSelf)
             {
@@ -60,7 +60,7 @@ public class UIController : MonoBehaviour
             }
             else if (controlsMenu.activeSelf)
             {
-                optionsMenu.SetActive(!controlsMenu.activeSelf); 
+                controlsMenu.SetActive(!controlsMenu.activeSelf); 
                 pauseUI.SetActive(true);
             }
             else
