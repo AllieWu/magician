@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Teleport : Spell
 {
-    public Teleport(float cd, float dm, float ct, bool ul, string ac, int id) : base(cd, dm, ct, ul, ac, id)
+    public Teleport(float cd, float dm, float ct, bool ul, string ac, string sn, int id) : base(cd, dm, ct, ul, ac, sn, id)
     {
     }
 

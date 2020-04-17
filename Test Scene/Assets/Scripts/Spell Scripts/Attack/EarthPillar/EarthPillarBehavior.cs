@@ -6,14 +6,14 @@ public class EarthPillarBehavior : MonoBehaviour
 {
     public float timeLimit, knockback;
     private float spawnTime;
-    private EarthPillarSpell ep;
+    private EarthPillar ep;
     private Vector2 dir;
     private ArrayList hit;
 
     private void Start()
     {
         spawnTime = Time.time;
-        ep = GameObject.Find("Player").GetComponent<EarthPillarSpell>();
+        ep = GameObject.Find("Player").GetComponent<EarthPillar>();
         hit = new ArrayList();
 
         // Change color

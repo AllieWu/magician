@@ -7,30 +7,31 @@ public class InputManager : MonoBehaviour
 
     //These can be accessed by any other script in our game
     // GENERAL
-    public KeyCode interact { get; set; }
+    public KeyCode Interact { get; set; }
     
     // MOVEMENT
-    public KeyCode up { get; set; } 
-    public KeyCode down { get; set; }
-    public KeyCode left { get; set; }
-    public KeyCode right { get; set; }
+    public KeyCode Up { get; set; } 
+    public KeyCode Down { get; set; }
+    public KeyCode Left { get; set; }
+    public KeyCode Right { get; set; }
 
     // SPELLS
-    public KeyCode spell1 { get; set; }
-    public KeyCode spell2 { get; set; }
-    public KeyCode spell3 { get; set; }
-    public KeyCode spell4 { get; set; }
+    public KeyCode Spell1 { get; set; }
+    public KeyCode Spell2 { get; set; }
+    public KeyCode Spell3 { get; set; }
+    public KeyCode Spell4 { get; set; }
+    public KeyCode Spell5 { get; set; }
 
     // 'CHEAT' CODES
-    public KeyCode adddefaultitem { get; set; }
-    public KeyCode adddefaultquest { get; set; }
+    public KeyCode Adddefaultitem { get; set; }
+    public KeyCode Adddefaultquest { get; set; }
 
     // MAIN UI
-    //public KeyCode toggleui { get; set; }  <--- should be same as spells, since it's the 'first' page
-    public KeyCode togglespells { get; set; }
-    public KeyCode toggleinventory { get; set; }
-    public KeyCode togglequests { get; set; }
-    public KeyCode togglemap { get; set; }
+    //public KeyCode Toggleui { get; set; }  <--- should be same as spells, since it's the 'first' page
+    public KeyCode Togglespells { get; set; }
+    public KeyCode Toggleinventory { get; set; }
+    public KeyCode Togglequests { get; set; }
+    public KeyCode Togglemap { get; set; }
 
 
     void Awake()
@@ -50,25 +51,26 @@ public class InputManager : MonoBehaviour
          * their bindings are loaded next time. Default values
          * are assigned to each Keycode via the second parameter
          * of the GetString() function*/
-        interact = (KeyCode)System.Enum.Parse(typeof(KeyCode), PlayerPrefs.GetString("interactKey", "F"));
+        Interact = (KeyCode)System.Enum.Parse(typeof(KeyCode), PlayerPrefs.GetString("interactKey", "F"));
 
-        up = (KeyCode)System.Enum.Parse(typeof(KeyCode), PlayerPrefs.GetString("upKey", "W"));
-        down = (KeyCode)System.Enum.Parse(typeof(KeyCode), PlayerPrefs.GetString("downKey", "S"));
-        left = (KeyCode)System.Enum.Parse(typeof(KeyCode), PlayerPrefs.GetString("leftKey", "A"));
-        right = (KeyCode)System.Enum.Parse(typeof(KeyCode), PlayerPrefs.GetString("rightKey", "D"));
+        Up = (KeyCode)System.Enum.Parse(typeof(KeyCode), PlayerPrefs.GetString("upKey", "W"));
+        Down = (KeyCode)System.Enum.Parse(typeof(KeyCode), PlayerPrefs.GetString("downKey", "S"));
+        Left = (KeyCode)System.Enum.Parse(typeof(KeyCode), PlayerPrefs.GetString("leftKey", "A"));
+        Right = (KeyCode)System.Enum.Parse(typeof(KeyCode), PlayerPrefs.GetString("rightKey", "D"));
 
-        spell1 = (KeyCode)System.Enum.Parse(typeof(KeyCode), PlayerPrefs.GetString("spell1Key", "alpha1"));
-        spell2 = (KeyCode)System.Enum.Parse(typeof(KeyCode), PlayerPrefs.GetString("spell2Key", "alpha2"));
-        spell3 = (KeyCode)System.Enum.Parse(typeof(KeyCode), PlayerPrefs.GetString("spell3Key", "alpha3"));
-        spell4 = (KeyCode)System.Enum.Parse(typeof(KeyCode), PlayerPrefs.GetString("spell4Key", "alpha4"));
+        Spell1 = (KeyCode)System.Enum.Parse(typeof(KeyCode), PlayerPrefs.GetString("spell1Key", "Alpha1"));
+        Spell2 = (KeyCode)System.Enum.Parse(typeof(KeyCode), PlayerPrefs.GetString("spell2Key", "Alpha2"));
+        Spell3 = (KeyCode)System.Enum.Parse(typeof(KeyCode), PlayerPrefs.GetString("spell3Key", "Alpha3"));
+        Spell4 = (KeyCode)System.Enum.Parse(typeof(KeyCode), PlayerPrefs.GetString("spell4Key", "Alpha4"));
+        Spell5 = (KeyCode)System.Enum.Parse(typeof(KeyCode), PlayerPrefs.GetString("spell5Key", "Alpha5"));
 
-        adddefaultitem = (KeyCode)System.Enum.Parse(typeof(KeyCode), PlayerPrefs.GetString("adddefaultitemKey", "equals"));
-        adddefaultquest = (KeyCode)System.Enum.Parse(typeof(KeyCode), PlayerPrefs.GetString("adddefaultquestKey", "minus"));
+        Adddefaultitem = (KeyCode)System.Enum.Parse(typeof(KeyCode), PlayerPrefs.GetString("adddefaultitemKey", "Equals"));
+        Adddefaultquest = (KeyCode)System.Enum.Parse(typeof(KeyCode), PlayerPrefs.GetString("adddefaultquestKey", "Minus"));
 
-        togglespells = (KeyCode)System.Enum.Parse(typeof(KeyCode), PlayerPrefs.GetString("togglespellsKey", "tab"));
-        toggleinventory = (KeyCode)System.Enum.Parse(typeof(KeyCode), PlayerPrefs.GetString("toggleinventoryKey", "I"));
-        togglequests = (KeyCode)System.Enum.Parse(typeof(KeyCode), PlayerPrefs.GetString("togglequestsKey", "Q"));
-        togglemap = (KeyCode)System.Enum.Parse(typeof(KeyCode), PlayerPrefs.GetString("togglemapKey", "M"));
+        Togglespells = (KeyCode)System.Enum.Parse(typeof(KeyCode), PlayerPrefs.GetString("togglespellsKey", "Tab"));
+        Toggleinventory = (KeyCode)System.Enum.Parse(typeof(KeyCode), PlayerPrefs.GetString("toggleinventoryKey", "I"));
+        Togglequests = (KeyCode)System.Enum.Parse(typeof(KeyCode), PlayerPrefs.GetString("togglequestsKey", "Q"));
+        Togglemap = (KeyCode)System.Enum.Parse(typeof(KeyCode), PlayerPrefs.GetString("togglemapKey", "M"));
 
 
     }

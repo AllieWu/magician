@@ -13170,6 +13170,7 @@ MonoBehaviour:
   castTime: 0.25
   spellID: 2
   availClass: 
+  spellName: 
   epPrefab: {fileID: 4340257587549872647, guid: 018b15023403e604da4a75a676ec5056,
     type: 3}
 --- !u!114 &965869148
@@ -13189,6 +13190,7 @@ MonoBehaviour:
   castTime: 0
   spellID: 1
   availClass: 
+  spellName: 
   tPrefab: {fileID: 1112683158546750419, guid: 2f9829b02c97bc6439690c8813f17544, type: 3}
 --- !u!114 &965869149
 MonoBehaviour:
@@ -13207,6 +13209,7 @@ MonoBehaviour:
   castTime: 0
   spellID: 0
   availClass: 
+  spellName: 
   fbPrefab: {fileID: 366086071689048744, guid: d913560cdfa43404aacc97e67f2afd53, type: 3}
 --- !u!114 &965869150
 MonoBehaviour:
@@ -13238,6 +13241,7 @@ MonoBehaviour:
   castTime: 0
   spellID: 3
   availClass: 
+  spellName: 
 --- !u!1 &987235814
 GameObject:
   m_ObjectHideFlags: 0
@@ -18223,6 +18227,7 @@ GameObject:
   - component: {fileID: 1521277082}
   - component: {fileID: 1521277081}
   - component: {fileID: 1521277090}
+  - component: {fileID: 1521277091}
   - component: {fileID: 1521277089}
   - component: {fileID: 1521277084}
   m_Layer: 9
@@ -18263,6 +18268,7 @@ MonoBehaviour:
   castTime: 0.25
   spellID: 2
   availClass: 
+  spellName: 
   epPrefab: {fileID: 4340257587549872647, guid: 018b15023403e604da4a75a676ec5056,
     type: 3}
 --- !u!114 &1521277082
@@ -18282,6 +18288,7 @@ MonoBehaviour:
   castTime: 0
   spellID: 1
   availClass: 
+  spellName: 
   tPrefab: {fileID: 1112683158546750419, guid: 2f9829b02c97bc6439690c8813f17544, type: 3}
 --- !u!114 &1521277083
 MonoBehaviour:
@@ -18300,6 +18307,7 @@ MonoBehaviour:
   castTime: 0
   spellID: 0
   availClass: 
+  spellName: 
   fbPrefab: {fileID: 2765052099311668748, guid: 68964bc9de5351642bf799a8e9e6656a,
     type: 3}
 --- !u!114 &1521277084
@@ -18315,6 +18323,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cooldown: 0.25
+  hand: []
   projectile: {fileID: 2765052099311668748, guid: 3fb75894de687c84fa3dd41af4388d4c,
     type: 3}
   lookDirection: {x: 0, y: 0, z: 0}
@@ -18443,8 +18452,9 @@ MonoBehaviour:
   damage: 0
   cooldown: 0
   castTime: 0
-  spellID: 0
+  spellID: 100
   availClass: 
+  spellName: 
 --- !u!114 &1521277090
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18462,8 +18472,28 @@ MonoBehaviour:
   castTime: 0
   spellID: 3
   availClass: 
+  spellName: 
   faPrefab: {fileID: 3160342145044249846, guid: ae0f5225e7ba3b3439843822feb93b5e,
     type: 3}
+--- !u!114 &1521277091
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1521277079}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c178ad7865bd078459c9b9c3b19e5572, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 7
+  cooldown: 0.75
+  castTime: 0
+  spellID: 4
+  availClass: 
+  spellName: 
+  knockback: 25
 --- !u!1 &1534724772
 GameObject:
   m_ObjectHideFlags: 0

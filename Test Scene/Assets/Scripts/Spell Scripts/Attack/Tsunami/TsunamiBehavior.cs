@@ -8,12 +8,12 @@ public class TsunamiBehavior : MonoBehaviour
     private float spawnTime;
     private Vector2 direction;
     private Rigidbody2D rb2d;
-    private TsunamiSpell t;
+    private Tsunami t;
     private ArrayList hit;
 
     private void Start()
     {
-        t = GameObject.Find("Player").GetComponent<TsunamiSpell>();
+        t = GameObject.Find("Player").GetComponent<Tsunami>();
         rb2d = GetComponent<Rigidbody2D>();
         direction = GameObject.Find("Player").GetComponent<PlayerController>().lookDirection;
         spawnTime = Time.time;

@@ -20,27 +20,27 @@ public class UIController : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(InputManager.IM.togglespells) && !controlsMenu.activeSelf)
+        if (Input.GetKeyDown(InputManager.IM.Togglespells) && !controlsMenu.activeSelf)
         {
             mainUI.GetComponent<SetController>().SetCurrentSet(0);
             mainUI.SetActive(!mainUI.activeSelf);
         }
-        else if (Input.GetKeyDown(InputManager.IM.toggleinventory) && !controlsMenu.activeSelf)
+        else if (Input.GetKeyDown(InputManager.IM.Toggleinventory) && !controlsMenu.activeSelf)
         { 
             mainUI.GetComponent<SetController>().SetCurrentSet(1);
             mainUI.SetActive(!mainUI.activeSelf);
         }
-        else if (Input.GetKeyDown(InputManager.IM.togglequests) && !controlsMenu.activeSelf)
+        else if (Input.GetKeyDown(InputManager.IM.Togglequests) && !controlsMenu.activeSelf)
         {
             mainUI.GetComponent<SetController>().SetCurrentSet(2);
             mainUI.SetActive(!mainUI.activeSelf);
         }
-        else if (Input.GetKeyDown(InputManager.IM.togglemap) && !controlsMenu.activeSelf)
+        else if (Input.GetKeyDown(InputManager.IM.Togglemap) && !controlsMenu.activeSelf)
         {
             mainUI.GetComponent<SetController>().SetCurrentSet(3);
             mainUI.SetActive(!mainUI.activeSelf);
         }
-        else if (Input.GetKeyDown(InputManager.IM.interact))
+        else if (Input.GetKeyDown(InputManager.IM.Interact))
         {
             if (player.GetComponent<PlayerController>().CanOpenTeleporter)
                 teleportUI.SetActive(!teleportUI.activeSelf);

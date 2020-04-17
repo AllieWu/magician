@@ -13,25 +13,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2020-04-14T18:11:17.858-04:00
-  initializedAtString: 2020-04-14T18:11:17.844-04:00
+  lastUpdatedAtString: 2020-04-17T16:15:08.534-04:00
+  initializedAtString: 2020-04-17T16:15:08.518-04:00
   localBranches:
-  - name: AllieMaster
-    tracking: origin/AllieMaster
-  - name: Development
-    tracking: origin/Development
   - name: master
     tracking: origin/master
-  - name: RobbyMaster
-    tracking: origin/RobbyMaster
   remoteBranches:
-  - name: origin/AllieMaster
-    tracking: '[None]'
   - name: origin/HEAD
     tracking: '[None]'
   - name: origin/master
-    tracking: '[None]'
-  - name: origin/RobbyMaster
     tracking: '[None]'
   remotes:
   - name: origin
@@ -43,58 +33,28 @@ MonoBehaviour:
     token: 
   localConfigBranches:
     keys:
-    - AllieMaster
-    - Development
     - master
-    - RobbyMaster
     values:
-    - name: AllieMaster
-      remote:
-        name: origin
-        url: https://github.com/AllieWu/magician.git
-      trackingBranch: AllieMaster
-    - name: Development
-      remote:
-        name: origin
-        url: https://github.com/AllieWu/magician.git
-      trackingBranch: Development
     - name: master
       remote:
         name: origin
         url: https://github.com/AllieWu/magician.git
       trackingBranch: master
-    - name: RobbyMaster
-      remote:
-        name: origin
-        url: https://github.com/AllieWu/magician.git
-      trackingBranch: RobbyMaster
   remoteConfigBranches:
     keys:
     - origin
     subKeys:
     - Values:
-      - AllieMaster
       - HEAD
       - master
-      - RobbyMaster
     subKeyValues:
     - Values:
-      - name: AllieMaster
-        remote:
-          name: origin
-          url: https://github.com/AllieWu/magician.git
-        trackingBranch: 
       - name: HEAD
         remote:
           name: origin
           url: https://github.com/AllieWu/magician.git
         trackingBranch: 
       - name: master
-        remote:
-          name: origin
-          url: https://github.com/AllieWu/magician.git
-        trackingBranch: 
-      - name: RobbyMaster
         remote:
           name: origin
           url: https://github.com/AllieWu/magician.git

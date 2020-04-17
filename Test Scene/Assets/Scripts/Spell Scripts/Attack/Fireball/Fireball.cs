@@ -2,21 +2,22 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class FireArrowSpell : Spell
+public class Fireball : Spell
 {
     private Vector3 look;
-    public GameObject faPrefab;
+    public GameObject fbPrefab;
     private Quaternion rotation;
 
-    public FireArrowSpell(float cd, float dm, float ct, bool ul, string ac, int id) : base(cd, dm, ct, ul, ac, id)
+    public Fireball(float cd, float dm, float ct, bool ul, string ac, string sn, int id) : base(cd, dm, ct, ul, ac, sn, id)
     {
-        //
+        //fbPrefab = GameObject.Find("Fireball");
+        
     }
 
     public override void Cast()
     {
         look = GetComponent<PlayerController>().lookDirection.normalized;
         rotation = Quaternion.LookRotation(Vector3.forward, look);
-        Instantiate(faPrefab, gameObject.transform.position + look, rotation);
+        Instantiate(fbPrefab, gameObject.transform.position + look, rotation);
     }
 }

@@ -6,7 +6,7 @@ public class FireballSpellInfo : SpellInfo
 {
     private void Awake()
     {
-        spell = GameObject.Find("SpellManager").GetComponent<FireballSpell>();
+        spell = GameObject.Find("SpellManager").GetComponent<Fireball>();
         spellName = "Fireball";
         unlocked = true;
         materialsNeeded = new int[][,]

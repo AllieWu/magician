@@ -7,11 +7,11 @@ public class FireballBehavior : MonoBehaviour
     public float splashDamage, speed, splashRadius;
     private Vector2 direction;
     private Rigidbody2D rb2d;
-    private FireballSpell fb;
+    private Fireball fb;
 
     private void Start()
     {
-        fb = GameObject.Find("Player").GetComponent<FireballSpell>();
+        fb = GameObject.Find("Player").GetComponent<Fireball>();
         rb2d = GetComponent<Rigidbody2D>();
         direction = GameObject.Find("Player").GetComponent<PlayerController>().lookDirection;
 

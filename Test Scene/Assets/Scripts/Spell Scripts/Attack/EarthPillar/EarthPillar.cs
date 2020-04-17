@@ -2,14 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EarthPillarSpell : Spell
+public class EarthPillar : Spell
 {
     private Vector3 point, look;
     public GameObject epPrefab;
     private Quaternion rotation;
     private Camera cam;
 
-    public EarthPillarSpell(float cd, float dm, float ct, bool ul, string ac, int id) : base(cd, dm, ct, ul, ac, id)
+    public EarthPillar(float cd, float dm, float ct, bool ul, string ac, string sn, int id) : base(cd, dm, ct, ul, ac, sn, id)
     {
         //
     }

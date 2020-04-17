@@ -7,11 +7,11 @@ public class FireArrowBehavior : MonoBehaviour
     public float DOT, speed;
     private Vector2 direction;
     private Rigidbody2D rb2d;
-    private FireArrowSpell fa;
+    private FireArrow fa;
 
     private void Start()
     {
-        fa = GameObject.Find("Player").GetComponent<FireArrowSpell>();
+        fa = GameObject.Find("Player").GetComponent<FireArrow>();
         rb2d = GetComponent<Rigidbody2D>();
         direction = GameObject.Find("Player").GetComponent<PlayerController>().lookDirection;
 
@@ -37,13 +37,8 @@ public class FireArrowBehavior : MonoBehaviour
         else if (col.gameObject.tag == "Enemy")
         {
             col.gameObject.GetComponent<Unit>().DealDamage(fa.damage);
-            DoDOT(DOT, col.rigidbody);
+            col.gameObject.GetComponent<Unit>().StartDOT(5, DOT);
             Destroy(this.gameObject);
         }
-    }
-
-    private void DoDOT(float damageOverTime, Rigidbody2D body)
-    {
-        
     }
 }

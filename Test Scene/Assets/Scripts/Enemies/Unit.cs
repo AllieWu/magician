@@ -214,6 +214,24 @@ public class Unit : EnemyGeneral
             }
         }
     }
+
+    public void StartDOT(int damageTimes, float damageAmount)
+    {
+        StartCoroutine(DoDOT(damageTimes, damageAmount));
+    }
+
+    public IEnumerator DoDOT(int damageTimes, float damageAmount)
+    {
+        int damageCount = 0;
+        while (damageCount < damageTimes)
+        {
+            DealDamage(damageAmount);
+            //Debug.Log("Burning...");
+            yield return new WaitForSeconds(1);
+            damageCount++;
+        }
+        //Debug.Log("Done Burning");
+    }
 }
 
 public class CustomSecondTrigger : MonoBehaviour

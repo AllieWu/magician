@@ -8,7 +8,8 @@ public class PlayerController : MonoBehaviour
 {
     [Header("Combat Settings")]
     public float cooldown;
-    private float nextDefaultTime, nextFireballTime, nextTsunamiTime, nextEarthPillarTime, nextFireArrowTime;
+    private float nextSlot0Time, nextSlot1Time, nextSlot2Time, nextSlot3Time, nextSlot4Time;
+    public Spell[] hand;
     private Transform location;
     private Quaternion projRotation;
     public GameObject projectile;
@@ -66,7 +67,7 @@ public class PlayerController : MonoBehaviour
         //xpBar.value = (currentXP - previousLevelXP) / (nextLevelXP - previousLevelXP);
 
         location = GetComponent<Transform>();
-        nextDefaultTime = nextFireballTime = nextTsunamiTime = nextEarthPillarTime = nextFireArrowTime = Time.time;
+        nextSlot0Time = nextSlot1Time = nextSlot2Time = nextSlot3Time = nextSlot4Time = Time.time;
         cam = Camera.main;
 
         //Setting up XP Bar
@@ -83,6 +84,14 @@ public class PlayerController : MonoBehaviour
         //Setting up health
         currentHealth = maxHealth;
         healthBar.value = CalculateHealth();
+
+        //Setting up combat and spells
+        hand = new Spell[5];
+        ChangeSlot(0, "Fireball"); //default spells in the hand for now
+        ChangeSlot(1, "Tsunami"); 
+        ChangeSlot(2, "Teleport"); 
+        ChangeSlot(3, "KnockbackPunch");
+        ChangeSlot(4, "FireArrow");
     }
 
     private void Update()
@@ -93,21 +102,23 @@ public class PlayerController : MonoBehaviour
 
         // LOOK FOR ANY KEY PRESSES
         // SPELLS
-        if (Input.GetKeyDown(InputManager.IM.spell1))
-            castSpell(0);
-        else if (Input.GetKeyDown(InputManager.IM.spell2))
-            castSpell(1);
-        else if (Input.GetKeyDown(InputManager.IM.spell3))
-            castSpell(2);
-        else if (Input.GetKeyDown(InputManager.IM.spell4))
-            castSpell(3);
+        if (Input.GetKeyDown(InputManager.IM.Spell1))
+            CastSpell(0);
+        else if (Input.GetKeyDown(InputManager.IM.Spell2))
+            CastSpell(1);
+        else if (Input.GetKeyDown(InputManager.IM.Spell3))
+            CastSpell(2);
+        else if (Input.GetKeyDown(InputManager.IM.Spell4))
+            CastSpell(3);
+        else if (Input.GetKeyDown(InputManager.IM.Spell5))
+            CastSpell(4);
         else if (Input.GetKeyDown(KeyCode.Space)) // Teleportation!
             gameObject.GetComponent<Teleport>().Cast();
 
         // 'CHEAT' CODES - ADDING INVENTORY ITEMS & QUESTS 
-        else if (Input.GetKey(InputManager.IM.adddefaultitem))
+        else if (Input.GetKey(InputManager.IM.Adddefaultitem))
             Inventory.instance.Add(ScriptableObject.CreateInstance<Item>());
-        else if (Input.GetKey(InputManager.IM.adddefaultquest))
+        else if (Input.GetKey(InputManager.IM.Adddefaultquest))
             Quests.instance.Add(ScriptableObject.CreateInstance<Quest>());
     }
 
@@ -233,68 +244,52 @@ public class PlayerController : MonoBehaviour
 
 
     /* SPELL CASTING FUNCTIONS */
-    public void castSpell(int n)
+    public void CastSpell(int n)
     {
-        Debug.Log(n.ToString());
-        Debug.Log((spellids.Count - 1).ToString());
-        if (n <= spellids.Count-1)
+        if (n == 0)
         {
-            Debug.Log("castSpell(" + n.ToString() + ") called... spellids[n] is " + spellids[n].ToString());
-            if (spellids[n] == 0) // fireball
-                castFireball();
-            else if (spellids[n] == 1) // tsunami
-                castTsunami();
-            else if (spellids[n] == 2) // earth pillar
-                castEarthPillar();
-            else // there's something wrong with the setup just cast default lol
-                castDefault();
+            if (Time.time > nextSlot0Time)
+            {
+                hand[n].Cast();
+                nextSlot0Time = Time.time + hand[n].cooldown;
+            }
         }
-        else // there's something wrong with the setup just cast default lol
-            castDefault();
-    }
-
-    void castDefault()
-    {
-        if (Time.time > nextDefaultTime)
+        else if (n == 1)
         {
-            Instantiate(projectile, location.position + new Vector3(lookDirection.normalized.x, lookDirection.normalized.y, 0), projRotation);
-            nextDefaultTime = Time.time + cooldown;
-        }       
-    }
-
-    void castFireball()
-    {
-        if (Time.time > nextFireballTime)
-        {
-            gameObject.GetComponent<FireballSpell>().Cast();
-            nextFireballTime = Time.time + gameObject.GetComponent<FireballSpell>().cooldown;
+            if (Time.time > nextSlot1Time)
+            {
+                hand[n].Cast();
+                nextSlot1Time = Time.time + hand[n].cooldown;
+            }
         }
-    }
-
-    void castTsunami()
-    {
-        if (Time.time > nextTsunamiTime)
+        else if (n == 2)
         {
-            gameObject.GetComponent<TsunamiSpell>().Cast();
-            nextTsunamiTime = Time.time + gameObject.GetComponent<TsunamiSpell>().cooldown;
+            if (Time.time > nextSlot2Time)
+            {
+                hand[n].Cast();
+                nextSlot2Time = Time.time + hand[n].cooldown;
+            }
+        }
+        else if (n == 3)
+        {
+            if (Time.time > nextSlot3Time)
+            {
+                hand[n].Cast();
+                nextSlot3Time = Time.time + hand[n].cooldown;
+            }
+        }
+        else if (n == 4)
+        {
+            if (Time.time > nextSlot4Time)
+            {
+                hand[n].Cast();
+                nextSlot4Time = Time.time + hand[n].cooldown;
+            }
         }
     }
 
-    void castEarthPillar()
+    public void ChangeSlot(int indexToChange, string newSpell)
     {
-        if (Time.time > nextEarthPillarTime)
-        {
-            gameObject.GetComponent<EarthPillarSpell>().Cast();
-            nextEarthPillarTime = Time.time + gameObject.GetComponent<EarthPillarSpell>().cooldown;
-        }
-    }
-
-    void castFireArrow()
-    {
-        if (Time.time > nextFireArrowTime)
-        {
-            gameObject.GetComponent<FireArrowSpell>().Cast();
-            nextFireArrowTime = Time.time + gameObject.GetComponent<FireArrowSpell>().cooldown;
-        }
+        hand[indexToChange] = (Spell)gameObject.GetComponent(newSpell);
     }
 }
