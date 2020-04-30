@@ -48,8 +48,6 @@ public class PlayerController : MonoBehaviour
 
     private void Start()
     {
-        List<string> defaultSpellControl = new List<string> { "MB1", "MB2", "MB3" }; // we're going to pair as many spells to controls as we can
-
         jobs = new List<BaseJob>();
         // start off as a wizard monk 
         jobs.Add(new Wizard());
@@ -63,7 +61,6 @@ public class PlayerController : MonoBehaviour
         spellids.ForEach(id => Debug.Log(id.ToString() + ", "));
 
         //initialize savescript variables
-
         //xpBar.value = (currentXP - previousLevelXP) / (nextLevelXP - previousLevelXP);
 
         location = GetComponent<Transform>();

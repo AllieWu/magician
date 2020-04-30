@@ -1,0 +1,8 @@
+Stuff to do:
+
+1. Make it so you can't open inventory/quest/map/spells when in escape/pause screen
+2. Start game from main screen, properly load/save and create new profiles]
+3. Find a way to package scene contents (gui/ui/player) when transferring to different scenes
+4. Automatically fill up avaialble spells based on current class(es)
+5. Properly scale game based on resolution
+6. On play, the game starts paused for some reason?

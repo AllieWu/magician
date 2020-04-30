@@ -12,39 +12,45 @@ public class ControlsMenu : MonoBehaviour
 
     void Start()
     {
-        menuPanel = transform.Find("Panel");
+        menuPanel = transform.Find("Columns");
         waitingForKey = false;
 
-        /*iterate through child of the panel and check names */
-        for (int i = 0; i < menuPanel.childCount; i++)
+        // iterate through all children and set correct text for each input key
+        for (int j = 0; j < menuPanel.childCount; j++)
         {
-            if (menuPanel.GetChild(i).name == "Spell1Key")
-                menuPanel.GetChild(i).GetComponentInChildren<Text>().text = InputManager.IM.Spell1.ToString();
-            else if (menuPanel.GetChild(i).name == "Spell2Key")
-                menuPanel.GetChild(i).GetComponentInChildren<Text>().text = InputManager.IM.Spell2.ToString();
-            else if (menuPanel.GetChild(i).name == "Spell3Key")
-                menuPanel.GetChild(i).GetComponentInChildren<Text>().text = InputManager.IM.Spell3.ToString();
-            else if (menuPanel.GetChild(i).name == "Spell4Key")
-                menuPanel.GetChild(i).GetComponentInChildren<Text>().text = InputManager.IM.Spell4.ToString();
-            else if (menuPanel.GetChild(i).name == "Spell5Key")
-                menuPanel.GetChild(i).GetComponentInChildren<Text>().text = InputManager.IM.Spell5.ToString();
+            for (int i = 0; i < menuPanel.GetChild(j).childCount; i++) // for each set of columns in columns
+            {
+                for (int k = 0; k < menuPanel.GetChild(j).GetChild(i).childCount; k++) // for each input in each column in columns
+                {
+                    Transform temp = menuPanel.GetChild(j).GetChild(i).GetChild(k);
 
-            else if (menuPanel.GetChild(i).name == "ToggleSpellsKey")
-                menuPanel.GetChild(i).GetComponentInChildren<Text>().text = InputManager.IM.Togglespells.ToString();
-            else if (menuPanel.GetChild(i).name == "ToggleInventoryKey")
-                menuPanel.GetChild(i).GetComponentInChildren<Text>().text = InputManager.IM.Toggleinventory.ToString();
-            else if (menuPanel.GetChild(i).name == "ToggleQuestsKey")
-                menuPanel.GetChild(i).GetComponentInChildren<Text>().text = InputManager.IM.Togglequests.ToString();
-            else if (menuPanel.GetChild(i).name == "ToggleMapKey")
-                menuPanel.GetChild(i).GetComponentInChildren<Text>().text = InputManager.IM.Togglemap.ToString();
-
-            else if (menuPanel.GetChild(i).name == "InteractKey")
-                menuPanel.GetChild(i).GetComponentInChildren<Text>().text = InputManager.IM.Interact.ToString();
-            else if (menuPanel.GetChild(i).name == "AddDefaultItemKey")
-                menuPanel.GetChild(i).GetComponentInChildren<Text>().text = InputManager.IM.Adddefaultitem.ToString();
-            else if (menuPanel.GetChild(i).name == "AddDefaultQuestKey")
-                menuPanel.GetChild(i).GetComponentInChildren<Text>().text = InputManager.IM.Adddefaultquest.ToString();
-        }
+                    if (temp.name == "InteractKey")
+                        temp.GetComponentInChildren<Text>().text = InputManager.IM.Interact.ToString();   
+                    else if (temp.name == "AddDefaultItemKey")
+                        temp.GetComponentInChildren<Text>().text = InputManager.IM.Adddefaultitem.ToString();
+                    else if (temp.name == "AddDefaultQuestKey")
+                        temp.GetComponentInChildren<Text>().text = InputManager.IM.Adddefaultquest.ToString();
+                    else if (temp.name == "Spell1Key")
+                        temp.GetComponentInChildren<Text>().text = InputManager.IM.Spell1.ToString();
+                    else if (temp.name == "Spell2Key")
+                        temp.GetComponentInChildren<Text>().text = InputManager.IM.Spell2.ToString();
+                    else if (temp.name == "Spell3Key")
+                        temp.GetComponentInChildren<Text>().text = InputManager.IM.Spell3.ToString();
+                    else if (temp.name == "Spell4Key")
+                        temp.GetComponentInChildren<Text>().text = InputManager.IM.Spell4.ToString();
+                    else if (temp.name == "Spell5Key")
+                        temp.GetComponentInChildren<Text>().text = InputManager.IM.Spell5.ToString();
+                    else if (temp.name == "ToggleSpellsKey")
+                        temp.GetComponentInChildren<Text>().text = InputManager.IM.Togglespells.ToString();
+                    else if (temp.name == "ToggleInventoryKey")
+                        temp.GetComponentInChildren<Text>().text = InputManager.IM.Toggleinventory.ToString();
+                    else if (temp.name == "ToggleQuestsKey")
+                        temp.GetComponentInChildren<Text>().text = InputManager.IM.Togglequests.ToString();
+                    else if (temp.name == "ToggleMapKey")
+                        temp.GetComponentInChildren<Text>().text = InputManager.IM.Togglemap.ToString();  
+                } // end k forloop
+            } // end i forloop
+        } // end j forloop
 
     }
 

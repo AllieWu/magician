@@ -9,7 +9,7 @@ public class InputManager : MonoBehaviour
     // GENERAL
     public KeyCode Interact { get; set; }
     
-    // MOVEMENT
+    // MOVEMENT - so far the player can't change the movement buttons, but it's set up in case we want to let them change it
     public KeyCode Up { get; set; } 
     public KeyCode Down { get; set; }
     public KeyCode Left { get; set; }
@@ -48,9 +48,9 @@ public class InputManager : MonoBehaviour
         }
         /*Assign each keycode when the game starts.
          * Loads data from PlayerPrefs so if a user quits the game,
-         * their bindings are loaded next time. Default values
-         * are assigned to each Keycode via the second parameter
-         * of the GetString() function*/
+         * their bindings are loaded next time. 
+         * Default values are assigned to each Keycode via the 
+         * second parameter of the GetString() function*/
         Interact = (KeyCode)System.Enum.Parse(typeof(KeyCode), PlayerPrefs.GetString("interactKey", "F"));
 
         Up = (KeyCode)System.Enum.Parse(typeof(KeyCode), PlayerPrefs.GetString("upKey", "W"));
@@ -71,7 +71,5 @@ public class InputManager : MonoBehaviour
         Toggleinventory = (KeyCode)System.Enum.Parse(typeof(KeyCode), PlayerPrefs.GetString("toggleinventoryKey", "I"));
         Togglequests = (KeyCode)System.Enum.Parse(typeof(KeyCode), PlayerPrefs.GetString("togglequestsKey", "Q"));
         Togglemap = (KeyCode)System.Enum.Parse(typeof(KeyCode), PlayerPrefs.GetString("togglemapKey", "M"));
-
-
     }
 }
