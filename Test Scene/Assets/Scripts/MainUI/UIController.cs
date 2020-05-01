@@ -13,38 +13,42 @@ public class UIController : MonoBehaviour
     public GameObject teleportUI = null;
     public GameObject optionsMenu = null;
     public GameObject controlsMenu = null;
+    public GameObject[] menus = new GameObject[6];
 
     private void Start()
     {
+        // don't include pause, controls, or options bc it can be active simultaneously w/ in game UIS
+        // (jobchanger XOR mainUI XOR teleporter) AND/OR (pause XOR controls XOR options)
+        menus = new GameObject[]{ jobChangerUI, mainUI, teleportUI }; 
     }
 
-    private void Update()
+    private void Update() // check if we should open any in-game or pause UIs
     {
-        if (Input.GetKeyDown(InputManager.IM.Togglespells) && !controlsMenu.activeSelf)
+        if (Input.GetKeyDown(InputManager.IM.Togglespells) && !CheckMenusOpen("BookUI"))
         {
             mainUI.GetComponent<SetController>().SetCurrentSet(0);
             mainUI.SetActive(!mainUI.activeSelf);
         }
-        else if (Input.GetKeyDown(InputManager.IM.Toggleinventory) && !controlsMenu.activeSelf)
+        else if (Input.GetKeyDown(InputManager.IM.Toggleinventory) && !CheckMenusOpen("BookUI"))
         { 
             mainUI.GetComponent<SetController>().SetCurrentSet(1);
             mainUI.SetActive(!mainUI.activeSelf);
         }
-        else if (Input.GetKeyDown(InputManager.IM.Togglequests) && !controlsMenu.activeSelf)
+        else if (Input.GetKeyDown(InputManager.IM.Togglequests) && !CheckMenusOpen("BookUI"))
         {
             mainUI.GetComponent<SetController>().SetCurrentSet(2);
             mainUI.SetActive(!mainUI.activeSelf);
         }
-        else if (Input.GetKeyDown(InputManager.IM.Togglemap) && !controlsMenu.activeSelf)
+        else if (Input.GetKeyDown(InputManager.IM.Togglemap) && !CheckMenusOpen("BookUI"))
         {
             mainUI.GetComponent<SetController>().SetCurrentSet(3);
             mainUI.SetActive(!mainUI.activeSelf);
         }
         else if (Input.GetKeyDown(InputManager.IM.Interact))
         {
-            if (player.GetComponent<PlayerController>().CanOpenTeleporter)
+            if (player.GetComponent<PlayerController>().CanOpenTeleporter && !CheckMenusOpen("TeleporterUI"))
                 teleportUI.SetActive(!teleportUI.activeSelf);
-            else if (player.GetComponent<PlayerController>().CanOpenJobChanger)
+            else if (player.GetComponent<PlayerController>().CanOpenJobChanger && !CheckMenusOpen("JobChangerUI"))
             {
                 jobChangerUI.GetComponent<JobChange>().UpdateText();
                 jobChangerUI.SetActive(!jobChangerUI.activeSelf);
@@ -56,15 +60,22 @@ public class UIController : MonoBehaviour
             {
                 optionsMenu.SetActive(!optionsMenu.activeSelf);
                 pauseUI.SetActive(true);
-
             }
             else if (controlsMenu.activeSelf)
             {
                 controlsMenu.SetActive(!controlsMenu.activeSelf); 
                 pauseUI.SetActive(true);
             }
-            else
+            else if (pauseUI.activeSelf)
                 pauseUI.SetActive(!pauseUI.activeSelf);
+            // account for exiting in-game menus
+            else if (teleportUI.activeSelf) 
+                teleportUI.SetActive(!teleportUI.activeSelf);
+            else if (jobChangerUI.activeSelf)
+                jobChangerUI.SetActive(!jobChangerUI.activeSelf);
+            else if (mainUI.activeSelf)
+                mainUI.SetActive(!mainUI.activeSelf);
+
         }
 
         // if a UI is open and the game isn't paused, pause
@@ -73,6 +84,16 @@ public class UIController : MonoBehaviour
         // if no UIs are open and the game is paused, resume
         else if (!pauseUI.activeSelf && !mainUI.activeSelf && !teleportUI.activeSelf && !optionsMenu.activeSelf && !controlsMenu.activeSelf && GameIsPaused)
             Resume();
+    }
+
+    private bool CheckMenusOpen(string ignoreUIName) // returns true if an in-game menu is open, else false
+    {
+        foreach (GameObject menu in menus)
+        {
+            if (menu.activeSelf && menu.name != ignoreUIName) // we ignore the input menu because we want to close it if it's open
+                return true;
+        }
+        return false;
     }
 
     public void Resume()

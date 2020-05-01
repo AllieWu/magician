@@ -41,28 +41,17 @@ public class PlayerController : MonoBehaviour
 
     [Header("Job Info")]
     public List<BaseJob> jobs;
-    public List<int> spellids;
+    public List<string> spells;
 
     // playerLevel to be read from SaveScript
     // currentHealth to be read from SaveScript
 
     private void Start()
-    {
-        jobs = new List<BaseJob>();
-        // start off as a wizard monk 
-        jobs.Add(new Wizard());
-        jobs.Add(new Monk());
-
-        foreach (BaseJob job in jobs)
-        {
-            job.initialize(); // initialize job class's spells and name
-            spellids.AddRange(job.spellids); // update player's available spells
-        }
-        spellids.ForEach(id => Debug.Log(id.ToString() + ", "));
-
+    { 
         //initialize savescript variables
         //xpBar.value = (currentXP - previousLevelXP) / (nextLevelXP - previousLevelXP);
 
+        Time.timeScale = 1f; // game starts not paused
         location = GetComponent<Transform>();
         nextSlot0Time = nextSlot1Time = nextSlot2Time = nextSlot3Time = nextSlot4Time = Time.time;
         cam = Camera.main;
@@ -82,13 +71,20 @@ public class PlayerController : MonoBehaviour
         currentHealth = maxHealth;
         healthBar.value = CalculateHealth();
 
+        // Setting up jobs, start off as wizard/monk
+        jobs = new List<BaseJob>();
+        jobs.Add(new Wizard());
+        jobs.Add(new Monk());
+        
+        foreach (BaseJob job in jobs) // initialize job class's spells and name, updating player's spell
+        {
+            job.initialize(); 
+            spells.AddRange(job.spellnames); 
+        }
+        spells.ForEach(s => Debug.Log(s + ", "));
+
         //Setting up combat and spells
-        hand = new Spell[5];
-        ChangeSlot(0, "Fireball"); //default spells in the hand for now
-        ChangeSlot(1, "Tsunami"); 
-        ChangeSlot(2, "Teleport"); 
-        ChangeSlot(3, "KnockbackPunch");
-        ChangeSlot(4, "FireArrow");
+        UpdateHand();
     }
 
     private void Update()
@@ -97,7 +93,7 @@ public class PlayerController : MonoBehaviour
         lookDirection = point - location.position;
         projRotation = Quaternion.LookRotation(Vector3.forward, lookDirection);
 
-        // LOOK FOR ANY KEY PRESSES
+        /* LOOK FOR ANY KEY PRESSES */
         // SPELLS
         if (Input.GetKeyDown(InputManager.IM.Spell1))
             CastSpell(0);
@@ -107,10 +103,8 @@ public class PlayerController : MonoBehaviour
             CastSpell(2);
         else if (Input.GetKeyDown(InputManager.IM.Spell4))
             CastSpell(3);
-        else if (Input.GetKeyDown(InputManager.IM.Spell5))
+        else if (Input.GetKeyDown(InputManager.IM.Spell5)) // have not yet added the abiltiy to cast spell5
             CastSpell(4);
-        else if (Input.GetKeyDown(KeyCode.Space)) // Teleportation!
-            gameObject.GetComponent<Teleport>().Cast();
 
         // 'CHEAT' CODES - ADDING INVENTORY ITEMS & QUESTS 
         else if (Input.GetKey(InputManager.IM.Adddefaultitem))
@@ -129,7 +123,6 @@ public class PlayerController : MonoBehaviour
 
             body.AddForce(movement.normalized * speed * Time.deltaTime);
         }
-
     }
 
     private float CalculateHealth()
@@ -222,7 +215,6 @@ public class PlayerController : MonoBehaviour
         };
 
         SaveData.Save<Save>(mySave, "save1");
-
     }
 
     public void LoadPlayerData()
@@ -239,10 +231,11 @@ public class PlayerController : MonoBehaviour
         Inventory.instance.UpdateKeys();
     }
 
-
     /* SPELL CASTING FUNCTIONS */
     public void CastSpell(int n)
     {
+        if (!hand[n]) // if the hand's slot is empty, just return
+            return;
         if (n == 0)
         {
             if (Time.time > nextSlot0Time)
@@ -282,6 +275,17 @@ public class PlayerController : MonoBehaviour
                 hand[n].Cast();
                 nextSlot4Time = Time.time + hand[n].cooldown;
             }
+        }
+    }
+
+    public void UpdateHand()
+    {
+        hand = new Spell[5];
+        int idx = 0;
+        foreach (string spell in spells)
+        {
+            ChangeSlot(idx, spell);
+            idx++;
         }
     }
 

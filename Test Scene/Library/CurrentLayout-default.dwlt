@@ -112,10 +112,10 @@ MonoBehaviour:
     y: 30
     width: 1280
     height: 588
-  m_MinSize: {x: 679, y: 344}
-  m_MaxSize: {x: 12004, y: 8044}
+  m_MinSize: {x: 681, y: 344}
+  m_MaxSize: {x: 12006, y: 8044}
   vertical: 0
-  controlID: 97
+  controlID: 114
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -135,8 +135,8 @@ MonoBehaviour:
     y: 0
     width: 268
     height: 588
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 222}
+  m_MaxSize: {x: 4002, y: 4022}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -166,7 +166,7 @@ MonoBehaviour:
   m_MinSize: {x: 204, y: 344}
   m_MaxSize: {x: 4004, y: 8044}
   vertical: 1
-  controlID: 98
+  controlID: 78
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -215,8 +215,8 @@ MonoBehaviour:
     y: 315
     width: 644
     height: 273
-  m_MinSize: {x: 104, y: 122}
-  m_MaxSize: {x: 4004, y: 4022}
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 17}
@@ -224,7 +224,7 @@ MonoBehaviour:
   - {fileID: 19}
   - {fileID: 20}
   m_Selected: 2
-  m_LastSelected: 3
+  m_LastSelected: 1
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -393,9 +393,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 38410000
-      m_LastClickedID: 16696
-      m_ExpandedIDs: a0e2ffff223e0000743e00008c3e00009e3e000038410000304300007843000074440000
+      m_SelectedIDs: ce350000
+      m_LastClickedID: 13774
+      m_ExpandedIDs: 74fbffff4a32000070320000ec320000ea3400008635000066360000ae380000c2380000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -647,20 +647,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts/General/Menus
+    - Assets/Scripts/Archived/SpellCreationUI/Spells
   m_ViewMode: 1
   m_StartGridSize: 67
   m_LastFolders:
-  - Assets/Scripts/General/Menus
+  - Assets/Scripts/Archived/SpellCreationUI/Spells
   m_LastFoldersGridSize: 67
   m_LastProjectPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 30500000
-    m_LastClickedID: 20528
-    m_ExpandedIDs: 00000000364c0000384c00003a4c00003c4c0000404c0000424c0000
+    m_SelectedIDs: 8a470000
+    m_LastClickedID: 18314
+    m_ExpandedIDs: 000000001a4400001c4400001e4400002044000022440000244400006e440000d64a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -688,7 +688,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000364c0000384c00003a4c00003c4c00003e4c0000404c0000424c0000
+    m_ExpandedIDs: 000000001a4400001c4400001e440000204400002244000024440000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -713,8 +713,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 223e0000
-    m_LastClickedInstanceID: 15906
+    m_SelectedInstanceIDs: 18360000
+    m_LastClickedInstanceID: 13848
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000ac390000cc3400004c350000547500003c750000f87400003c4600002c400000663d0000f032000012400000ba3e00000a4b0000f838000000000000f4360000b0360000
     m_RenameOverlay:
@@ -794,9 +794,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 66}
-    m_SelectedIDs: 30500000
-    m_LastClickedID: 20528
-    m_ExpandedIDs: 00000000364c0000384c00003a4c00003c4c00003e4c0000404c0000424c0000
+    m_SelectedIDs: 5e480000
+    m_LastClickedID: 18526
+    m_ExpandedIDs: 000000001a4400001c4400001e440000204400002244000024440000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -824,7 +824,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000364c0000384c00003a4c00003c4c00003e4c0000404c0000424c0000
+    m_ExpandedIDs: 000000001a4400001c4400001e440000204400002244000024440000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -849,8 +849,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 223e0000
-    m_LastClickedInstanceID: 15906
+    m_SelectedInstanceIDs: 18360000
+    m_LastClickedInstanceID: 13848
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: b0360000be48000000000000
     m_RenameOverlay:
@@ -934,7 +934,7 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 16696
+  m_LastSelectedObjectID: 13774
 --- !u!114 &21
 MonoBehaviour:
   m_ObjectHideFlags: 52

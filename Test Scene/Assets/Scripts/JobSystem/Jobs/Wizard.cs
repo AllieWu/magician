@@ -6,12 +6,12 @@ using UnityEngine;
 public class Wizard : BaseJob 
 {
     public string jobName { get; set; }
-    public int[] spellids { get; set; } // required to initialize this inherited value
+    public string[] spellnames { get; set; } // required to initialize this inherited value
 
     public void initialize()
     {
         jobName = "Wizard";
-        spellids = new int[]{ 0 }; // 0 represents fireball spell
+        spellnames = new string[]{ "Fireball", "FireArrow" }; 
     }
     
 }

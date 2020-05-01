@@ -20,10 +20,11 @@ public class JobChange : MonoBehaviour
 
     public void UpdatePlayer()
     {
-        playercontroller.spellids =  new List<int>();
+        playercontroller.spells =  new List<string>();
         foreach (BaseJob job in playercontroller.jobs)
-            playercontroller.spellids.AddRange(job.spellids); // update player's available spells
-        
+            playercontroller.spells.AddRange(job.spellnames); // update player's available spells
+
+        playercontroller.UpdateHand(); // actually implements the player's hand
     }
 
     public void AddJob(string _jobName)
@@ -37,7 +38,8 @@ public class JobChange : MonoBehaviour
             }
         }
         else if (!playercontroller.jobs.Exists(x => x.jobName == _jobName)) // if there's space and the job doesn't already exist in player's jobs, add it
-        { 
+        {
+            Debug.Log("You have become a " + _jobName);
             BaseJob newJob;
             if (_jobName == "Wizard")    
                 newJob = new Wizard();

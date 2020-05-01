@@ -1,6 +1,13 @@
 ﻿using UnityEngine;
-using System.Collections;
 
+/* WANT TO ADD MORE CUSTOMIZABLE INPUTS?
+ * 1. Add a keycode variable for it
+ * 2. Give it a default binding in Awake()
+ * 3. In ControlsMenu.cs, add a new else if statement in the triple for loop of Start()
+ * 4. Also in ControlsMenu.cs, add a new else if statement in the AssignKey() function
+ * 5. In the Unity Game Editor, Main Camera > ControlsMenu > Columns > A_Column, copy paste an input parent (has text and Key children)
+        - Make sure to update the button functions in the Key child
+*/
 public class InputManager : MonoBehaviour
 {
     public static InputManager IM;
@@ -46,6 +53,7 @@ public class InputManager : MonoBehaviour
         {
             Destroy(gameObject);
         }
+
         /*Assign each keycode when the game starts.
          * Loads data from PlayerPrefs so if a user quits the game,
          * their bindings are loaded next time. 

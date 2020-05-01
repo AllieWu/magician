@@ -5,7 +5,7 @@ using UnityEngine;
 public interface BaseJob
 {
     string jobName { get; set; }
-    int[] spellids { get; set; }
+    string[] spellnames { get; set; }
 
     void initialize();
 }
