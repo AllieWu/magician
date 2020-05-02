@@ -66,8 +66,6 @@ public class UIController : MonoBehaviour
                 controlsMenu.SetActive(!controlsMenu.activeSelf); 
                 pauseUI.SetActive(true);
             }
-            else if (pauseUI.activeSelf)
-                pauseUI.SetActive(!pauseUI.activeSelf);
             // account for exiting in-game menus
             else if (teleportUI.activeSelf) 
                 teleportUI.SetActive(!teleportUI.activeSelf);
@@ -75,7 +73,8 @@ public class UIController : MonoBehaviour
                 jobChangerUI.SetActive(!jobChangerUI.activeSelf);
             else if (mainUI.activeSelf)
                 mainUI.SetActive(!mainUI.activeSelf);
-
+            else // otherwise toggle pause menu
+                pauseUI.SetActive(!pauseUI.activeSelf);
         }
 
         // if a UI is open and the game isn't paused, pause
