@@ -2533,6 +2533,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 31924616}
     m_Modifications:
+    - target: {fileID: 1717335889811217664, guid: 486c363d19aaab447a3deed67681e35b,
+        type: 3}
+      propertyPath: m_Name
+      value: QuestSet
+      objectReference: {fileID: 0}
+    - target: {fileID: 1717335889811217664, guid: 486c363d19aaab447a3deed67681e35b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1717335889811217671, guid: 486c363d19aaab447a3deed67681e35b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2637,16 +2647,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1717335889811217664, guid: 486c363d19aaab447a3deed67681e35b,
-        type: 3}
-      propertyPath: m_Name
-      value: QuestSet
-      objectReference: {fileID: 0}
-    - target: {fileID: 1717335889811217664, guid: 486c363d19aaab447a3deed67681e35b,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8365420766368329644, guid: 486c363d19aaab447a3deed67681e35b,
         type: 3}
@@ -8536,7 +8536,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -10377,6 +10377,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 31924616}
     m_Modifications:
+    - target: {fileID: 2433227453744837417, guid: 2a2608ad59235dd43932213089ef9fbe,
+        type: 3}
+      propertyPath: m_Name
+      value: InvSet
+      objectReference: {fileID: 0}
+    - target: {fileID: 2433227453744837417, guid: 2a2608ad59235dd43932213089ef9fbe,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2433227453744837414, guid: 2a2608ad59235dd43932213089ef9fbe,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -10481,16 +10491,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2433227453744837417, guid: 2a2608ad59235dd43932213089ef9fbe,
-        type: 3}
-      propertyPath: m_Name
-      value: InvSet
-      objectReference: {fileID: 0}
-    - target: {fileID: 2433227453744837417, guid: 2a2608ad59235dd43932213089ef9fbe,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1215907853123493457, guid: 2a2608ad59235dd43932213089ef9fbe,
         type: 3}
@@ -17903,6 +17903,7 @@ GameObject:
   - component: {fileID: 1486345688}
   - component: {fileID: 1486345689}
   - component: {fileID: 1486345690}
+  - component: {fileID: 1486345691}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -17959,6 +17960,13 @@ MonoBehaviour:
   teleportUI: {fileID: 1801703083}
   optionsMenu: {fileID: 1963777099}
   controlsMenu: {fileID: 338418736}
+  menus:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!114 &1486345687
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18009,6 +18017,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09532143261dd094fb63b2c16f637a2b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1486345691
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1486345683}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9b4be940bc982a4481be8ea1ddc19cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentXP: 0
+  nextLevelXP: 0
+  previousLevelXP: 0
+  playerLevel: 0
+  currentHealth: 0
+  maxHealth: 0
+  saveprofilename: 
 --- !u!1 &1515730316
 GameObject:
   m_ObjectHideFlags: 0
@@ -18343,7 +18370,8 @@ MonoBehaviour:
   hud: {fileID: 1328034478}
   CanOpenTeleporter: 0
   CanOpenJobChanger: 0
-  spellids: 
+  spells: []
+  saveprofilename: 
 --- !u!61 &1521277085
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -20212,7 +20240,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -23803,7 +23831,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -23987,7 +24015,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -24189,6 +24217,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 31924616}
     m_Modifications:
+    - target: {fileID: 2182931350177741016, guid: 65776c838eb778d41902b7e89260443a,
+        type: 3}
+      propertyPath: m_Name
+      value: MapSet
+      objectReference: {fileID: 0}
+    - target: {fileID: 2182931350177741016, guid: 65776c838eb778d41902b7e89260443a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2182931350177741017, guid: 65776c838eb778d41902b7e89260443a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -24302,16 +24340,6 @@ PrefabInstance:
     - target: {fileID: 2182931350177741017, guid: 65776c838eb778d41902b7e89260443a,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2182931350177741016, guid: 65776c838eb778d41902b7e89260443a,
-        type: 3}
-      propertyPath: m_Name
-      value: MapSet
-      objectReference: {fileID: 0}
-    - target: {fileID: 2182931350177741016, guid: 65776c838eb778d41902b7e89260443a,
-        type: 3}
-      propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2182931350177741021, guid: 65776c838eb778d41902b7e89260443a,

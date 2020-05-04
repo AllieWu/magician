@@ -34,7 +34,6 @@ public class SaveData
     /// <param name="fileName">Name of file to save to</param>
     private static void SaveToFile<T>(T objectToSave, string fileName)
     {
-        Debug.Log("SaveToFile() Called!");
         // Set the path to the persistent data path (works on most devices by default)
         string path = Application.persistentDataPath + "/saves/";
         // Create the directory IF it doesn't already exist
@@ -43,7 +42,7 @@ public class SaveData
         BinaryFormatter formatter = new BinaryFormatter();
         // Open up a filestream, combining the path and object key
         FileStream fileStream = new FileStream(path + fileName + ".txt", FileMode.Create);
-        Debug.Log("Will save in " + path + "fileName" + ".txt");
+        Debug.Log("Will save in " + path + fileName + ".txt");
         // Try/Catch/Finally block that will attempt to serialize/write-to-stream, closing stream when complete
         try
         {

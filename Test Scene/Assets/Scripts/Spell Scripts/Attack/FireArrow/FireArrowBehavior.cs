@@ -27,7 +27,7 @@ public class FireArrowBehavior : MonoBehaviour
         rb2d.AddForce(direction.normalized * speed * Time.deltaTime);
     }
 
-    // What happens when the projectile hits another object with a collider
+    // What happens when the projectile hits another object with a collider 
     private void OnCollisionEnter2D(Collision2D col)
     {
         if (col.gameObject.tag == "Boundary")

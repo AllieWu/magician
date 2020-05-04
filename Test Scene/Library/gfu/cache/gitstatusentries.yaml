@@ -13,12 +13,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2020-05-02T17:52:41.164-04:00
-  initializedAtString: 2020-05-02T17:16:12.187-04:00
+  lastUpdatedAtString: 2020-05-04T18:24:02.001-04:00
+  initializedAtString: 2020-05-04T16:03:16.498-04:00
   entries:
   - path: Test Scene\.vs\Test Scene\v15\.suo
     fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\.vs\Test Scene\v15\.suo
     projectPath: .vs\Test Scene\v15\.suo
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Test Scene\.vs\Test Scene\v15\Server\sqlite3\storage.ide
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\.vs\Test Scene\v15\Server\sqlite3\storage.ide
+    projectPath: .vs\Test Scene\v15\Server\sqlite3\storage.ide
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -34,9 +40,39 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: Test Scene\Assembly-CSharp.csproj
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Assembly-CSharp.csproj
+    projectPath: Assembly-CSharp.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Test Scene\Assets\Scenes\MainMenu.unity
     fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Assets\Scenes\MainMenu.unity
     projectPath: Assets\Scenes\MainMenu.unity
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Test Scene\Assets\Scenes\SampleScene.unity
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Assets\Scenes\SampleScene.unity
+    projectPath: Assets\Scenes\SampleScene.unity
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Test Scene\Assets\Scripts\General\GameData\GlobalControl.cs
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Assets\Scripts\General\GameData\GlobalControl.cs
+    projectPath: Assets\Scripts\General\GameData\GlobalControl.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Assets\Scripts\General\GameData\GlobalControl.cs.meta
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Assets\Scripts\General\GameData\GlobalControl.cs.meta
+    projectPath: Assets\Scripts\General\GameData\GlobalControl.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Assets\Scripts\General\GameData\SaveData.cs
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Assets\Scripts\General\GameData\SaveData.cs
+    projectPath: Assets\Scripts\General\GameData\SaveData.cs
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -46,9 +82,16 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Test Scene\Assets\Scripts\MainUI\UIController.cs
-    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Assets\Scripts\MainUI\UIController.cs
-    projectPath: Assets\Scripts\MainUI\UIController.cs
+  - path: Test Scene\Assets\Scripts\Player\PlayerController.cs
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Assets\Scripts\Player\PlayerController.cs
+    projectPath: Assets\Scripts\Player\PlayerController.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Test Scene\Assets\Scripts\Spell Scripts\Attack\FireArrow\FireArrowBehavior.cs
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Assets\Scripts\Spell
+      Scripts\Attack\FireArrow\FireArrowBehavior.cs
+    projectPath: Assets\Scripts\Spell Scripts\Attack\FireArrow\FireArrowBehavior.cs
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -58,15 +101,39 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Test Scene\Library\Artifacts\Legacy\7d\7d19a3cb68208f14b9d7b7606da2f468
-    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Library\Artifacts\Legacy\7d\7d19a3cb68208f14b9d7b7606da2f468
-    projectPath: Library\Artifacts\Legacy\7d\7d19a3cb68208f14b9d7b7606da2f468
+  - path: Test Scene\Library\Artifacts\Legacy\38\38a7fc2e376085947bfff77d0255509f
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Library\Artifacts\Legacy\38\38a7fc2e376085947bfff77d0255509f
+    projectPath: Library\Artifacts\Legacy\38\38a7fc2e376085947bfff77d0255509f
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Test Scene\Library\Artifacts\Legacy\7e\7e1481c3be94dfb478f61308e0ad5f79
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Library\Artifacts\Legacy\7e\7e1481c3be94dfb478f61308e0ad5f79
+    projectPath: Library\Artifacts\Legacy\7e\7e1481c3be94dfb478f61308e0ad5f79
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: Test Scene\Library\Artifacts\Legacy\bf\bf195a3ce852f61498646560e85de9cf
     fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Library\Artifacts\Legacy\bf\bf195a3ce852f61498646560e85de9cf
     projectPath: Library\Artifacts\Legacy\bf\bf195a3ce852f61498646560e85de9cf
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Test Scene\Library\Artifacts\Legacy\f9\f9b4be940bc982a4481be8ea1ddc19cc
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Library\Artifacts\Legacy\f9\f9b4be940bc982a4481be8ea1ddc19cc
+    projectPath: Library\Artifacts\Legacy\f9\f9b4be940bc982a4481be8ea1ddc19cc
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Library\Artifacts\Legacy\f9\f9b4be940bc982a4481be8ea1ddc19cc.info
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Library\Artifacts\Legacy\f9\f9b4be940bc982a4481be8ea1ddc19cc.info
+    projectPath: Library\Artifacts\Legacy\f9\f9b4be940bc982a4481be8ea1ddc19cc.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Library\Artifacts\Legacy\fc\fc79c65e991c62b44a556388f72a5580
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Library\Artifacts\Legacy\fc\fc79c65e991c62b44a556388f72a5580
+    projectPath: Library\Artifacts\Legacy\fc\fc79c65e991c62b44a556388f72a5580
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -136,33 +203,2469 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: Test Scene\obj\Debug\Assembly-CSharp.csproj.CopyComplete
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\obj\Debug\Assembly-CSharp.csproj.CopyComplete
+    projectPath: obj\Debug\Assembly-CSharp.csproj.CopyComplete
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+    projectPath: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Test Scene\obj\Debug\Assembly-CSharp.csproj.FileListAbsolute.txt
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\obj\Debug\Assembly-CSharp.csproj.FileListAbsolute.txt
+    projectPath: obj\Debug\Assembly-CSharp.csproj.FileListAbsolute.txt
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Test Scene\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+    projectPath: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Test Scene\obj\Debug\Assembly-CSharp.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\obj\Debug\Assembly-CSharp.dll
+    projectPath: obj\Debug\Assembly-CSharp.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\obj\Debug\Assembly-CSharp.pdb
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\obj\Debug\Assembly-CSharp.pdb
+    projectPath: obj\Debug\Assembly-CSharp.pdb
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
+    projectPath: obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Test Scene\ProjectSettings\TimeManager.asset
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\ProjectSettings\TimeManager.asset
+    projectPath: ProjectSettings\TimeManager.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Test Scene\Temp\__Backupscenes\0.backup
     fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\__Backupscenes\0.backup
     projectPath: Temp\__Backupscenes\0.backup
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Test Scene\Temp\UnityTempFile-0072d22a393952e499e35bbb0aded776
-    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-0072d22a393952e499e35bbb0aded776
-    projectPath: Temp\UnityTempFile-0072d22a393952e499e35bbb0aded776
+  - path: Test Scene\Temp\bin\Debug\Assembly-CSharp.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\Assembly-CSharp.dll
+    projectPath: Temp\bin\Debug\Assembly-CSharp.dll
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Test Scene\Temp\UnityTempFile-72bce463905613a409bd03cabe553fb9
-    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-72bce463905613a409bd03cabe553fb9
-    projectPath: Temp\UnityTempFile-72bce463905613a409bd03cabe553fb9
+  - path: Test Scene\Temp\bin\Debug\Assembly-CSharp.pdb
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\Assembly-CSharp.pdb
+    projectPath: Temp\bin\Debug\Assembly-CSharp.pdb
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Test Scene\Temp\UnityTempFile-88c919df1d20ae440b5ef39da1a5dd38
-    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-88c919df1d20ae440b5ef39da1a5dd38
-    projectPath: Temp\UnityTempFile-88c919df1d20ae440b5ef39da1a5dd38
+  - path: Test Scene\Temp\bin\Debug\Boo.Lang.Compiler.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\Boo.Lang.Compiler.dll
+    projectPath: Temp\bin\Debug\Boo.Lang.Compiler.dll
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Test Scene\Temp\UnityTempFile-e82fc33e9ddf28c4ab9aecaca74830eb
-    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-e82fc33e9ddf28c4ab9aecaca74830eb
-    projectPath: Temp\UnityTempFile-e82fc33e9ddf28c4ab9aecaca74830eb
+  - path: Test Scene\Temp\bin\Debug\Boo.Lang.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\Boo.Lang.dll
+    projectPath: Temp\bin\Debug\Boo.Lang.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\Boo.Lang.Parser.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\Boo.Lang.Parser.dll
+    projectPath: Temp\bin\Debug\Boo.Lang.Parser.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\Boo.Lang.PatternMatching.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\Boo.Lang.PatternMatching.dll
+    projectPath: Temp\bin\Debug\Boo.Lang.PatternMatching.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\Boo.Lang.Useful.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\Boo.Lang.Useful.dll
+    projectPath: Temp\bin\Debug\Boo.Lang.Useful.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\com.unity.multiplayer-hlapi.Editor.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\com.unity.multiplayer-hlapi.Editor.dll
+    projectPath: Temp\bin\Debug\com.unity.multiplayer-hlapi.Editor.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\com.unity.multiplayer-hlapi.Editor.pdb
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\com.unity.multiplayer-hlapi.Editor.pdb
+    projectPath: Temp\bin\Debug\com.unity.multiplayer-hlapi.Editor.pdb
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\com.unity.multiplayer-hlapi.Runtime.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\com.unity.multiplayer-hlapi.Runtime.dll
+    projectPath: Temp\bin\Debug\com.unity.multiplayer-hlapi.Runtime.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\com.unity.multiplayer-hlapi.Runtime.pdb
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\com.unity.multiplayer-hlapi.Runtime.pdb
+    projectPath: Temp\bin\Debug\com.unity.multiplayer-hlapi.Runtime.pdb
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\com.unity.multiplayer-weaver.Editor.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\com.unity.multiplayer-weaver.Editor.dll
+    projectPath: Temp\bin\Debug\com.unity.multiplayer-weaver.Editor.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\com.unity.multiplayer-weaver.Editor.pdb
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\com.unity.multiplayer-weaver.Editor.pdb
+    projectPath: Temp\bin\Debug\com.unity.multiplayer-weaver.Editor.pdb
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\ExCSS.Unity.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\ExCSS.Unity.dll
+    projectPath: Temp\bin\Debug\ExCSS.Unity.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\Microsoft.CSharp.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\Microsoft.CSharp.dll
+    projectPath: Temp\bin\Debug\Microsoft.CSharp.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\Microsoft.Win32.Primitives.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\Microsoft.Win32.Primitives.dll
+    projectPath: Temp\bin\Debug\Microsoft.Win32.Primitives.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\mscorlib.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\mscorlib.dll
+    projectPath: Temp\bin\Debug\mscorlib.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\netstandard.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\netstandard.dll
+    projectPath: Temp\bin\Debug\netstandard.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\System.AppContext.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\System.AppContext.dll
+    projectPath: Temp\bin\Debug\System.AppContext.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\System.Collections.Concurrent.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\System.Collections.Concurrent.dll
+    projectPath: Temp\bin\Debug\System.Collections.Concurrent.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\System.Collections.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\System.Collections.dll
+    projectPath: Temp\bin\Debug\System.Collections.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\System.Collections.NonGeneric.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\System.Collections.NonGeneric.dll
+    projectPath: Temp\bin\Debug\System.Collections.NonGeneric.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\System.Collections.Specialized.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\System.Collections.Specialized.dll
+    projectPath: Temp\bin\Debug\System.Collections.Specialized.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\System.ComponentModel.Annotations.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\System.ComponentModel.Annotations.dll
+    projectPath: Temp\bin\Debug\System.ComponentModel.Annotations.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\System.ComponentModel.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\System.ComponentModel.dll
+    projectPath: Temp\bin\Debug\System.ComponentModel.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\System.ComponentModel.EventBasedAsync.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\System.ComponentModel.EventBasedAsync.dll
+    projectPath: Temp\bin\Debug\System.ComponentModel.EventBasedAsync.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\System.ComponentModel.Primitives.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\System.ComponentModel.Primitives.dll
+    projectPath: Temp\bin\Debug\System.ComponentModel.Primitives.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\System.ComponentModel.TypeConverter.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\System.ComponentModel.TypeConverter.dll
+    projectPath: Temp\bin\Debug\System.ComponentModel.TypeConverter.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\System.Console.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\System.Console.dll
+    projectPath: Temp\bin\Debug\System.Console.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\System.Core.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\System.Core.dll
+    projectPath: Temp\bin\Debug\System.Core.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\System.Data.Common.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\System.Data.Common.dll
+    projectPath: Temp\bin\Debug\System.Data.Common.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\System.Data.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\System.Data.dll
+    projectPath: Temp\bin\Debug\System.Data.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\System.Diagnostics.Contracts.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\System.Diagnostics.Contracts.dll
+    projectPath: Temp\bin\Debug\System.Diagnostics.Contracts.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\System.Diagnostics.Debug.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\System.Diagnostics.Debug.dll
+    projectPath: Temp\bin\Debug\System.Diagnostics.Debug.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\System.Diagnostics.FileVersionInfo.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\System.Diagnostics.FileVersionInfo.dll
+    projectPath: Temp\bin\Debug\System.Diagnostics.FileVersionInfo.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\System.Diagnostics.Process.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\System.Diagnostics.Process.dll
+    projectPath: Temp\bin\Debug\System.Diagnostics.Process.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\System.Diagnostics.StackTrace.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\System.Diagnostics.StackTrace.dll
+    projectPath: Temp\bin\Debug\System.Diagnostics.StackTrace.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\System.Diagnostics.TextWriterTraceListener.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\System.Diagnostics.TextWriterTraceListener.dll
+    projectPath: Temp\bin\Debug\System.Diagnostics.TextWriterTraceListener.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\System.Diagnostics.Tools.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\System.Diagnostics.Tools.dll
+    projectPath: Temp\bin\Debug\System.Diagnostics.Tools.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\System.Diagnostics.TraceSource.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\System.Diagnostics.TraceSource.dll
+    projectPath: Temp\bin\Debug\System.Diagnostics.TraceSource.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\System.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\System.dll
+    projectPath: Temp\bin\Debug\System.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\System.Drawing.Primitives.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\System.Drawing.Primitives.dll
+    projectPath: Temp\bin\Debug\System.Drawing.Primitives.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\System.Dynamic.Runtime.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\System.Dynamic.Runtime.dll
+    projectPath: Temp\bin\Debug\System.Dynamic.Runtime.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\System.Globalization.Calendars.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\System.Globalization.Calendars.dll
+    projectPath: Temp\bin\Debug\System.Globalization.Calendars.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\System.Globalization.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\System.Globalization.dll
+    projectPath: Temp\bin\Debug\System.Globalization.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\System.Globalization.Extensions.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\System.Globalization.Extensions.dll
+    projectPath: Temp\bin\Debug\System.Globalization.Extensions.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\System.IO.Compression.ZipFile.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\System.IO.Compression.ZipFile.dll
+    projectPath: Temp\bin\Debug\System.IO.Compression.ZipFile.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\System.IO.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\System.IO.dll
+    projectPath: Temp\bin\Debug\System.IO.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\System.IO.FileSystem.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\System.IO.FileSystem.dll
+    projectPath: Temp\bin\Debug\System.IO.FileSystem.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\System.IO.FileSystem.DriveInfo.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\System.IO.FileSystem.DriveInfo.dll
+    projectPath: Temp\bin\Debug\System.IO.FileSystem.DriveInfo.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\System.IO.FileSystem.Primitives.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\System.IO.FileSystem.Primitives.dll
+    projectPath: Temp\bin\Debug\System.IO.FileSystem.Primitives.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\System.IO.FileSystem.Watcher.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\System.IO.FileSystem.Watcher.dll
+    projectPath: Temp\bin\Debug\System.IO.FileSystem.Watcher.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\System.IO.IsolatedStorage.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\System.IO.IsolatedStorage.dll
+    projectPath: Temp\bin\Debug\System.IO.IsolatedStorage.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\System.IO.MemoryMappedFiles.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\System.IO.MemoryMappedFiles.dll
+    projectPath: Temp\bin\Debug\System.IO.MemoryMappedFiles.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\System.IO.Pipes.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\System.IO.Pipes.dll
+    projectPath: Temp\bin\Debug\System.IO.Pipes.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\System.IO.UnmanagedMemoryStream.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\System.IO.UnmanagedMemoryStream.dll
+    projectPath: Temp\bin\Debug\System.IO.UnmanagedMemoryStream.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\System.Linq.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\System.Linq.dll
+    projectPath: Temp\bin\Debug\System.Linq.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\System.Linq.Expressions.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\System.Linq.Expressions.dll
+    projectPath: Temp\bin\Debug\System.Linq.Expressions.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\System.Linq.Parallel.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\System.Linq.Parallel.dll
+    projectPath: Temp\bin\Debug\System.Linq.Parallel.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\System.Linq.Queryable.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\System.Linq.Queryable.dll
+    projectPath: Temp\bin\Debug\System.Linq.Queryable.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\System.Net.Http.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\System.Net.Http.dll
+    projectPath: Temp\bin\Debug\System.Net.Http.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\System.Net.Http.Rtc.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\System.Net.Http.Rtc.dll
+    projectPath: Temp\bin\Debug\System.Net.Http.Rtc.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\System.Net.NameResolution.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\System.Net.NameResolution.dll
+    projectPath: Temp\bin\Debug\System.Net.NameResolution.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\System.Net.NetworkInformation.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\System.Net.NetworkInformation.dll
+    projectPath: Temp\bin\Debug\System.Net.NetworkInformation.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\System.Net.Ping.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\System.Net.Ping.dll
+    projectPath: Temp\bin\Debug\System.Net.Ping.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\System.Net.Primitives.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\System.Net.Primitives.dll
+    projectPath: Temp\bin\Debug\System.Net.Primitives.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\System.Net.Requests.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\System.Net.Requests.dll
+    projectPath: Temp\bin\Debug\System.Net.Requests.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\System.Net.Security.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\System.Net.Security.dll
+    projectPath: Temp\bin\Debug\System.Net.Security.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\System.Net.Sockets.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\System.Net.Sockets.dll
+    projectPath: Temp\bin\Debug\System.Net.Sockets.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\System.Net.WebHeaderCollection.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\System.Net.WebHeaderCollection.dll
+    projectPath: Temp\bin\Debug\System.Net.WebHeaderCollection.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\System.Net.WebSockets.Client.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\System.Net.WebSockets.Client.dll
+    projectPath: Temp\bin\Debug\System.Net.WebSockets.Client.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\System.Net.WebSockets.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\System.Net.WebSockets.dll
+    projectPath: Temp\bin\Debug\System.Net.WebSockets.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\System.Numerics.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\System.Numerics.dll
+    projectPath: Temp\bin\Debug\System.Numerics.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\System.Numerics.Vectors.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\System.Numerics.Vectors.dll
+    projectPath: Temp\bin\Debug\System.Numerics.Vectors.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\System.ObjectModel.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\System.ObjectModel.dll
+    projectPath: Temp\bin\Debug\System.ObjectModel.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\System.Reflection.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\System.Reflection.dll
+    projectPath: Temp\bin\Debug\System.Reflection.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\System.Reflection.Emit.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\System.Reflection.Emit.dll
+    projectPath: Temp\bin\Debug\System.Reflection.Emit.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\System.Reflection.Emit.ILGeneration.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\System.Reflection.Emit.ILGeneration.dll
+    projectPath: Temp\bin\Debug\System.Reflection.Emit.ILGeneration.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\System.Reflection.Emit.Lightweight.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\System.Reflection.Emit.Lightweight.dll
+    projectPath: Temp\bin\Debug\System.Reflection.Emit.Lightweight.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\System.Reflection.Extensions.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\System.Reflection.Extensions.dll
+    projectPath: Temp\bin\Debug\System.Reflection.Extensions.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\System.Reflection.Primitives.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\System.Reflection.Primitives.dll
+    projectPath: Temp\bin\Debug\System.Reflection.Primitives.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\System.Resources.Reader.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\System.Resources.Reader.dll
+    projectPath: Temp\bin\Debug\System.Resources.Reader.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\System.Resources.ResourceManager.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\System.Resources.ResourceManager.dll
+    projectPath: Temp\bin\Debug\System.Resources.ResourceManager.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\System.Resources.Writer.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\System.Resources.Writer.dll
+    projectPath: Temp\bin\Debug\System.Resources.Writer.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\System.Runtime.CompilerServices.VisualC.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\System.Runtime.CompilerServices.VisualC.dll
+    projectPath: Temp\bin\Debug\System.Runtime.CompilerServices.VisualC.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\System.Runtime.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\System.Runtime.dll
+    projectPath: Temp\bin\Debug\System.Runtime.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\System.Runtime.Extensions.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\System.Runtime.Extensions.dll
+    projectPath: Temp\bin\Debug\System.Runtime.Extensions.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\System.Runtime.Handles.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\System.Runtime.Handles.dll
+    projectPath: Temp\bin\Debug\System.Runtime.Handles.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\System.Runtime.InteropServices.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\System.Runtime.InteropServices.dll
+    projectPath: Temp\bin\Debug\System.Runtime.InteropServices.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+    projectPath: Temp\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\System.Runtime.InteropServices.WindowsRuntime.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\System.Runtime.InteropServices.WindowsRuntime.dll
+    projectPath: Temp\bin\Debug\System.Runtime.InteropServices.WindowsRuntime.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\System.Runtime.Numerics.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\System.Runtime.Numerics.dll
+    projectPath: Temp\bin\Debug\System.Runtime.Numerics.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\System.Runtime.Serialization.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\System.Runtime.Serialization.dll
+    projectPath: Temp\bin\Debug\System.Runtime.Serialization.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\System.Runtime.Serialization.Formatters.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\System.Runtime.Serialization.Formatters.dll
+    projectPath: Temp\bin\Debug\System.Runtime.Serialization.Formatters.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\System.Runtime.Serialization.Json.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\System.Runtime.Serialization.Json.dll
+    projectPath: Temp\bin\Debug\System.Runtime.Serialization.Json.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\System.Runtime.Serialization.Primitives.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\System.Runtime.Serialization.Primitives.dll
+    projectPath: Temp\bin\Debug\System.Runtime.Serialization.Primitives.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\System.Runtime.Serialization.Xml.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\System.Runtime.Serialization.Xml.dll
+    projectPath: Temp\bin\Debug\System.Runtime.Serialization.Xml.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\System.Security.Claims.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\System.Security.Claims.dll
+    projectPath: Temp\bin\Debug\System.Security.Claims.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\System.Security.Cryptography.Algorithms.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\System.Security.Cryptography.Algorithms.dll
+    projectPath: Temp\bin\Debug\System.Security.Cryptography.Algorithms.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\System.Security.Cryptography.Csp.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\System.Security.Cryptography.Csp.dll
+    projectPath: Temp\bin\Debug\System.Security.Cryptography.Csp.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\System.Security.Cryptography.Encoding.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\System.Security.Cryptography.Encoding.dll
+    projectPath: Temp\bin\Debug\System.Security.Cryptography.Encoding.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\System.Security.Cryptography.Primitives.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\System.Security.Cryptography.Primitives.dll
+    projectPath: Temp\bin\Debug\System.Security.Cryptography.Primitives.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+    projectPath: Temp\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\System.Security.Principal.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\System.Security.Principal.dll
+    projectPath: Temp\bin\Debug\System.Security.Principal.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\System.Security.SecureString.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\System.Security.SecureString.dll
+    projectPath: Temp\bin\Debug\System.Security.SecureString.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\System.ServiceModel.Duplex.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\System.ServiceModel.Duplex.dll
+    projectPath: Temp\bin\Debug\System.ServiceModel.Duplex.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\System.ServiceModel.Http.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\System.ServiceModel.Http.dll
+    projectPath: Temp\bin\Debug\System.ServiceModel.Http.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\System.ServiceModel.NetTcp.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\System.ServiceModel.NetTcp.dll
+    projectPath: Temp\bin\Debug\System.ServiceModel.NetTcp.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\System.ServiceModel.Primitives.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\System.ServiceModel.Primitives.dll
+    projectPath: Temp\bin\Debug\System.ServiceModel.Primitives.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\System.ServiceModel.Security.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\System.ServiceModel.Security.dll
+    projectPath: Temp\bin\Debug\System.ServiceModel.Security.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\System.Text.Encoding.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\System.Text.Encoding.dll
+    projectPath: Temp\bin\Debug\System.Text.Encoding.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\System.Text.Encoding.Extensions.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\System.Text.Encoding.Extensions.dll
+    projectPath: Temp\bin\Debug\System.Text.Encoding.Extensions.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\System.Text.RegularExpressions.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\System.Text.RegularExpressions.dll
+    projectPath: Temp\bin\Debug\System.Text.RegularExpressions.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\System.Threading.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\System.Threading.dll
+    projectPath: Temp\bin\Debug\System.Threading.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\System.Threading.Overlapped.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\System.Threading.Overlapped.dll
+    projectPath: Temp\bin\Debug\System.Threading.Overlapped.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\System.Threading.Tasks.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\System.Threading.Tasks.dll
+    projectPath: Temp\bin\Debug\System.Threading.Tasks.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\System.Threading.Tasks.Parallel.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\System.Threading.Tasks.Parallel.dll
+    projectPath: Temp\bin\Debug\System.Threading.Tasks.Parallel.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\System.Threading.Thread.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\System.Threading.Thread.dll
+    projectPath: Temp\bin\Debug\System.Threading.Thread.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\System.Threading.ThreadPool.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\System.Threading.ThreadPool.dll
+    projectPath: Temp\bin\Debug\System.Threading.ThreadPool.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\System.Threading.Timer.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\System.Threading.Timer.dll
+    projectPath: Temp\bin\Debug\System.Threading.Timer.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\System.ValueTuple.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\System.ValueTuple.dll
+    projectPath: Temp\bin\Debug\System.ValueTuple.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\System.Xml.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\System.Xml.dll
+    projectPath: Temp\bin\Debug\System.Xml.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\System.Xml.Linq.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\System.Xml.Linq.dll
+    projectPath: Temp\bin\Debug\System.Xml.Linq.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\System.Xml.ReaderWriter.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\System.Xml.ReaderWriter.dll
+    projectPath: Temp\bin\Debug\System.Xml.ReaderWriter.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\System.Xml.XDocument.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\System.Xml.XDocument.dll
+    projectPath: Temp\bin\Debug\System.Xml.XDocument.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\System.Xml.XmlDocument.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\System.Xml.XmlDocument.dll
+    projectPath: Temp\bin\Debug\System.Xml.XmlDocument.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\System.Xml.XmlSerializer.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\System.Xml.XmlSerializer.dll
+    projectPath: Temp\bin\Debug\System.Xml.XmlSerializer.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\System.Xml.XPath.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\System.Xml.XPath.dll
+    projectPath: Temp\bin\Debug\System.Xml.XPath.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\System.Xml.XPath.XDocument.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\System.Xml.XPath.XDocument.dll
+    projectPath: Temp\bin\Debug\System.Xml.XPath.XDocument.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\Unity.2D.Sprite.Editor.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\Unity.2D.Sprite.Editor.dll
+    projectPath: Temp\bin\Debug\Unity.2D.Sprite.Editor.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\Unity.2D.Sprite.Editor.pdb
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\Unity.2D.Sprite.Editor.pdb
+    projectPath: Temp\bin\Debug\Unity.2D.Sprite.Editor.pdb
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\Unity.2D.Tilemap.Editor.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\Unity.2D.Tilemap.Editor.dll
+    projectPath: Temp\bin\Debug\Unity.2D.Tilemap.Editor.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\Unity.2D.Tilemap.Editor.pdb
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\Unity.2D.Tilemap.Editor.pdb
+    projectPath: Temp\bin\Debug\Unity.2D.Tilemap.Editor.pdb
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\Unity.Analytics.DataPrivacy.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\Unity.Analytics.DataPrivacy.dll
+    projectPath: Temp\bin\Debug\Unity.Analytics.DataPrivacy.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\Unity.Analytics.DataPrivacy.pdb
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\Unity.Analytics.DataPrivacy.pdb
+    projectPath: Temp\bin\Debug\Unity.Analytics.DataPrivacy.pdb
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\Unity.Analytics.Editor.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\Unity.Analytics.Editor.dll
+    projectPath: Temp\bin\Debug\Unity.Analytics.Editor.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\Unity.Analytics.StandardEvents.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\Unity.Analytics.StandardEvents.dll
+    projectPath: Temp\bin\Debug\Unity.Analytics.StandardEvents.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\Unity.Analytics.Tracker.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\Unity.Analytics.Tracker.dll
+    projectPath: Temp\bin\Debug\Unity.Analytics.Tracker.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\Unity.Cecil.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\Unity.Cecil.dll
+    projectPath: Temp\bin\Debug\Unity.Cecil.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\Unity.CecilTools.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\Unity.CecilTools.dll
+    projectPath: Temp\bin\Debug\Unity.CecilTools.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\Unity.CollabProxy.Editor.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\Unity.CollabProxy.Editor.dll
+    projectPath: Temp\bin\Debug\Unity.CollabProxy.Editor.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\Unity.CollabProxy.Editor.pdb
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\Unity.CollabProxy.Editor.pdb
+    projectPath: Temp\bin\Debug\Unity.CollabProxy.Editor.pdb
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\Unity.Legacy.NRefactory.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\Unity.Legacy.NRefactory.dll
+    projectPath: Temp\bin\Debug\Unity.Legacy.NRefactory.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\Unity.Rider.Editor.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\Unity.Rider.Editor.dll
+    projectPath: Temp\bin\Debug\Unity.Rider.Editor.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\Unity.Rider.Editor.pdb
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\Unity.Rider.Editor.pdb
+    projectPath: Temp\bin\Debug\Unity.Rider.Editor.pdb
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\Unity.SerializationLogic.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\Unity.SerializationLogic.dll
+    projectPath: Temp\bin\Debug\Unity.SerializationLogic.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\Unity.TextMeshPro.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\Unity.TextMeshPro.dll
+    projectPath: Temp\bin\Debug\Unity.TextMeshPro.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\Unity.TextMeshPro.Editor.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\Unity.TextMeshPro.Editor.dll
+    projectPath: Temp\bin\Debug\Unity.TextMeshPro.Editor.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\Unity.TextMeshPro.Editor.pdb
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\Unity.TextMeshPro.Editor.pdb
+    projectPath: Temp\bin\Debug\Unity.TextMeshPro.Editor.pdb
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\Unity.TextMeshPro.pdb
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\Unity.TextMeshPro.pdb
+    projectPath: Temp\bin\Debug\Unity.TextMeshPro.pdb
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\Unity.Timeline.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\Unity.Timeline.dll
+    projectPath: Temp\bin\Debug\Unity.Timeline.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\Unity.Timeline.Editor.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\Unity.Timeline.Editor.dll
+    projectPath: Temp\bin\Debug\Unity.Timeline.Editor.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\Unity.Timeline.Editor.pdb
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\Unity.Timeline.Editor.pdb
+    projectPath: Temp\bin\Debug\Unity.Timeline.Editor.pdb
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\Unity.Timeline.pdb
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\Unity.Timeline.pdb
+    projectPath: Temp\bin\Debug\Unity.Timeline.pdb
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\Unity.VisualStudio.Editor.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\Unity.VisualStudio.Editor.dll
+    projectPath: Temp\bin\Debug\Unity.VisualStudio.Editor.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\Unity.VisualStudio.Editor.pdb
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\Unity.VisualStudio.Editor.pdb
+    projectPath: Temp\bin\Debug\Unity.VisualStudio.Editor.pdb
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\Unity.VSCode.Editor.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\Unity.VSCode.Editor.dll
+    projectPath: Temp\bin\Debug\Unity.VSCode.Editor.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\Unity.VSCode.Editor.pdb
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\Unity.VSCode.Editor.pdb
+    projectPath: Temp\bin\Debug\Unity.VSCode.Editor.pdb
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEditor.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEditor.dll
+    projectPath: Temp\bin\Debug\UnityEditor.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEditor.SpatialTracking.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEditor.SpatialTracking.dll
+    projectPath: Temp\bin\Debug\UnityEditor.SpatialTracking.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEditor.SpatialTracking.pdb
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEditor.SpatialTracking.pdb
+    projectPath: Temp\bin\Debug\UnityEditor.SpatialTracking.pdb
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEditor.UI.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEditor.UI.dll
+    projectPath: Temp\bin\Debug\UnityEditor.UI.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEditor.UI.pdb
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEditor.UI.pdb
+    projectPath: Temp\bin\Debug\UnityEditor.UI.pdb
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEditor.xml
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEditor.xml
+    projectPath: Temp\bin\Debug\UnityEditor.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEditor.XR.LegacyInputHelpers.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEditor.XR.LegacyInputHelpers.dll
+    projectPath: Temp\bin\Debug\UnityEditor.XR.LegacyInputHelpers.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEditor.XR.LegacyInputHelpers.pdb
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEditor.XR.LegacyInputHelpers.pdb
+    projectPath: Temp\bin\Debug\UnityEditor.XR.LegacyInputHelpers.pdb
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEngine.AccessibilityModule.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEngine.AccessibilityModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.AccessibilityModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEngine.AccessibilityModule.xml
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEngine.AccessibilityModule.xml
+    projectPath: Temp\bin\Debug\UnityEngine.AccessibilityModule.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEngine.AIModule.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEngine.AIModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.AIModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEngine.AIModule.xml
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEngine.AIModule.xml
+    projectPath: Temp\bin\Debug\UnityEngine.AIModule.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEngine.AndroidJNIModule.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEngine.AndroidJNIModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.AndroidJNIModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEngine.AndroidJNIModule.xml
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEngine.AndroidJNIModule.xml
+    projectPath: Temp\bin\Debug\UnityEngine.AndroidJNIModule.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEngine.AnimationModule.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEngine.AnimationModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.AnimationModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEngine.AnimationModule.xml
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEngine.AnimationModule.xml
+    projectPath: Temp\bin\Debug\UnityEngine.AnimationModule.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEngine.ARModule.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEngine.ARModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.ARModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEngine.ARModule.xml
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEngine.ARModule.xml
+    projectPath: Temp\bin\Debug\UnityEngine.ARModule.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEngine.AssetBundleModule.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEngine.AssetBundleModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.AssetBundleModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEngine.AssetBundleModule.xml
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEngine.AssetBundleModule.xml
+    projectPath: Temp\bin\Debug\UnityEngine.AssetBundleModule.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEngine.AudioModule.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEngine.AudioModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.AudioModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEngine.AudioModule.xml
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEngine.AudioModule.xml
+    projectPath: Temp\bin\Debug\UnityEngine.AudioModule.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEngine.ClothModule.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEngine.ClothModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.ClothModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEngine.ClothModule.xml
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEngine.ClothModule.xml
+    projectPath: Temp\bin\Debug\UnityEngine.ClothModule.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEngine.ClusterInputModule.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEngine.ClusterInputModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.ClusterInputModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEngine.ClusterInputModule.xml
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEngine.ClusterInputModule.xml
+    projectPath: Temp\bin\Debug\UnityEngine.ClusterInputModule.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEngine.ClusterRendererModule.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEngine.ClusterRendererModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.ClusterRendererModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEngine.ClusterRendererModule.xml
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEngine.ClusterRendererModule.xml
+    projectPath: Temp\bin\Debug\UnityEngine.ClusterRendererModule.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEngine.CoreModule.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEngine.CoreModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.CoreModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEngine.CoreModule.xml
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEngine.CoreModule.xml
+    projectPath: Temp\bin\Debug\UnityEngine.CoreModule.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEngine.CrashReportingModule.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEngine.CrashReportingModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.CrashReportingModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEngine.CrashReportingModule.xml
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEngine.CrashReportingModule.xml
+    projectPath: Temp\bin\Debug\UnityEngine.CrashReportingModule.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEngine.DirectorModule.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEngine.DirectorModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.DirectorModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEngine.DirectorModule.xml
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEngine.DirectorModule.xml
+    projectPath: Temp\bin\Debug\UnityEngine.DirectorModule.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEngine.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEngine.dll
+    projectPath: Temp\bin\Debug\UnityEngine.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEngine.DSPGraphModule.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEngine.DSPGraphModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.DSPGraphModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEngine.DSPGraphModule.xml
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEngine.DSPGraphModule.xml
+    projectPath: Temp\bin\Debug\UnityEngine.DSPGraphModule.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEngine.FileSystemHttpModule.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEngine.FileSystemHttpModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.FileSystemHttpModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEngine.FileSystemHttpModule.xml
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEngine.FileSystemHttpModule.xml
+    projectPath: Temp\bin\Debug\UnityEngine.FileSystemHttpModule.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEngine.GameCenterModule.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEngine.GameCenterModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.GameCenterModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEngine.GameCenterModule.xml
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEngine.GameCenterModule.xml
+    projectPath: Temp\bin\Debug\UnityEngine.GameCenterModule.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEngine.GridModule.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEngine.GridModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.GridModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEngine.GridModule.xml
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEngine.GridModule.xml
+    projectPath: Temp\bin\Debug\UnityEngine.GridModule.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEngine.HotReloadModule.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEngine.HotReloadModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.HotReloadModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEngine.HotReloadModule.xml
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEngine.HotReloadModule.xml
+    projectPath: Temp\bin\Debug\UnityEngine.HotReloadModule.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEngine.ImageConversionModule.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEngine.ImageConversionModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.ImageConversionModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEngine.ImageConversionModule.xml
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEngine.ImageConversionModule.xml
+    projectPath: Temp\bin\Debug\UnityEngine.ImageConversionModule.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEngine.IMGUIModule.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEngine.IMGUIModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.IMGUIModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEngine.IMGUIModule.xml
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEngine.IMGUIModule.xml
+    projectPath: Temp\bin\Debug\UnityEngine.IMGUIModule.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEngine.InputLegacyModule.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEngine.InputLegacyModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.InputLegacyModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEngine.InputLegacyModule.xml
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEngine.InputLegacyModule.xml
+    projectPath: Temp\bin\Debug\UnityEngine.InputLegacyModule.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEngine.InputModule.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEngine.InputModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.InputModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEngine.InputModule.xml
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEngine.InputModule.xml
+    projectPath: Temp\bin\Debug\UnityEngine.InputModule.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEngine.JSONSerializeModule.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEngine.JSONSerializeModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.JSONSerializeModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEngine.JSONSerializeModule.xml
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEngine.JSONSerializeModule.xml
+    projectPath: Temp\bin\Debug\UnityEngine.JSONSerializeModule.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEngine.LocalizationModule.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEngine.LocalizationModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.LocalizationModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEngine.LocalizationModule.xml
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEngine.LocalizationModule.xml
+    projectPath: Temp\bin\Debug\UnityEngine.LocalizationModule.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEngine.ParticleSystemModule.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEngine.ParticleSystemModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.ParticleSystemModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEngine.ParticleSystemModule.xml
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEngine.ParticleSystemModule.xml
+    projectPath: Temp\bin\Debug\UnityEngine.ParticleSystemModule.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEngine.PerformanceReportingModule.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEngine.PerformanceReportingModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.PerformanceReportingModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEngine.PerformanceReportingModule.xml
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEngine.PerformanceReportingModule.xml
+    projectPath: Temp\bin\Debug\UnityEngine.PerformanceReportingModule.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEngine.Physics2DModule.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEngine.Physics2DModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.Physics2DModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEngine.Physics2DModule.xml
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEngine.Physics2DModule.xml
+    projectPath: Temp\bin\Debug\UnityEngine.Physics2DModule.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEngine.PhysicsModule.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEngine.PhysicsModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.PhysicsModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEngine.PhysicsModule.xml
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEngine.PhysicsModule.xml
+    projectPath: Temp\bin\Debug\UnityEngine.PhysicsModule.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEngine.ProfilerModule.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEngine.ProfilerModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.ProfilerModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEngine.ProfilerModule.xml
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEngine.ProfilerModule.xml
+    projectPath: Temp\bin\Debug\UnityEngine.ProfilerModule.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEngine.ScreenCaptureModule.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEngine.ScreenCaptureModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.ScreenCaptureModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEngine.ScreenCaptureModule.xml
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEngine.ScreenCaptureModule.xml
+    projectPath: Temp\bin\Debug\UnityEngine.ScreenCaptureModule.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEngine.SharedInternalsModule.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEngine.SharedInternalsModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.SharedInternalsModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEngine.SharedInternalsModule.xml
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEngine.SharedInternalsModule.xml
+    projectPath: Temp\bin\Debug\UnityEngine.SharedInternalsModule.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEngine.SpatialTracking.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEngine.SpatialTracking.dll
+    projectPath: Temp\bin\Debug\UnityEngine.SpatialTracking.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEngine.SpatialTracking.pdb
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEngine.SpatialTracking.pdb
+    projectPath: Temp\bin\Debug\UnityEngine.SpatialTracking.pdb
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEngine.SpriteMaskModule.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEngine.SpriteMaskModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.SpriteMaskModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEngine.SpriteMaskModule.xml
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEngine.SpriteMaskModule.xml
+    projectPath: Temp\bin\Debug\UnityEngine.SpriteMaskModule.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEngine.SpriteShapeModule.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEngine.SpriteShapeModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.SpriteShapeModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEngine.SpriteShapeModule.xml
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEngine.SpriteShapeModule.xml
+    projectPath: Temp\bin\Debug\UnityEngine.SpriteShapeModule.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEngine.StreamingModule.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEngine.StreamingModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.StreamingModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEngine.StreamingModule.xml
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEngine.StreamingModule.xml
+    projectPath: Temp\bin\Debug\UnityEngine.StreamingModule.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEngine.SubstanceModule.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEngine.SubstanceModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.SubstanceModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEngine.SubstanceModule.xml
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEngine.SubstanceModule.xml
+    projectPath: Temp\bin\Debug\UnityEngine.SubstanceModule.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEngine.TerrainModule.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEngine.TerrainModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.TerrainModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEngine.TerrainModule.xml
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEngine.TerrainModule.xml
+    projectPath: Temp\bin\Debug\UnityEngine.TerrainModule.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEngine.TerrainPhysicsModule.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEngine.TerrainPhysicsModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.TerrainPhysicsModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEngine.TerrainPhysicsModule.xml
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEngine.TerrainPhysicsModule.xml
+    projectPath: Temp\bin\Debug\UnityEngine.TerrainPhysicsModule.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEngine.TextCoreModule.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEngine.TextCoreModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.TextCoreModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEngine.TextCoreModule.xml
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEngine.TextCoreModule.xml
+    projectPath: Temp\bin\Debug\UnityEngine.TextCoreModule.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEngine.TextRenderingModule.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEngine.TextRenderingModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.TextRenderingModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEngine.TextRenderingModule.xml
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEngine.TextRenderingModule.xml
+    projectPath: Temp\bin\Debug\UnityEngine.TextRenderingModule.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEngine.TilemapModule.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEngine.TilemapModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.TilemapModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEngine.TilemapModule.xml
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEngine.TilemapModule.xml
+    projectPath: Temp\bin\Debug\UnityEngine.TilemapModule.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEngine.TLSModule.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEngine.TLSModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.TLSModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEngine.TLSModule.xml
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEngine.TLSModule.xml
+    projectPath: Temp\bin\Debug\UnityEngine.TLSModule.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEngine.UI.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEngine.UI.dll
+    projectPath: Temp\bin\Debug\UnityEngine.UI.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEngine.UI.pdb
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEngine.UI.pdb
+    projectPath: Temp\bin\Debug\UnityEngine.UI.pdb
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEngine.UIElementsModule.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEngine.UIElementsModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.UIElementsModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEngine.UIElementsModule.xml
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEngine.UIElementsModule.xml
+    projectPath: Temp\bin\Debug\UnityEngine.UIElementsModule.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEngine.UIModule.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEngine.UIModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.UIModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEngine.UIModule.xml
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEngine.UIModule.xml
+    projectPath: Temp\bin\Debug\UnityEngine.UIModule.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEngine.UmbraModule.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEngine.UmbraModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.UmbraModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEngine.UmbraModule.xml
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEngine.UmbraModule.xml
+    projectPath: Temp\bin\Debug\UnityEngine.UmbraModule.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEngine.UNETModule.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEngine.UNETModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.UNETModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEngine.UNETModule.xml
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEngine.UNETModule.xml
+    projectPath: Temp\bin\Debug\UnityEngine.UNETModule.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEngine.UnityAnalyticsModule.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEngine.UnityAnalyticsModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.UnityAnalyticsModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEngine.UnityAnalyticsModule.xml
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEngine.UnityAnalyticsModule.xml
+    projectPath: Temp\bin\Debug\UnityEngine.UnityAnalyticsModule.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEngine.UnityConnectModule.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEngine.UnityConnectModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.UnityConnectModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEngine.UnityConnectModule.xml
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEngine.UnityConnectModule.xml
+    projectPath: Temp\bin\Debug\UnityEngine.UnityConnectModule.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEngine.UnityTestProtocolModule.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEngine.UnityTestProtocolModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.UnityTestProtocolModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEngine.UnityTestProtocolModule.xml
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEngine.UnityTestProtocolModule.xml
+    projectPath: Temp\bin\Debug\UnityEngine.UnityTestProtocolModule.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEngine.UnityWebRequestAssetBundleModule.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEngine.UnityWebRequestAssetBundleModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.UnityWebRequestAssetBundleModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEngine.UnityWebRequestAssetBundleModule.xml
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEngine.UnityWebRequestAssetBundleModule.xml
+    projectPath: Temp\bin\Debug\UnityEngine.UnityWebRequestAssetBundleModule.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEngine.UnityWebRequestAudioModule.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEngine.UnityWebRequestAudioModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.UnityWebRequestAudioModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEngine.UnityWebRequestAudioModule.xml
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEngine.UnityWebRequestAudioModule.xml
+    projectPath: Temp\bin\Debug\UnityEngine.UnityWebRequestAudioModule.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEngine.UnityWebRequestModule.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEngine.UnityWebRequestModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.UnityWebRequestModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEngine.UnityWebRequestModule.xml
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEngine.UnityWebRequestModule.xml
+    projectPath: Temp\bin\Debug\UnityEngine.UnityWebRequestModule.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEngine.UnityWebRequestTextureModule.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEngine.UnityWebRequestTextureModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.UnityWebRequestTextureModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEngine.UnityWebRequestTextureModule.xml
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEngine.UnityWebRequestTextureModule.xml
+    projectPath: Temp\bin\Debug\UnityEngine.UnityWebRequestTextureModule.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEngine.UnityWebRequestWWWModule.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEngine.UnityWebRequestWWWModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.UnityWebRequestWWWModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEngine.UnityWebRequestWWWModule.xml
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEngine.UnityWebRequestWWWModule.xml
+    projectPath: Temp\bin\Debug\UnityEngine.UnityWebRequestWWWModule.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEngine.VehiclesModule.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEngine.VehiclesModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.VehiclesModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEngine.VehiclesModule.xml
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEngine.VehiclesModule.xml
+    projectPath: Temp\bin\Debug\UnityEngine.VehiclesModule.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEngine.VFXModule.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEngine.VFXModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.VFXModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEngine.VFXModule.xml
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEngine.VFXModule.xml
+    projectPath: Temp\bin\Debug\UnityEngine.VFXModule.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEngine.VideoModule.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEngine.VideoModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.VideoModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEngine.VideoModule.xml
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEngine.VideoModule.xml
+    projectPath: Temp\bin\Debug\UnityEngine.VideoModule.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEngine.VRModule.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEngine.VRModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.VRModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEngine.VRModule.xml
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEngine.VRModule.xml
+    projectPath: Temp\bin\Debug\UnityEngine.VRModule.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEngine.WindModule.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEngine.WindModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.WindModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEngine.WindModule.xml
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEngine.WindModule.xml
+    projectPath: Temp\bin\Debug\UnityEngine.WindModule.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEngine.xml
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEngine.xml
+    projectPath: Temp\bin\Debug\UnityEngine.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEngine.XR.LegacyInputHelpers.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEngine.XR.LegacyInputHelpers.dll
+    projectPath: Temp\bin\Debug\UnityEngine.XR.LegacyInputHelpers.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEngine.XR.LegacyInputHelpers.pdb
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEngine.XR.LegacyInputHelpers.pdb
+    projectPath: Temp\bin\Debug\UnityEngine.XR.LegacyInputHelpers.pdb
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEngine.XRModule.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEngine.XRModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.XRModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityEngine.XRModule.xml
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityEngine.XRModule.xml
+    projectPath: Temp\bin\Debug\UnityEngine.XRModule.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityScript.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityScript.dll
+    projectPath: Temp\bin\Debug\UnityScript.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\bin\Debug\UnityScript.Lang.dll
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\bin\Debug\UnityScript.Lang.dll
+    projectPath: Temp\bin\Debug\UnityScript.Lang.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\UnityTempFile-000f717c4113e53429e99322787c8e47
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-000f717c4113e53429e99322787c8e47
+    projectPath: Temp\UnityTempFile-000f717c4113e53429e99322787c8e47
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\UnityTempFile-01866ecd795b77142b50d96e9065102a
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-01866ecd795b77142b50d96e9065102a
+    projectPath: Temp\UnityTempFile-01866ecd795b77142b50d96e9065102a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\UnityTempFile-04724cf3bbcefe14b918558d4aa9bbb6
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-04724cf3bbcefe14b918558d4aa9bbb6
+    projectPath: Temp\UnityTempFile-04724cf3bbcefe14b918558d4aa9bbb6
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\UnityTempFile-067e7c0a8b0f16841994e1ce95944355
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-067e7c0a8b0f16841994e1ce95944355
+    projectPath: Temp\UnityTempFile-067e7c0a8b0f16841994e1ce95944355
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\UnityTempFile-0939cde1abb3ffa42aa04dccec09aace
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-0939cde1abb3ffa42aa04dccec09aace
+    projectPath: Temp\UnityTempFile-0939cde1abb3ffa42aa04dccec09aace
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\UnityTempFile-0aaee5cbdb133a84b8ac364e9bccb219
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-0aaee5cbdb133a84b8ac364e9bccb219
+    projectPath: Temp\UnityTempFile-0aaee5cbdb133a84b8ac364e9bccb219
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\UnityTempFile-13d0c8b27b144ab4da9854c53e8e583f
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-13d0c8b27b144ab4da9854c53e8e583f
+    projectPath: Temp\UnityTempFile-13d0c8b27b144ab4da9854c53e8e583f
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\UnityTempFile-164475da2d77e4b499465a94170028fb
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-164475da2d77e4b499465a94170028fb
+    projectPath: Temp\UnityTempFile-164475da2d77e4b499465a94170028fb
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\UnityTempFile-174b544457059624fb0c8e2dc44afe8f
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-174b544457059624fb0c8e2dc44afe8f
+    projectPath: Temp\UnityTempFile-174b544457059624fb0c8e2dc44afe8f
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\UnityTempFile-1c3ae56adc9ad544b85e20a7548b2406
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-1c3ae56adc9ad544b85e20a7548b2406
+    projectPath: Temp\UnityTempFile-1c3ae56adc9ad544b85e20a7548b2406
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\UnityTempFile-1c652b7909224e94d9670fb5bc7a6eeb
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-1c652b7909224e94d9670fb5bc7a6eeb
+    projectPath: Temp\UnityTempFile-1c652b7909224e94d9670fb5bc7a6eeb
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\UnityTempFile-22cfa820aff6dfe4881b2f6a8c14bf7d
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-22cfa820aff6dfe4881b2f6a8c14bf7d
+    projectPath: Temp\UnityTempFile-22cfa820aff6dfe4881b2f6a8c14bf7d
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\UnityTempFile-240ce690383e855418c344fc4eae47a1
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-240ce690383e855418c344fc4eae47a1
+    projectPath: Temp\UnityTempFile-240ce690383e855418c344fc4eae47a1
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\UnityTempFile-25bafbc71b8cf6242aaf23d2d7daf7cd
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-25bafbc71b8cf6242aaf23d2d7daf7cd
+    projectPath: Temp\UnityTempFile-25bafbc71b8cf6242aaf23d2d7daf7cd
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\UnityTempFile-274406fda5012764c9bde6847d66de8d
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-274406fda5012764c9bde6847d66de8d
+    projectPath: Temp\UnityTempFile-274406fda5012764c9bde6847d66de8d
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\UnityTempFile-2b20bc6a03f80514481c596bbf6b0049
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-2b20bc6a03f80514481c596bbf6b0049
+    projectPath: Temp\UnityTempFile-2b20bc6a03f80514481c596bbf6b0049
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\UnityTempFile-2b6a18ae0871d7b47b23f2d13ba1c5d5
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-2b6a18ae0871d7b47b23f2d13ba1c5d5
+    projectPath: Temp\UnityTempFile-2b6a18ae0871d7b47b23f2d13ba1c5d5
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\UnityTempFile-336e7d3d2b77c5245af90e8276122195
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-336e7d3d2b77c5245af90e8276122195
+    projectPath: Temp\UnityTempFile-336e7d3d2b77c5245af90e8276122195
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\UnityTempFile-34df7ac8b07a11148ade10fbfbdadb2c
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-34df7ac8b07a11148ade10fbfbdadb2c
+    projectPath: Temp\UnityTempFile-34df7ac8b07a11148ade10fbfbdadb2c
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\UnityTempFile-36d9cfa6fa86c6b409a3024036d70be7
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-36d9cfa6fa86c6b409a3024036d70be7
+    projectPath: Temp\UnityTempFile-36d9cfa6fa86c6b409a3024036d70be7
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\UnityTempFile-3922e20bd16b2c445b686816bea7c3f4
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-3922e20bd16b2c445b686816bea7c3f4
+    projectPath: Temp\UnityTempFile-3922e20bd16b2c445b686816bea7c3f4
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\UnityTempFile-3d8a424237532e54bada74e53eaf95ee
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-3d8a424237532e54bada74e53eaf95ee
+    projectPath: Temp\UnityTempFile-3d8a424237532e54bada74e53eaf95ee
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\UnityTempFile-40a70d5021bd5794d8f22753a98a4de8
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-40a70d5021bd5794d8f22753a98a4de8
+    projectPath: Temp\UnityTempFile-40a70d5021bd5794d8f22753a98a4de8
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\UnityTempFile-40c89c6012d6b134b9d87c8881988d01
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-40c89c6012d6b134b9d87c8881988d01
+    projectPath: Temp\UnityTempFile-40c89c6012d6b134b9d87c8881988d01
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\UnityTempFile-4134257f6a422604dba857606aab846e
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-4134257f6a422604dba857606aab846e
+    projectPath: Temp\UnityTempFile-4134257f6a422604dba857606aab846e
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\UnityTempFile-425ac46e054390a41a7f667053677a4a
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-425ac46e054390a41a7f667053677a4a
+    projectPath: Temp\UnityTempFile-425ac46e054390a41a7f667053677a4a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\UnityTempFile-42d305ce4c3fc2641b498fde14cbe03f
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-42d305ce4c3fc2641b498fde14cbe03f
+    projectPath: Temp\UnityTempFile-42d305ce4c3fc2641b498fde14cbe03f
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\UnityTempFile-43b2dc68ff73fa4468adf487aa135e09
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-43b2dc68ff73fa4468adf487aa135e09
+    projectPath: Temp\UnityTempFile-43b2dc68ff73fa4468adf487aa135e09
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\UnityTempFile-452090f341d6aab40ba8f85230c12314
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-452090f341d6aab40ba8f85230c12314
+    projectPath: Temp\UnityTempFile-452090f341d6aab40ba8f85230c12314
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\UnityTempFile-454057a5a7eaa9a43ac7ea769af2e95c
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-454057a5a7eaa9a43ac7ea769af2e95c
+    projectPath: Temp\UnityTempFile-454057a5a7eaa9a43ac7ea769af2e95c
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\UnityTempFile-48c2fb7dba6a532428f86ca7e6d69e5c
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-48c2fb7dba6a532428f86ca7e6d69e5c
+    projectPath: Temp\UnityTempFile-48c2fb7dba6a532428f86ca7e6d69e5c
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\UnityTempFile-4b191d40bf9c28e4bb14c22acac91453
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-4b191d40bf9c28e4bb14c22acac91453
+    projectPath: Temp\UnityTempFile-4b191d40bf9c28e4bb14c22acac91453
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\UnityTempFile-4b83646a7ced3d04e8fc4ffbb923df47
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-4b83646a7ced3d04e8fc4ffbb923df47
+    projectPath: Temp\UnityTempFile-4b83646a7ced3d04e8fc4ffbb923df47
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\UnityTempFile-4d591d267cb7f2643af1d03a90083446
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-4d591d267cb7f2643af1d03a90083446
+    projectPath: Temp\UnityTempFile-4d591d267cb7f2643af1d03a90083446
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\UnityTempFile-4e4c6c4dc4ed04a4c8428045118e3a50
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-4e4c6c4dc4ed04a4c8428045118e3a50
+    projectPath: Temp\UnityTempFile-4e4c6c4dc4ed04a4c8428045118e3a50
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\UnityTempFile-4e5142ef6a9fa7749b507a09bcc55321
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-4e5142ef6a9fa7749b507a09bcc55321
+    projectPath: Temp\UnityTempFile-4e5142ef6a9fa7749b507a09bcc55321
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\UnityTempFile-50a95df77188d8d419a6f7e433f30143
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-50a95df77188d8d419a6f7e433f30143
+    projectPath: Temp\UnityTempFile-50a95df77188d8d419a6f7e433f30143
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\UnityTempFile-50dbe4862fb26ee4499f113ac9be697f
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-50dbe4862fb26ee4499f113ac9be697f
+    projectPath: Temp\UnityTempFile-50dbe4862fb26ee4499f113ac9be697f
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\UnityTempFile-51771486055af424b8572da2aa6da021
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-51771486055af424b8572da2aa6da021
+    projectPath: Temp\UnityTempFile-51771486055af424b8572da2aa6da021
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\UnityTempFile-563db005852bb2f4aa81da44302092df
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-563db005852bb2f4aa81da44302092df
+    projectPath: Temp\UnityTempFile-563db005852bb2f4aa81da44302092df
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\UnityTempFile-59aada3b5cb14f04c84db72327ae1bb9
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-59aada3b5cb14f04c84db72327ae1bb9
+    projectPath: Temp\UnityTempFile-59aada3b5cb14f04c84db72327ae1bb9
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\UnityTempFile-5e2e945059c40634bb9faa6e4ef428f6
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-5e2e945059c40634bb9faa6e4ef428f6
+    projectPath: Temp\UnityTempFile-5e2e945059c40634bb9faa6e4ef428f6
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\UnityTempFile-5e4d7a302cbb40142bbeee433aec2931
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-5e4d7a302cbb40142bbeee433aec2931
+    projectPath: Temp\UnityTempFile-5e4d7a302cbb40142bbeee433aec2931
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\UnityTempFile-5f4fb0da603b1694187a5952d04e6d2c
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-5f4fb0da603b1694187a5952d04e6d2c
+    projectPath: Temp\UnityTempFile-5f4fb0da603b1694187a5952d04e6d2c
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\UnityTempFile-5ffd76da7e11b4b489557b3222b9c5c6
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-5ffd76da7e11b4b489557b3222b9c5c6
+    projectPath: Temp\UnityTempFile-5ffd76da7e11b4b489557b3222b9c5c6
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\UnityTempFile-64471ef92ce71a940b35346619fa16a8
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-64471ef92ce71a940b35346619fa16a8
+    projectPath: Temp\UnityTempFile-64471ef92ce71a940b35346619fa16a8
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\UnityTempFile-64bcbfac903aa234e988c59bef48e835
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-64bcbfac903aa234e988c59bef48e835
+    projectPath: Temp\UnityTempFile-64bcbfac903aa234e988c59bef48e835
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\UnityTempFile-6c2cccc981130bd40b7650f80bd09c94
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-6c2cccc981130bd40b7650f80bd09c94
+    projectPath: Temp\UnityTempFile-6c2cccc981130bd40b7650f80bd09c94
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\UnityTempFile-6c7aadb26a0c0164a8c2d9ccfe9b14a7
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-6c7aadb26a0c0164a8c2d9ccfe9b14a7
+    projectPath: Temp\UnityTempFile-6c7aadb26a0c0164a8c2d9ccfe9b14a7
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\UnityTempFile-6ca6219e8ca206b47843082db018d7b9
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-6ca6219e8ca206b47843082db018d7b9
+    projectPath: Temp\UnityTempFile-6ca6219e8ca206b47843082db018d7b9
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\UnityTempFile-6d143b19ba8464f499eacd57c255b8f5
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-6d143b19ba8464f499eacd57c255b8f5
+    projectPath: Temp\UnityTempFile-6d143b19ba8464f499eacd57c255b8f5
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\UnityTempFile-6e07f84baef20044a8cc8e3a70b55246
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-6e07f84baef20044a8cc8e3a70b55246
+    projectPath: Temp\UnityTempFile-6e07f84baef20044a8cc8e3a70b55246
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\UnityTempFile-6f9a6bf47af213442aacca077f87235e
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-6f9a6bf47af213442aacca077f87235e
+    projectPath: Temp\UnityTempFile-6f9a6bf47af213442aacca077f87235e
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\UnityTempFile-71fa21f81c0bafd4c984645cac35f8a4
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-71fa21f81c0bafd4c984645cac35f8a4
+    projectPath: Temp\UnityTempFile-71fa21f81c0bafd4c984645cac35f8a4
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\UnityTempFile-7a8fe53b5a9e4f54e8aae53bc00e0cd7
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-7a8fe53b5a9e4f54e8aae53bc00e0cd7
+    projectPath: Temp\UnityTempFile-7a8fe53b5a9e4f54e8aae53bc00e0cd7
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\UnityTempFile-7bc8ed7ff7e1e0a429979872102e124f
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-7bc8ed7ff7e1e0a429979872102e124f
+    projectPath: Temp\UnityTempFile-7bc8ed7ff7e1e0a429979872102e124f
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\UnityTempFile-7bdd75d12f22ebb469161d342be926bc
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-7bdd75d12f22ebb469161d342be926bc
+    projectPath: Temp\UnityTempFile-7bdd75d12f22ebb469161d342be926bc
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\UnityTempFile-7c8118b22d7c58549a8e1930b20c55e1
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-7c8118b22d7c58549a8e1930b20c55e1
+    projectPath: Temp\UnityTempFile-7c8118b22d7c58549a8e1930b20c55e1
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\UnityTempFile-7fbc224d8f51ec54e931abcb3fe4353e
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-7fbc224d8f51ec54e931abcb3fe4353e
+    projectPath: Temp\UnityTempFile-7fbc224d8f51ec54e931abcb3fe4353e
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\UnityTempFile-837610c8899d27c4d9bd5bddb3d8fdca
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-837610c8899d27c4d9bd5bddb3d8fdca
+    projectPath: Temp\UnityTempFile-837610c8899d27c4d9bd5bddb3d8fdca
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\UnityTempFile-858b8da016c1ed642bdec82bb4319bee
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-858b8da016c1ed642bdec82bb4319bee
+    projectPath: Temp\UnityTempFile-858b8da016c1ed642bdec82bb4319bee
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\UnityTempFile-86ec00d533e72bc44b9a35c8429a5e23
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-86ec00d533e72bc44b9a35c8429a5e23
+    projectPath: Temp\UnityTempFile-86ec00d533e72bc44b9a35c8429a5e23
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\UnityTempFile-8d5bd5fd084b32148b501aaf9017ed89
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-8d5bd5fd084b32148b501aaf9017ed89
+    projectPath: Temp\UnityTempFile-8d5bd5fd084b32148b501aaf9017ed89
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\UnityTempFile-8d90f5467769e7b48a8b2de51fed2392
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-8d90f5467769e7b48a8b2de51fed2392
+    projectPath: Temp\UnityTempFile-8d90f5467769e7b48a8b2de51fed2392
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\UnityTempFile-9273915dba90c7846a92e599f10b1e77
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-9273915dba90c7846a92e599f10b1e77
+    projectPath: Temp\UnityTempFile-9273915dba90c7846a92e599f10b1e77
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\UnityTempFile-92e45a9f2a7035647991e2ba2ea8e482
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-92e45a9f2a7035647991e2ba2ea8e482
+    projectPath: Temp\UnityTempFile-92e45a9f2a7035647991e2ba2ea8e482
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\UnityTempFile-931c94cb668a3c0418995816b955a267
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-931c94cb668a3c0418995816b955a267
+    projectPath: Temp\UnityTempFile-931c94cb668a3c0418995816b955a267
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\UnityTempFile-951addd48cbc21d4cb271a8817c7fa9a
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-951addd48cbc21d4cb271a8817c7fa9a
+    projectPath: Temp\UnityTempFile-951addd48cbc21d4cb271a8817c7fa9a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\UnityTempFile-9873ae5cc3680924297e2cb5e79a2d6a
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-9873ae5cc3680924297e2cb5e79a2d6a
+    projectPath: Temp\UnityTempFile-9873ae5cc3680924297e2cb5e79a2d6a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\UnityTempFile-9afa200b90fead84c89fe98bc9030c43
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-9afa200b90fead84c89fe98bc9030c43
+    projectPath: Temp\UnityTempFile-9afa200b90fead84c89fe98bc9030c43
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\UnityTempFile-9dbe593c5ab7d7e47a83e98016558b41
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-9dbe593c5ab7d7e47a83e98016558b41
+    projectPath: Temp\UnityTempFile-9dbe593c5ab7d7e47a83e98016558b41
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\UnityTempFile-9e14763fd02900d4484e3d45cc02b187
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-9e14763fd02900d4484e3d45cc02b187
+    projectPath: Temp\UnityTempFile-9e14763fd02900d4484e3d45cc02b187
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\UnityTempFile-a3050e3c4f817484f87dafd1dd711417
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-a3050e3c4f817484f87dafd1dd711417
+    projectPath: Temp\UnityTempFile-a3050e3c4f817484f87dafd1dd711417
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\UnityTempFile-a4d746c9a51ebc440ae45c8b19de6c05
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-a4d746c9a51ebc440ae45c8b19de6c05
+    projectPath: Temp\UnityTempFile-a4d746c9a51ebc440ae45c8b19de6c05
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\UnityTempFile-a6372d59cb06fc848b27bb0f9125e802
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-a6372d59cb06fc848b27bb0f9125e802
+    projectPath: Temp\UnityTempFile-a6372d59cb06fc848b27bb0f9125e802
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\UnityTempFile-ace27dcf56e3bc54fb779d98179f1849
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-ace27dcf56e3bc54fb779d98179f1849
+    projectPath: Temp\UnityTempFile-ace27dcf56e3bc54fb779d98179f1849
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\UnityTempFile-ad5edb7d21923fa45ac73a7700ad1325
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-ad5edb7d21923fa45ac73a7700ad1325
+    projectPath: Temp\UnityTempFile-ad5edb7d21923fa45ac73a7700ad1325
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\UnityTempFile-b133df902b6c6094e8abe20384c51c35
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-b133df902b6c6094e8abe20384c51c35
+    projectPath: Temp\UnityTempFile-b133df902b6c6094e8abe20384c51c35
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\UnityTempFile-b38eb6ec71f6ce54a9562b6d5458f4fa
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-b38eb6ec71f6ce54a9562b6d5458f4fa
+    projectPath: Temp\UnityTempFile-b38eb6ec71f6ce54a9562b6d5458f4fa
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\UnityTempFile-b4b455f5c0b1b504495e78e79ab0a78d
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-b4b455f5c0b1b504495e78e79ab0a78d
+    projectPath: Temp\UnityTempFile-b4b455f5c0b1b504495e78e79ab0a78d
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\UnityTempFile-b5432539582322b42a5444e4a423e09e
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-b5432539582322b42a5444e4a423e09e
+    projectPath: Temp\UnityTempFile-b5432539582322b42a5444e4a423e09e
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\UnityTempFile-b8527ab15a0db8741864de16b7c2ebb3
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-b8527ab15a0db8741864de16b7c2ebb3
+    projectPath: Temp\UnityTempFile-b8527ab15a0db8741864de16b7c2ebb3
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\UnityTempFile-bbbd6e485d834a3469ac2733e59a154d
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-bbbd6e485d834a3469ac2733e59a154d
+    projectPath: Temp\UnityTempFile-bbbd6e485d834a3469ac2733e59a154d
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\UnityTempFile-bbe990761338b7147b1a2f70728f2359
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-bbe990761338b7147b1a2f70728f2359
+    projectPath: Temp\UnityTempFile-bbe990761338b7147b1a2f70728f2359
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\UnityTempFile-bdd75bbc6b2dab94aa206880fd3a40a2
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-bdd75bbc6b2dab94aa206880fd3a40a2
+    projectPath: Temp\UnityTempFile-bdd75bbc6b2dab94aa206880fd3a40a2
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\UnityTempFile-bf076543391977d4dbdf0714e45403ba
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-bf076543391977d4dbdf0714e45403ba
+    projectPath: Temp\UnityTempFile-bf076543391977d4dbdf0714e45403ba
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\UnityTempFile-c3ea5d2edb2cde64ab966d1644a468eb
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-c3ea5d2edb2cde64ab966d1644a468eb
+    projectPath: Temp\UnityTempFile-c3ea5d2edb2cde64ab966d1644a468eb
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\UnityTempFile-c74ceab4880c5a34f8d3138b2e2281f3
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-c74ceab4880c5a34f8d3138b2e2281f3
+    projectPath: Temp\UnityTempFile-c74ceab4880c5a34f8d3138b2e2281f3
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\UnityTempFile-c962a02bb7bf1c5478eac2217daebd6c
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-c962a02bb7bf1c5478eac2217daebd6c
+    projectPath: Temp\UnityTempFile-c962a02bb7bf1c5478eac2217daebd6c
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\UnityTempFile-ccdf2f37cb7261544805db17d71cf6a6
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-ccdf2f37cb7261544805db17d71cf6a6
+    projectPath: Temp\UnityTempFile-ccdf2f37cb7261544805db17d71cf6a6
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\UnityTempFile-cf9c177dd8bbba64e855ca2986210c0a
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-cf9c177dd8bbba64e855ca2986210c0a
+    projectPath: Temp\UnityTempFile-cf9c177dd8bbba64e855ca2986210c0a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\UnityTempFile-cfe9bbd8a4f8713409fe1b058ec166c1
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-cfe9bbd8a4f8713409fe1b058ec166c1
+    projectPath: Temp\UnityTempFile-cfe9bbd8a4f8713409fe1b058ec166c1
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\UnityTempFile-d121645093bc4ef48b7178b5040c8701
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-d121645093bc4ef48b7178b5040c8701
+    projectPath: Temp\UnityTempFile-d121645093bc4ef48b7178b5040c8701
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\UnityTempFile-d190cfefef6c0e742a9645c629df6858
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-d190cfefef6c0e742a9645c629df6858
+    projectPath: Temp\UnityTempFile-d190cfefef6c0e742a9645c629df6858
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\UnityTempFile-d257e1b409f2f584ea7e876eb0c88883
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-d257e1b409f2f584ea7e876eb0c88883
+    projectPath: Temp\UnityTempFile-d257e1b409f2f584ea7e876eb0c88883
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\UnityTempFile-d55ec76bf1042f342a647bdae42297ac
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-d55ec76bf1042f342a647bdae42297ac
+    projectPath: Temp\UnityTempFile-d55ec76bf1042f342a647bdae42297ac
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\UnityTempFile-d6bf4c7bea8610441ae88eb5a7ca47e7
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-d6bf4c7bea8610441ae88eb5a7ca47e7
+    projectPath: Temp\UnityTempFile-d6bf4c7bea8610441ae88eb5a7ca47e7
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\UnityTempFile-da660d7801d8844409e00db059a240e3
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-da660d7801d8844409e00db059a240e3
+    projectPath: Temp\UnityTempFile-da660d7801d8844409e00db059a240e3
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\UnityTempFile-da9abbbc7b1ced543a9a66100d16dbcc
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-da9abbbc7b1ced543a9a66100d16dbcc
+    projectPath: Temp\UnityTempFile-da9abbbc7b1ced543a9a66100d16dbcc
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\UnityTempFile-e3d19fc1ae74ff94fb064589daa54a1c
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-e3d19fc1ae74ff94fb064589daa54a1c
+    projectPath: Temp\UnityTempFile-e3d19fc1ae74ff94fb064589daa54a1c
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\UnityTempFile-e716cdbed13c5e749a0797fa4daa6f92
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-e716cdbed13c5e749a0797fa4daa6f92
+    projectPath: Temp\UnityTempFile-e716cdbed13c5e749a0797fa4daa6f92
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\UnityTempFile-e76b227d8d1aca94ab775da6235e0e88
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-e76b227d8d1aca94ab775da6235e0e88
+    projectPath: Temp\UnityTempFile-e76b227d8d1aca94ab775da6235e0e88
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\UnityTempFile-ea10247e3f6d20b41adb461dd3f8b50d
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-ea10247e3f6d20b41adb461dd3f8b50d
+    projectPath: Temp\UnityTempFile-ea10247e3f6d20b41adb461dd3f8b50d
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\UnityTempFile-edffbb64c1aeeae4784495686f9af131
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-edffbb64c1aeeae4784495686f9af131
+    projectPath: Temp\UnityTempFile-edffbb64c1aeeae4784495686f9af131
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\UnityTempFile-eee01d8687a19a44192bbe10d78cedfd
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-eee01d8687a19a44192bbe10d78cedfd
+    projectPath: Temp\UnityTempFile-eee01d8687a19a44192bbe10d78cedfd
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\UnityTempFile-fc31128d6312d2846a5c8e4e9322f81e
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-fc31128d6312d2846a5c8e4e9322f81e
+    projectPath: Temp\UnityTempFile-fc31128d6312d2846a5c8e4e9322f81e
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\UnityTempFile-fd235a6e337185344a64c22437769ec6
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-fd235a6e337185344a64c22437769ec6
+    projectPath: Temp\UnityTempFile-fd235a6e337185344a64c22437769ec6
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Test Scene\Temp\UnityTempFile-ff062d8654ef4374db6ac3c00dda0090
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-ff062d8654ef4374db6ac3c00dda0090
+    projectPath: Temp\UnityTempFile-ff062d8654ef4374db6ac3c00dda0090
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1

@@ -43,11 +43,17 @@ public class PlayerController : MonoBehaviour
     public List<BaseJob> jobs;
     public List<string> spells;
 
+    [Header("Save Profiles")]
+    public string saveprofilename;
+
     // playerLevel to be read from SaveScript
     // currentHealth to be read from SaveScript
 
     private void Start()
-    { 
+    {
+        Debug.Log("playercontroller.start(), saveprofilename of globalcontrol is" + GlobalControl.Instance.GetSaveProfileName());
+        saveprofilename = GlobalControl.Instance.GetSaveProfileName();
+        LoadPlayerData();
         //initialize savescript variables
         //xpBar.value = (currentXP - previousLevelXP) / (nextLevelXP - previousLevelXP);
 
@@ -56,11 +62,11 @@ public class PlayerController : MonoBehaviour
         nextSlot0Time = nextSlot1Time = nextSlot2Time = nextSlot3Time = nextSlot4Time = Time.time;
         cam = Camera.main;
 
-        //Setting up XP Bar
-        currentXP = 0;
-        playerLevel = 1;
-        nextLevelXP = (int)Mathf.Floor(Mathf.Pow(playerLevel + 10, (float)1.75)) - 30;
-        previousLevelXP = 0;
+        //Setting up XP Bar 
+        //currentXP = 0;
+        //playerLevel = 1;
+        //nextLevelXP = (int)Mathf.Floor(Mathf.Pow(playerLevel + 10, (float)1.75)) - 30;
+        //previousLevelXP = 0;
         xpBar.value = (currentXP) / (nextLevelXP);
         xpInfo.text = "Level: " + playerLevel + "     XP: " + currentXP + "/" + nextLevelXP;
 
@@ -68,7 +74,7 @@ public class PlayerController : MonoBehaviour
         dead = false;
 
         //Setting up health
-        currentHealth = maxHealth;
+        //currentHealth = maxHealth;
         healthBar.value = CalculateHealth();
 
         // Setting up jobs, start off as wizard/monk
@@ -81,8 +87,8 @@ public class PlayerController : MonoBehaviour
             job.initialize(); 
             spells.AddRange(job.spellnames); 
         }
-        spells.ForEach(s => Debug.Log(s + ", "));
-
+        //spells.ForEach(s => Debug.Log(s + ", "));
+  
         //Setting up combat and spells
         UpdateHand();
     }
@@ -201,6 +207,20 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    public void UpdateGlobalPlayerData() // Global Player Data passes player info between scenes
+    {
+        Save playerData = SaveData.Load<Save>(saveprofilename);
+      
+        GlobalControl.Instance.SetCurrentXP(currentXP);
+        GlobalControl.Instance.SetCurrentHealth(currentHealth);
+        GlobalControl.Instance.SetMaxHealth(maxHealth);
+        GlobalControl.Instance.SetNextXP(nextLevelXP);
+        GlobalControl.Instance.SetPreviousXP(previousLevelXP);
+        GlobalControl.Instance.SetSaveProfileName(saveprofilename);
+        Inventory.instance.SetInvData(playerData._itemsDict);
+        Inventory.instance.UpdateKeys();
+    }
+
     public void SavePlayerData()
     {
         Save mySave = new Save()
@@ -214,12 +234,12 @@ public class PlayerController : MonoBehaviour
             _itemsDict = Inventory.instance.GetInvData()
         };
 
-        SaveData.Save<Save>(mySave, "save1");
+        SaveData.Save<Save>(mySave, saveprofilename); 
     }
 
     public void LoadPlayerData()
     {
-        Save playerData = SaveData.Load<Save>("save1");
+        Save playerData = SaveData.Load<Save>(saveprofilename);
 
         currentXP = playerData._currentXP;
         currentHealth = playerData._currentHealth;
@@ -231,7 +251,6 @@ public class PlayerController : MonoBehaviour
         Inventory.instance.UpdateKeys();
     }
 
-    /* SPELL CASTING FUNCTIONS */
     public void CastSpell(int n)
     {
         if (!hand[n]) // if the hand's slot is empty, just return
