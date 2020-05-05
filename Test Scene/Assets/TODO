@@ -1,14 +1,15 @@
 TO DO:
-3. Find a way to package scene contents (gui/ui/player) when transferring to different scenes
 5. Properly scale game based on resolution
 
 IN PROGRESS:
-2. Start game from main screen, properly load/save and create new profiles 
-** updated main screen's menu options, setup profiles... just need to actually implement the profiles now (5/2/2020)
+3. Find a way to package scene contents (gui/ui/player) when transferring to different scenes
+** have a good idea - saw that if you make variables STATIC they stay between scenes!
 
 FINISHED:
 1. Make it so you can't open inventory/quest/map/spells when in escape/pause screen, esc exits in-game uis (5/1/2020)
+2. Start game from main screen, properly load/save and create new profiles (5/5/2020)
 4. Automatically fill up available spells based on current class(es) (5/1/2020)
 6. On play, the game starts paused for some reason? - FIXED (5/1/2020)
 7. Fix auto-fill input key text based on player profile (last saved input vals) (4/30/2020)
+
 

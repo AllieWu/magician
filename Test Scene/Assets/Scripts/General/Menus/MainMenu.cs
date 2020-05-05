@@ -11,11 +11,9 @@ public class MainMenu : MonoBehaviour
     public GameObject controlsMenu;
     public GameObject profilesMenu;
     public GameObject mainMenu;
+    private string saveprofilename;
 
-    private void Start()
-    {
-        Debug.Log("MAIN MENU START: " + GlobalControl.Instance.GetSaveProfileName());
-    }
+    private void Start() { }
     private void Update() // check for esc to exit UIs
     {
         if (Input.GetKeyDown(KeyCode.Escape)) 
@@ -40,34 +38,10 @@ public class MainMenu : MonoBehaviour
         }
     }
 
-    private void UpdateProfileName(string input)
-    {
-        GlobalControl.Instance.SetSaveProfileName(input);
-
-        string path = Application.persistentDataPath + "/saves/";
-        string filepath = path + input + ".txt";
-        if (!File.Exists(filepath)) // if the profile doesn't exist yet, create it
-        {
-            Debug.Log("PROFILE DIDNT EXIST, CREATING IT: " + input);
-            
-            Save mySave = new Save()
-            {
-                _currentXP = 0,
-                _currentHealth = 1,
-                _maxHealth = 1,
-                _playerLevel = 1,
-                _nextLevelXP = (int)Mathf.Floor(Mathf.Pow(1 + 10, (float)1.75)) - 30, // 1 is playerlevel
-                _previousLevelXP = 0,
-                _itemsDict = new Dictionary<(int, int, string, string, bool), int>()
-            };
-            SaveData.Save<Save>(mySave, input);
-        }
-    }
-
     public void PlayGame(string profilename)
     {
-        UpdateProfileName(profilename);
-        GlobalControl.Instance.UpdateGlobalControl();
+        saveprofilename = profilename;
+        PlayerPrefs.SetString("profile", saveprofilename);
         SceneManager.LoadScene("SampleScene");
     }
 

@@ -18029,13 +18029,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f9b4be940bc982a4481be8ea1ddc19cc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentXP: 0
-  nextLevelXP: 0
-  previousLevelXP: 0
-  playerLevel: 0
-  currentHealth: 0
-  maxHealth: 0
-  saveprofilename: 
 --- !u!1 &1515730316
 GameObject:
   m_ObjectHideFlags: 0

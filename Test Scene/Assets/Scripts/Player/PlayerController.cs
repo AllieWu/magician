@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.IO;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -45,22 +46,59 @@ public class PlayerController : MonoBehaviour
 
     [Header("Save Profiles")]
     public string saveprofilename;
+    public Save playerData = new Save();
 
     // playerLevel to be read from SaveScript
     // currentHealth to be read from SaveScript
 
+    private void OnEnable()
+    {
+        saveprofilename = PlayerPrefs.GetString("profile");
+        string path = Application.persistentDataPath + "/saves/";
+        string filepath = path + saveprofilename + ".txt";
+
+        if (!File.Exists(filepath)) // if save doesn't exist, create it w/ default vals
+        {
+            Debug.Log("PROFILE DIDNT EXIST, CREATING IT: " + saveprofilename);
+            Save mySave = new Save() // default new profile save values
+            {
+                _currentXP = 0,
+                _currentHealth = 1,
+                _maxHealth = 1,
+                _playerLevel = 1,
+                _nextLevelXP = (int)Mathf.Floor(Mathf.Pow(1 + 10, (float)1.75)) - 30, // 1 is playerlevel
+                _previousLevelXP = 0,
+                _itemsDict = new Dictionary<(int, int, string, string, bool), int>()
+            };
+            SaveData.Save<Save>(mySave, saveprofilename);
+        }
+
+        saveprofilename = PlayerPrefs.GetString("profile");
+    }
     private void Start()
     {
-        Debug.Log("playercontroller.start(), saveprofilename of globalcontrol is" + GlobalControl.Instance.GetSaveProfileName());
-        saveprofilename = GlobalControl.Instance.GetSaveProfileName();
-        LoadPlayerData();
-        //initialize savescript variables
-        //xpBar.value = (currentXP - previousLevelXP) / (nextLevelXP - previousLevelXP);
-
+        body = GetComponent<Rigidbody2D>();
+        dead = false;
         Time.timeScale = 1f; // game starts not paused
         location = GetComponent<Transform>();
         nextSlot0Time = nextSlot1Time = nextSlot2Time = nextSlot3Time = nextSlot4Time = Time.time;
         cam = Camera.main;
+
+        // Setting up jobs/spells, start as wizard/monk
+        jobs = new List<BaseJob>();
+        jobs.Add(new Wizard());
+        jobs.Add(new Monk());
+
+        foreach (BaseJob job in jobs) // initialize job class's spells and name, updating player's spell
+        {
+            job.initialize();
+            spells.AddRange(job.spellnames);
+        }
+        UpdateHand();
+
+        // Setting up packaged data
+        playerData = SaveData.Load<Save>(saveprofilename);
+        SetUpPlayerData(playerData);
 
         //Setting up XP Bar 
         //currentXP = 0;
@@ -70,27 +108,9 @@ public class PlayerController : MonoBehaviour
         xpBar.value = (currentXP) / (nextLevelXP);
         xpInfo.text = "Level: " + playerLevel + "     XP: " + currentXP + "/" + nextLevelXP;
 
-        body = GetComponent<Rigidbody2D>();
-        dead = false;
-
         //Setting up health
         //currentHealth = maxHealth;
         healthBar.value = CalculateHealth();
-
-        // Setting up jobs, start off as wizard/monk
-        jobs = new List<BaseJob>();
-        jobs.Add(new Wizard());
-        jobs.Add(new Monk());
-        
-        foreach (BaseJob job in jobs) // initialize job class's spells and name, updating player's spell
-        {
-            job.initialize(); 
-            spells.AddRange(job.spellnames); 
-        }
-        //spells.ForEach(s => Debug.Log(s + ", "));
-  
-        //Setting up combat and spells
-        UpdateHand();
     }
 
     private void Update()
@@ -207,18 +227,14 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    public void UpdateGlobalPlayerData() // Global Player Data passes player info between scenes
+    public void SetUpPlayerData(Save save)
     {
-        Save playerData = SaveData.Load<Save>(saveprofilename);
-      
-        GlobalControl.Instance.SetCurrentXP(currentXP);
-        GlobalControl.Instance.SetCurrentHealth(currentHealth);
-        GlobalControl.Instance.SetMaxHealth(maxHealth);
-        GlobalControl.Instance.SetNextXP(nextLevelXP);
-        GlobalControl.Instance.SetPreviousXP(previousLevelXP);
-        GlobalControl.Instance.SetSaveProfileName(saveprofilename);
-        Inventory.instance.SetInvData(playerData._itemsDict);
-        Inventory.instance.UpdateKeys();
+        currentXP = save._currentXP;
+        nextLevelXP = save._nextLevelXP;
+        previousLevelXP = save._previousLevelXP;
+        playerLevel = save._playerLevel;
+        currentHealth = save._currentHealth;
+        maxHealth = save._maxHealth; 
     }
 
     public void SavePlayerData()
