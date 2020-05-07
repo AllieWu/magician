@@ -5290,7 +5290,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1088998271}
   - component: {fileID: 1088998272}
-  - component: {fileID: 1088998273}
   m_Layer: 0
   m_Name: UIManager
   m_TagString: Untagged
@@ -5328,18 +5327,6 @@ MonoBehaviour:
   controlsMenu: {fileID: 1914015415}
   profilesMenu: {fileID: 909606833}
   mainMenu: {fileID: 243072070}
---- !u!114 &1088998273
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1088998270}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f9b4be940bc982a4481be8ea1ddc19cc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1114094726
 GameObject:
   m_ObjectHideFlags: 0
@@ -5678,6 +5665,17 @@ MonoBehaviour:
       - m_Target: {fileID: 243072070}
         m_MethodName: SetActive
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1088998272}
+        m_MethodName: UpdateProfiles
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine

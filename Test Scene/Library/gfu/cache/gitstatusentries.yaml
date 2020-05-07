@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2020-05-05T18:06:10.692-04:00
-  initializedAtString: 2020-05-05T16:16:57.730-04:00
+  lastUpdatedAtString: 2020-05-07T16:15:24.433-04:00
+  initializedAtString: 2020-05-07T15:31:24.141-04:00
   entries:
   - path: Test Scene\.vs\Test Scene\v15\.suo
     fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\.vs\Test Scene\v15\.suo
@@ -40,51 +40,15 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Test Scene\Assembly-CSharp.csproj
-    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Assembly-CSharp.csproj
-    projectPath: Assembly-CSharp.csproj
+  - path: Test Scene\Assets\Scripts\General\Menus\InputManager.cs
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Assets\Scripts\General\Menus\InputManager.cs
+    projectPath: Assets\Scripts\General\Menus\InputManager.cs
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Test Scene\Assets\Scenes\MainMenu.unity
-    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Assets\Scenes\MainMenu.unity
-    projectPath: Assets\Scenes\MainMenu.unity
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Test Scene\Assets\Scenes\SampleScene.unity
-    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Assets\Scenes\SampleScene.unity
-    projectPath: Assets\Scenes\SampleScene.unity
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Test Scene\Assets\Scripts\General\GameData\GlobalControl.cs
-    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Assets\Scripts\General\GameData\GlobalControl.cs
-    projectPath: Assets\Scripts\General\GameData\GlobalControl.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Test Scene\Assets\Scripts\General\GameData\GlobalControl.cs.meta
-    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Assets\Scripts\General\GameData\GlobalControl.cs.meta
-    projectPath: Assets\Scripts\General\GameData\GlobalControl.cs.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
   - path: Test Scene\Assets\Scripts\General\Menus\MainMenu.cs
     fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Assets\Scripts\General\Menus\MainMenu.cs
     projectPath: Assets\Scripts\General\Menus\MainMenu.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Test Scene\Assets\Scripts\MainUI\Inventory\Inventory.cs
-    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Assets\Scripts\MainUI\Inventory\Inventory.cs
-    projectPath: Assets\Scripts\MainUI\Inventory\Inventory.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Test Scene\Assets\Scripts\Player\PlayerController.cs
-    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Assets\Scripts\Player\PlayerController.cs
-    projectPath: Assets\Scripts\Player\PlayerController.cs
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -94,15 +58,9 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Test Scene\Library\Artifacts\Legacy\43\4381e3e1b1c39074ab81c66bcdaa1705
-    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Library\Artifacts\Legacy\43\4381e3e1b1c39074ab81c66bcdaa1705
-    projectPath: Library\Artifacts\Legacy\43\4381e3e1b1c39074ab81c66bcdaa1705
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Test Scene\Library\Artifacts\Legacy\7e\7e1481c3be94dfb478f61308e0ad5f79
-    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Library\Artifacts\Legacy\7e\7e1481c3be94dfb478f61308e0ad5f79
-    projectPath: Library\Artifacts\Legacy\7e\7e1481c3be94dfb478f61308e0ad5f79
+  - path: Test Scene\Library\Artifacts\Legacy\09\09532143261dd094fb63b2c16f637a2b
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Library\Artifacts\Legacy\09\09532143261dd094fb63b2c16f637a2b
+    projectPath: Library\Artifacts\Legacy\09\09532143261dd094fb63b2c16f637a2b
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -112,18 +70,6 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Test Scene\Library\Artifacts\Legacy\f9\f9b4be940bc982a4481be8ea1ddc19cc
-    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Library\Artifacts\Legacy\f9\f9b4be940bc982a4481be8ea1ddc19cc
-    projectPath: Library\Artifacts\Legacy\f9\f9b4be940bc982a4481be8ea1ddc19cc
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Test Scene\Library\Artifacts\Legacy\f9\f9b4be940bc982a4481be8ea1ddc19cc.info
-    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Library\Artifacts\Legacy\f9\f9b4be940bc982a4481be8ea1ddc19cc.info
-    projectPath: Library\Artifacts\Legacy\f9\f9b4be940bc982a4481be8ea1ddc19cc.info
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
   - path: Test Scene\Library\EditorInstance.json
     fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Library\EditorInstance.json
     projectPath: Library\EditorInstance.json
@@ -154,12 +100,6 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Test Scene\Library\InspectorExpandedItems.asset
-    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Library\InspectorExpandedItems.asset
-    projectPath: Library\InspectorExpandedItems.asset
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Test Scene\Library\ScriptAssemblies\Assembly-CSharp.dll
     fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Library\ScriptAssemblies\Assembly-CSharp.dll
     projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
@@ -184,12 +124,6 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Test Scene\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
-    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
-    projectPath: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Test Scene\ProjectSettings\TimeManager.asset
     fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\ProjectSettings\TimeManager.asset
     projectPath: ProjectSettings\TimeManager.asset
@@ -202,639 +136,219 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Test Scene\Temp\UnityTempFile-0171c766c5130e744afd64ad17f8cd97
-    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-0171c766c5130e744afd64ad17f8cd97
-    projectPath: Temp\UnityTempFile-0171c766c5130e744afd64ad17f8cd97
+  - path: Test Scene\Temp\UnityTempFile-11dbc507f0d68bf43b055d306f778ea6
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-11dbc507f0d68bf43b055d306f778ea6
+    projectPath: Temp\UnityTempFile-11dbc507f0d68bf43b055d306f778ea6
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Test Scene\Temp\UnityTempFile-017748e080907774288a3d0acb19b3b7
-    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-017748e080907774288a3d0acb19b3b7
-    projectPath: Temp\UnityTempFile-017748e080907774288a3d0acb19b3b7
+  - path: Test Scene\Temp\UnityTempFile-21745809b9ec72f40baa62bcfd775580
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-21745809b9ec72f40baa62bcfd775580
+    projectPath: Temp\UnityTempFile-21745809b9ec72f40baa62bcfd775580
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Test Scene\Temp\UnityTempFile-028d3e05a21ee1045af479cf7e3c40d7
-    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-028d3e05a21ee1045af479cf7e3c40d7
-    projectPath: Temp\UnityTempFile-028d3e05a21ee1045af479cf7e3c40d7
+  - path: Test Scene\Temp\UnityTempFile-24ededa2df04a1248882bff048a92b09
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-24ededa2df04a1248882bff048a92b09
+    projectPath: Temp\UnityTempFile-24ededa2df04a1248882bff048a92b09
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Test Scene\Temp\UnityTempFile-038088dc65e711b488a99d170510dc1f
-    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-038088dc65e711b488a99d170510dc1f
-    projectPath: Temp\UnityTempFile-038088dc65e711b488a99d170510dc1f
+  - path: Test Scene\Temp\UnityTempFile-2624ef101d535a548874a9cdfb6681f1
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-2624ef101d535a548874a9cdfb6681f1
+    projectPath: Temp\UnityTempFile-2624ef101d535a548874a9cdfb6681f1
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Test Scene\Temp\UnityTempFile-0431c9bdaeedbf847973521854d05491
-    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-0431c9bdaeedbf847973521854d05491
-    projectPath: Temp\UnityTempFile-0431c9bdaeedbf847973521854d05491
+  - path: Test Scene\Temp\UnityTempFile-2af79cc3372f8d94293d45c280e52a13
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-2af79cc3372f8d94293d45c280e52a13
+    projectPath: Temp\UnityTempFile-2af79cc3372f8d94293d45c280e52a13
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Test Scene\Temp\UnityTempFile-057c8aa07f1efa94fbb7f0f569c91fb3
-    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-057c8aa07f1efa94fbb7f0f569c91fb3
-    projectPath: Temp\UnityTempFile-057c8aa07f1efa94fbb7f0f569c91fb3
+  - path: Test Scene\Temp\UnityTempFile-2de3c21668949d74681df74c356dc5c2
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-2de3c21668949d74681df74c356dc5c2
+    projectPath: Temp\UnityTempFile-2de3c21668949d74681df74c356dc5c2
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Test Scene\Temp\UnityTempFile-06ea60a105acedb4f9043db23a64986f
-    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-06ea60a105acedb4f9043db23a64986f
-    projectPath: Temp\UnityTempFile-06ea60a105acedb4f9043db23a64986f
+  - path: Test Scene\Temp\UnityTempFile-30f6a44319d503a4997871b1df481a04
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-30f6a44319d503a4997871b1df481a04
+    projectPath: Temp\UnityTempFile-30f6a44319d503a4997871b1df481a04
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Test Scene\Temp\UnityTempFile-07c7a41382d5f194991f481a157880cb
-    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-07c7a41382d5f194991f481a157880cb
-    projectPath: Temp\UnityTempFile-07c7a41382d5f194991f481a157880cb
+  - path: Test Scene\Temp\UnityTempFile-37579de218bdcdd429144222a3490917
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-37579de218bdcdd429144222a3490917
+    projectPath: Temp\UnityTempFile-37579de218bdcdd429144222a3490917
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Test Scene\Temp\UnityTempFile-0923abd127bd4f346a488e4244229010
-    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-0923abd127bd4f346a488e4244229010
-    projectPath: Temp\UnityTempFile-0923abd127bd4f346a488e4244229010
+  - path: Test Scene\Temp\UnityTempFile-390a438bba1d79b4bbefcaac3865163f
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-390a438bba1d79b4bbefcaac3865163f
+    projectPath: Temp\UnityTempFile-390a438bba1d79b4bbefcaac3865163f
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Test Scene\Temp\UnityTempFile-0e23bf1157e9cb74b8944df2003ce365
-    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-0e23bf1157e9cb74b8944df2003ce365
-    projectPath: Temp\UnityTempFile-0e23bf1157e9cb74b8944df2003ce365
+  - path: Test Scene\Temp\UnityTempFile-46824fc67b3289a45b3b3b22465fa64b
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-46824fc67b3289a45b3b3b22465fa64b
+    projectPath: Temp\UnityTempFile-46824fc67b3289a45b3b3b22465fa64b
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Test Scene\Temp\UnityTempFile-15639bd6206479e41b0c43059f51578e
-    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-15639bd6206479e41b0c43059f51578e
-    projectPath: Temp\UnityTempFile-15639bd6206479e41b0c43059f51578e
+  - path: Test Scene\Temp\UnityTempFile-5d582187b9af3554ab94d4d8c47b7b94
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-5d582187b9af3554ab94d4d8c47b7b94
+    projectPath: Temp\UnityTempFile-5d582187b9af3554ab94d4d8c47b7b94
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Test Scene\Temp\UnityTempFile-175a988df4f0fab4a8e89e69c47c15f0
-    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-175a988df4f0fab4a8e89e69c47c15f0
-    projectPath: Temp\UnityTempFile-175a988df4f0fab4a8e89e69c47c15f0
+  - path: Test Scene\Temp\UnityTempFile-60b994150ed3d4247b84c7416ddd8f66
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-60b994150ed3d4247b84c7416ddd8f66
+    projectPath: Temp\UnityTempFile-60b994150ed3d4247b84c7416ddd8f66
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Test Scene\Temp\UnityTempFile-199cd1aacaf84a34ab53aa36d9137bc0
-    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-199cd1aacaf84a34ab53aa36d9137bc0
-    projectPath: Temp\UnityTempFile-199cd1aacaf84a34ab53aa36d9137bc0
+  - path: Test Scene\Temp\UnityTempFile-677ccfed9ec67df45b7729dbb160c1b6
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-677ccfed9ec67df45b7729dbb160c1b6
+    projectPath: Temp\UnityTempFile-677ccfed9ec67df45b7729dbb160c1b6
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Test Scene\Temp\UnityTempFile-1b520f0714eb8934ab326b71568aae86
-    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-1b520f0714eb8934ab326b71568aae86
-    projectPath: Temp\UnityTempFile-1b520f0714eb8934ab326b71568aae86
+  - path: Test Scene\Temp\UnityTempFile-75a94daeccec80b49914c89768122db4
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-75a94daeccec80b49914c89768122db4
+    projectPath: Temp\UnityTempFile-75a94daeccec80b49914c89768122db4
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Test Scene\Temp\UnityTempFile-1d3603a9225e01f428e00b823e3720ec
-    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-1d3603a9225e01f428e00b823e3720ec
-    projectPath: Temp\UnityTempFile-1d3603a9225e01f428e00b823e3720ec
+  - path: Test Scene\Temp\UnityTempFile-75cae5e296203b24fb7c0fa7eb8b7ed0
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-75cae5e296203b24fb7c0fa7eb8b7ed0
+    projectPath: Temp\UnityTempFile-75cae5e296203b24fb7c0fa7eb8b7ed0
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Test Scene\Temp\UnityTempFile-249b731ade74e8f4388811b18380cc26
-    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-249b731ade74e8f4388811b18380cc26
-    projectPath: Temp\UnityTempFile-249b731ade74e8f4388811b18380cc26
+  - path: Test Scene\Temp\UnityTempFile-7adf64f7539030a44a76e8d5a02d049b
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-7adf64f7539030a44a76e8d5a02d049b
+    projectPath: Temp\UnityTempFile-7adf64f7539030a44a76e8d5a02d049b
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Test Scene\Temp\UnityTempFile-26e736c572d25244ab3984df22ddef4e
-    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-26e736c572d25244ab3984df22ddef4e
-    projectPath: Temp\UnityTempFile-26e736c572d25244ab3984df22ddef4e
+  - path: Test Scene\Temp\UnityTempFile-7cef5ef67fad6054bb6fa1506396dbdc
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-7cef5ef67fad6054bb6fa1506396dbdc
+    projectPath: Temp\UnityTempFile-7cef5ef67fad6054bb6fa1506396dbdc
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Test Scene\Temp\UnityTempFile-2a6e92cadc2272a4785464804b336ed4
-    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-2a6e92cadc2272a4785464804b336ed4
-    projectPath: Temp\UnityTempFile-2a6e92cadc2272a4785464804b336ed4
+  - path: Test Scene\Temp\UnityTempFile-7e486e03518cd004383fb714919ed0e6
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-7e486e03518cd004383fb714919ed0e6
+    projectPath: Temp\UnityTempFile-7e486e03518cd004383fb714919ed0e6
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Test Scene\Temp\UnityTempFile-2d6c00f0933a51d489b0f2cdbac16493
-    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-2d6c00f0933a51d489b0f2cdbac16493
-    projectPath: Temp\UnityTempFile-2d6c00f0933a51d489b0f2cdbac16493
+  - path: Test Scene\Temp\UnityTempFile-8003bd79921593b4ca2722162e16ed17
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-8003bd79921593b4ca2722162e16ed17
+    projectPath: Temp\UnityTempFile-8003bd79921593b4ca2722162e16ed17
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Test Scene\Temp\UnityTempFile-30429458e207beb48b304c0a8704aef2
-    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-30429458e207beb48b304c0a8704aef2
-    projectPath: Temp\UnityTempFile-30429458e207beb48b304c0a8704aef2
+  - path: Test Scene\Temp\UnityTempFile-81fe244d27df00e468d3ffe5d55d0e38
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-81fe244d27df00e468d3ffe5d55d0e38
+    projectPath: Temp\UnityTempFile-81fe244d27df00e468d3ffe5d55d0e38
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Test Scene\Temp\UnityTempFile-32d9355d693b7934bb9b30c622414b45
-    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-32d9355d693b7934bb9b30c622414b45
-    projectPath: Temp\UnityTempFile-32d9355d693b7934bb9b30c622414b45
+  - path: Test Scene\Temp\UnityTempFile-8b98456e8fe23294783b3fbfcfa78047
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-8b98456e8fe23294783b3fbfcfa78047
+    projectPath: Temp\UnityTempFile-8b98456e8fe23294783b3fbfcfa78047
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Test Scene\Temp\UnityTempFile-35414e6c2f7b08f44bd825680446db41
-    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-35414e6c2f7b08f44bd825680446db41
-    projectPath: Temp\UnityTempFile-35414e6c2f7b08f44bd825680446db41
+  - path: Test Scene\Temp\UnityTempFile-8f094d59a2488614285227fbc12908d7
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-8f094d59a2488614285227fbc12908d7
+    projectPath: Temp\UnityTempFile-8f094d59a2488614285227fbc12908d7
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Test Scene\Temp\UnityTempFile-38b015f7d90087f41a99565b906c6fd0
-    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-38b015f7d90087f41a99565b906c6fd0
-    projectPath: Temp\UnityTempFile-38b015f7d90087f41a99565b906c6fd0
+  - path: Test Scene\Temp\UnityTempFile-94021c33382b2ac488763d4066f8903c
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-94021c33382b2ac488763d4066f8903c
+    projectPath: Temp\UnityTempFile-94021c33382b2ac488763d4066f8903c
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Test Scene\Temp\UnityTempFile-39a7c6570cac06143ba6676984efe9cd
-    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-39a7c6570cac06143ba6676984efe9cd
-    projectPath: Temp\UnityTempFile-39a7c6570cac06143ba6676984efe9cd
+  - path: Test Scene\Temp\UnityTempFile-9eb077c5449a05249b52d6c6d38432c5
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-9eb077c5449a05249b52d6c6d38432c5
+    projectPath: Temp\UnityTempFile-9eb077c5449a05249b52d6c6d38432c5
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Test Scene\Temp\UnityTempFile-39b014851be6d5641a2c5f4759ff752b
-    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-39b014851be6d5641a2c5f4759ff752b
-    projectPath: Temp\UnityTempFile-39b014851be6d5641a2c5f4759ff752b
+  - path: Test Scene\Temp\UnityTempFile-a1933c9873c5d9b4b89992b37bf58696
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-a1933c9873c5d9b4b89992b37bf58696
+    projectPath: Temp\UnityTempFile-a1933c9873c5d9b4b89992b37bf58696
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Test Scene\Temp\UnityTempFile-3c7270482c653d047a63631a46beef7f
-    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-3c7270482c653d047a63631a46beef7f
-    projectPath: Temp\UnityTempFile-3c7270482c653d047a63631a46beef7f
+  - path: Test Scene\Temp\UnityTempFile-a2a1e9f9c4543b644a2155140378caa9
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-a2a1e9f9c4543b644a2155140378caa9
+    projectPath: Temp\UnityTempFile-a2a1e9f9c4543b644a2155140378caa9
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Test Scene\Temp\UnityTempFile-3ca763a9a992add45af162d2d30fa86c
-    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-3ca763a9a992add45af162d2d30fa86c
-    projectPath: Temp\UnityTempFile-3ca763a9a992add45af162d2d30fa86c
+  - path: Test Scene\Temp\UnityTempFile-b04ffbede8c33cb40a83afb00331cb70
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-b04ffbede8c33cb40a83afb00331cb70
+    projectPath: Temp\UnityTempFile-b04ffbede8c33cb40a83afb00331cb70
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Test Scene\Temp\UnityTempFile-3f0e44ce314d85543a39654fb87fc35c
-    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-3f0e44ce314d85543a39654fb87fc35c
-    projectPath: Temp\UnityTempFile-3f0e44ce314d85543a39654fb87fc35c
+  - path: Test Scene\Temp\UnityTempFile-b85f02381fc31a74db0f0786bcea4049
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-b85f02381fc31a74db0f0786bcea4049
+    projectPath: Temp\UnityTempFile-b85f02381fc31a74db0f0786bcea4049
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Test Scene\Temp\UnityTempFile-3f8adc91cf6ebea4ebe7038d61fc8d16
-    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-3f8adc91cf6ebea4ebe7038d61fc8d16
-    projectPath: Temp\UnityTempFile-3f8adc91cf6ebea4ebe7038d61fc8d16
+  - path: Test Scene\Temp\UnityTempFile-c17f00f7f54a499469a94bbaebb7cad7
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-c17f00f7f54a499469a94bbaebb7cad7
+    projectPath: Temp\UnityTempFile-c17f00f7f54a499469a94bbaebb7cad7
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Test Scene\Temp\UnityTempFile-40ef43b0242812847a4cc600216f9502
-    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-40ef43b0242812847a4cc600216f9502
-    projectPath: Temp\UnityTempFile-40ef43b0242812847a4cc600216f9502
+  - path: Test Scene\Temp\UnityTempFile-c48887a18bc6bbe40b263b722e3a1330
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-c48887a18bc6bbe40b263b722e3a1330
+    projectPath: Temp\UnityTempFile-c48887a18bc6bbe40b263b722e3a1330
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Test Scene\Temp\UnityTempFile-46276874ca77dc54da78d1ee3d9f9a40
-    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-46276874ca77dc54da78d1ee3d9f9a40
-    projectPath: Temp\UnityTempFile-46276874ca77dc54da78d1ee3d9f9a40
+  - path: Test Scene\Temp\UnityTempFile-cf11a8493f73e2e43a62f6394c260bdb
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-cf11a8493f73e2e43a62f6394c260bdb
+    projectPath: Temp\UnityTempFile-cf11a8493f73e2e43a62f6394c260bdb
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Test Scene\Temp\UnityTempFile-48e5a5fbebed84e4a8ca731cb156788e
-    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-48e5a5fbebed84e4a8ca731cb156788e
-    projectPath: Temp\UnityTempFile-48e5a5fbebed84e4a8ca731cb156788e
+  - path: Test Scene\Temp\UnityTempFile-d82d3c18e1b71df40b0863513025d420
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-d82d3c18e1b71df40b0863513025d420
+    projectPath: Temp\UnityTempFile-d82d3c18e1b71df40b0863513025d420
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Test Scene\Temp\UnityTempFile-4d819d2bbf73dc142931ee629c5ca2ed
-    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-4d819d2bbf73dc142931ee629c5ca2ed
-    projectPath: Temp\UnityTempFile-4d819d2bbf73dc142931ee629c5ca2ed
+  - path: Test Scene\Temp\UnityTempFile-e5d0e74235b3c5e4db768925ba3ace5e
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-e5d0e74235b3c5e4db768925ba3ace5e
+    projectPath: Temp\UnityTempFile-e5d0e74235b3c5e4db768925ba3ace5e
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Test Scene\Temp\UnityTempFile-4eff97cb823738a4bba6d3807fe869dd
-    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-4eff97cb823738a4bba6d3807fe869dd
-    projectPath: Temp\UnityTempFile-4eff97cb823738a4bba6d3807fe869dd
+  - path: Test Scene\Temp\UnityTempFile-e7e4d14a5e0927f44b5184dd3e8438b1
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-e7e4d14a5e0927f44b5184dd3e8438b1
+    projectPath: Temp\UnityTempFile-e7e4d14a5e0927f44b5184dd3e8438b1
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Test Scene\Temp\UnityTempFile-51d38bafee193474fa4c94760e718bfc
-    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-51d38bafee193474fa4c94760e718bfc
-    projectPath: Temp\UnityTempFile-51d38bafee193474fa4c94760e718bfc
+  - path: Test Scene\Temp\UnityTempFile-f70ab035a1353384fb01cc600f7e3c28
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-f70ab035a1353384fb01cc600f7e3c28
+    projectPath: Temp\UnityTempFile-f70ab035a1353384fb01cc600f7e3c28
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Test Scene\Temp\UnityTempFile-563b1c95e95a8434585ac2a5215de9e0
-    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-563b1c95e95a8434585ac2a5215de9e0
-    projectPath: Temp\UnityTempFile-563b1c95e95a8434585ac2a5215de9e0
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Test Scene\Temp\UnityTempFile-58fd214883adac542aee6e3257a175e3
-    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-58fd214883adac542aee6e3257a175e3
-    projectPath: Temp\UnityTempFile-58fd214883adac542aee6e3257a175e3
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Test Scene\Temp\UnityTempFile-59c8ddc708cdb01458fffffd8691a498
-    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-59c8ddc708cdb01458fffffd8691a498
-    projectPath: Temp\UnityTempFile-59c8ddc708cdb01458fffffd8691a498
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Test Scene\Temp\UnityTempFile-5d1885f3a363b9646b8b8e3571df779b
-    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-5d1885f3a363b9646b8b8e3571df779b
-    projectPath: Temp\UnityTempFile-5d1885f3a363b9646b8b8e3571df779b
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Test Scene\Temp\UnityTempFile-60ecffef979be1640b23db1028087057
-    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-60ecffef979be1640b23db1028087057
-    projectPath: Temp\UnityTempFile-60ecffef979be1640b23db1028087057
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Test Scene\Temp\UnityTempFile-62b3432d7447c404696adfbbf2be1ed0
-    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-62b3432d7447c404696adfbbf2be1ed0
-    projectPath: Temp\UnityTempFile-62b3432d7447c404696adfbbf2be1ed0
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Test Scene\Temp\UnityTempFile-637fe8a0ea264ce4d857b805fde739b7
-    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-637fe8a0ea264ce4d857b805fde739b7
-    projectPath: Temp\UnityTempFile-637fe8a0ea264ce4d857b805fde739b7
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Test Scene\Temp\UnityTempFile-67ae6de3586548448b2ebf8b7bdcd9a3
-    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-67ae6de3586548448b2ebf8b7bdcd9a3
-    projectPath: Temp\UnityTempFile-67ae6de3586548448b2ebf8b7bdcd9a3
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Test Scene\Temp\UnityTempFile-6886998931f129b4a805bb836ce688ff
-    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-6886998931f129b4a805bb836ce688ff
-    projectPath: Temp\UnityTempFile-6886998931f129b4a805bb836ce688ff
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Test Scene\Temp\UnityTempFile-699e91395dd3e6a409de12e954dbc533
-    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-699e91395dd3e6a409de12e954dbc533
-    projectPath: Temp\UnityTempFile-699e91395dd3e6a409de12e954dbc533
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Test Scene\Temp\UnityTempFile-6b3adf31cdffd8a44bde4e5a720d9672
-    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-6b3adf31cdffd8a44bde4e5a720d9672
-    projectPath: Temp\UnityTempFile-6b3adf31cdffd8a44bde4e5a720d9672
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Test Scene\Temp\UnityTempFile-6ca1bc69d8693004697310092a03becd
-    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-6ca1bc69d8693004697310092a03becd
-    projectPath: Temp\UnityTempFile-6ca1bc69d8693004697310092a03becd
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Test Scene\Temp\UnityTempFile-6dcba5e464a47e846b5b05ff9ce80322
-    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-6dcba5e464a47e846b5b05ff9ce80322
-    projectPath: Temp\UnityTempFile-6dcba5e464a47e846b5b05ff9ce80322
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Test Scene\Temp\UnityTempFile-70f34a12c38be36418c9af99c9d71270
-    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-70f34a12c38be36418c9af99c9d71270
-    projectPath: Temp\UnityTempFile-70f34a12c38be36418c9af99c9d71270
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Test Scene\Temp\UnityTempFile-7822f7c4c56a25c4a9a4605cd99843fb
-    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-7822f7c4c56a25c4a9a4605cd99843fb
-    projectPath: Temp\UnityTempFile-7822f7c4c56a25c4a9a4605cd99843fb
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Test Scene\Temp\UnityTempFile-7a228a76186b8f14bab4bd18ba16c32b
-    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-7a228a76186b8f14bab4bd18ba16c32b
-    projectPath: Temp\UnityTempFile-7a228a76186b8f14bab4bd18ba16c32b
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Test Scene\Temp\UnityTempFile-7bacef8bb2d96f542b228fb92417560e
-    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-7bacef8bb2d96f542b228fb92417560e
-    projectPath: Temp\UnityTempFile-7bacef8bb2d96f542b228fb92417560e
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Test Scene\Temp\UnityTempFile-7c6b59bb6b9c9bc4594cd9ce33b7b991
-    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-7c6b59bb6b9c9bc4594cd9ce33b7b991
-    projectPath: Temp\UnityTempFile-7c6b59bb6b9c9bc4594cd9ce33b7b991
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Test Scene\Temp\UnityTempFile-813fde66b510db44cba07279adef9163
-    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-813fde66b510db44cba07279adef9163
-    projectPath: Temp\UnityTempFile-813fde66b510db44cba07279adef9163
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Test Scene\Temp\UnityTempFile-8561dbd6df8080a4b80be1960f777eb9
-    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-8561dbd6df8080a4b80be1960f777eb9
-    projectPath: Temp\UnityTempFile-8561dbd6df8080a4b80be1960f777eb9
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Test Scene\Temp\UnityTempFile-85bcf3a38c35307489bf468f4b060092
-    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-85bcf3a38c35307489bf468f4b060092
-    projectPath: Temp\UnityTempFile-85bcf3a38c35307489bf468f4b060092
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Test Scene\Temp\UnityTempFile-85d77eda707107c499172637e5971f71
-    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-85d77eda707107c499172637e5971f71
-    projectPath: Temp\UnityTempFile-85d77eda707107c499172637e5971f71
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Test Scene\Temp\UnityTempFile-8bfc84895b071a144b90b7c8264d6ee6
-    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-8bfc84895b071a144b90b7c8264d6ee6
-    projectPath: Temp\UnityTempFile-8bfc84895b071a144b90b7c8264d6ee6
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Test Scene\Temp\UnityTempFile-8db4c74f33bcbe34da2ee14a9dd80a2f
-    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-8db4c74f33bcbe34da2ee14a9dd80a2f
-    projectPath: Temp\UnityTempFile-8db4c74f33bcbe34da2ee14a9dd80a2f
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Test Scene\Temp\UnityTempFile-8ec6ee743b0043c47ae123994d69c1f0
-    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-8ec6ee743b0043c47ae123994d69c1f0
-    projectPath: Temp\UnityTempFile-8ec6ee743b0043c47ae123994d69c1f0
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Test Scene\Temp\UnityTempFile-91d37c687beb44545aa6314d56942b25
-    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-91d37c687beb44545aa6314d56942b25
-    projectPath: Temp\UnityTempFile-91d37c687beb44545aa6314d56942b25
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Test Scene\Temp\UnityTempFile-945b8a49463199b409530ed1b5c48c2d
-    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-945b8a49463199b409530ed1b5c48c2d
-    projectPath: Temp\UnityTempFile-945b8a49463199b409530ed1b5c48c2d
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Test Scene\Temp\UnityTempFile-9a3f292de19a924459d4d8091158f60f
-    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-9a3f292de19a924459d4d8091158f60f
-    projectPath: Temp\UnityTempFile-9a3f292de19a924459d4d8091158f60f
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Test Scene\Temp\UnityTempFile-9bd05232b256a49419ea0fd3af1af27f
-    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-9bd05232b256a49419ea0fd3af1af27f
-    projectPath: Temp\UnityTempFile-9bd05232b256a49419ea0fd3af1af27f
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Test Scene\Temp\UnityTempFile-9e71ed4fe9c01a24fb84e41e25c0500f
-    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-9e71ed4fe9c01a24fb84e41e25c0500f
-    projectPath: Temp\UnityTempFile-9e71ed4fe9c01a24fb84e41e25c0500f
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Test Scene\Temp\UnityTempFile-9e757df8189843a4caa2c97086ada2c5
-    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-9e757df8189843a4caa2c97086ada2c5
-    projectPath: Temp\UnityTempFile-9e757df8189843a4caa2c97086ada2c5
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Test Scene\Temp\UnityTempFile-9ec1724864291154fb91ea46d04e783f
-    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-9ec1724864291154fb91ea46d04e783f
-    projectPath: Temp\UnityTempFile-9ec1724864291154fb91ea46d04e783f
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Test Scene\Temp\UnityTempFile-a1b9018374dec454d82d19e5c4343b55
-    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-a1b9018374dec454d82d19e5c4343b55
-    projectPath: Temp\UnityTempFile-a1b9018374dec454d82d19e5c4343b55
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Test Scene\Temp\UnityTempFile-a48f536e234961b48a6e79d62927dff8
-    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-a48f536e234961b48a6e79d62927dff8
-    projectPath: Temp\UnityTempFile-a48f536e234961b48a6e79d62927dff8
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Test Scene\Temp\UnityTempFile-aa358003c51fc6744897a1ec15a2e12f
-    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-aa358003c51fc6744897a1ec15a2e12f
-    projectPath: Temp\UnityTempFile-aa358003c51fc6744897a1ec15a2e12f
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Test Scene\Temp\UnityTempFile-ac434d66d19359b48aa82c2060067c52
-    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-ac434d66d19359b48aa82c2060067c52
-    projectPath: Temp\UnityTempFile-ac434d66d19359b48aa82c2060067c52
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Test Scene\Temp\UnityTempFile-ad8ea8f017a91db46937f979ab6b2bfc
-    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-ad8ea8f017a91db46937f979ab6b2bfc
-    projectPath: Temp\UnityTempFile-ad8ea8f017a91db46937f979ab6b2bfc
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Test Scene\Temp\UnityTempFile-b1a08bb2d3349ee4f8cf124cf40282ea
-    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-b1a08bb2d3349ee4f8cf124cf40282ea
-    projectPath: Temp\UnityTempFile-b1a08bb2d3349ee4f8cf124cf40282ea
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Test Scene\Temp\UnityTempFile-b29362f294ae44446998fb528852ee5f
-    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-b29362f294ae44446998fb528852ee5f
-    projectPath: Temp\UnityTempFile-b29362f294ae44446998fb528852ee5f
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Test Scene\Temp\UnityTempFile-b313f60afd6c75b429bda49157ef8806
-    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-b313f60afd6c75b429bda49157ef8806
-    projectPath: Temp\UnityTempFile-b313f60afd6c75b429bda49157ef8806
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Test Scene\Temp\UnityTempFile-b3c1be13b3d119343a59918ffe93bf5c
-    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-b3c1be13b3d119343a59918ffe93bf5c
-    projectPath: Temp\UnityTempFile-b3c1be13b3d119343a59918ffe93bf5c
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Test Scene\Temp\UnityTempFile-bb4d87da43a58b64f8de2c5690b075e4
-    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-bb4d87da43a58b64f8de2c5690b075e4
-    projectPath: Temp\UnityTempFile-bb4d87da43a58b64f8de2c5690b075e4
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Test Scene\Temp\UnityTempFile-bb9d93c82d95ec14495d453b1190cdbd
-    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-bb9d93c82d95ec14495d453b1190cdbd
-    projectPath: Temp\UnityTempFile-bb9d93c82d95ec14495d453b1190cdbd
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Test Scene\Temp\UnityTempFile-c2cd63444842c39449d68c84b2eb5d6d
-    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-c2cd63444842c39449d68c84b2eb5d6d
-    projectPath: Temp\UnityTempFile-c2cd63444842c39449d68c84b2eb5d6d
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Test Scene\Temp\UnityTempFile-c3c84776ba5565c458501b08f7173889
-    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-c3c84776ba5565c458501b08f7173889
-    projectPath: Temp\UnityTempFile-c3c84776ba5565c458501b08f7173889
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Test Scene\Temp\UnityTempFile-c55ce35eaf4191b40805f2ca20d5ca92
-    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-c55ce35eaf4191b40805f2ca20d5ca92
-    projectPath: Temp\UnityTempFile-c55ce35eaf4191b40805f2ca20d5ca92
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Test Scene\Temp\UnityTempFile-c64fa4781d338524584ef6bb23345db3
-    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-c64fa4781d338524584ef6bb23345db3
-    projectPath: Temp\UnityTempFile-c64fa4781d338524584ef6bb23345db3
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Test Scene\Temp\UnityTempFile-cab3604ec9e054b438df1e556fbc803e
-    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-cab3604ec9e054b438df1e556fbc803e
-    projectPath: Temp\UnityTempFile-cab3604ec9e054b438df1e556fbc803e
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Test Scene\Temp\UnityTempFile-cb6650686b4efe7458266469389572af
-    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-cb6650686b4efe7458266469389572af
-    projectPath: Temp\UnityTempFile-cb6650686b4efe7458266469389572af
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Test Scene\Temp\UnityTempFile-cd2cfae16bcede340aca376b2879f000
-    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-cd2cfae16bcede340aca376b2879f000
-    projectPath: Temp\UnityTempFile-cd2cfae16bcede340aca376b2879f000
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Test Scene\Temp\UnityTempFile-cdcadf9ef9433284aa201689947420e2
-    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-cdcadf9ef9433284aa201689947420e2
-    projectPath: Temp\UnityTempFile-cdcadf9ef9433284aa201689947420e2
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Test Scene\Temp\UnityTempFile-d17d3d60e3c91ec429845f29f202ef04
-    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-d17d3d60e3c91ec429845f29f202ef04
-    projectPath: Temp\UnityTempFile-d17d3d60e3c91ec429845f29f202ef04
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Test Scene\Temp\UnityTempFile-d2abf3a26a83e6343bd1d4c4c9e034a1
-    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-d2abf3a26a83e6343bd1d4c4c9e034a1
-    projectPath: Temp\UnityTempFile-d2abf3a26a83e6343bd1d4c4c9e034a1
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Test Scene\Temp\UnityTempFile-d2f5a2610b195784298a644eecae0f05
-    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-d2f5a2610b195784298a644eecae0f05
-    projectPath: Temp\UnityTempFile-d2f5a2610b195784298a644eecae0f05
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Test Scene\Temp\UnityTempFile-d367e108943bd5444bbec35b3f744598
-    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-d367e108943bd5444bbec35b3f744598
-    projectPath: Temp\UnityTempFile-d367e108943bd5444bbec35b3f744598
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Test Scene\Temp\UnityTempFile-d43376f0e8545834eb9c5f7f64aa7343
-    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-d43376f0e8545834eb9c5f7f64aa7343
-    projectPath: Temp\UnityTempFile-d43376f0e8545834eb9c5f7f64aa7343
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Test Scene\Temp\UnityTempFile-d58e231a0041052419a6f997c02526cd
-    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-d58e231a0041052419a6f997c02526cd
-    projectPath: Temp\UnityTempFile-d58e231a0041052419a6f997c02526cd
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Test Scene\Temp\UnityTempFile-d82ec0ad0f4fa0a4ab426d9686cd193f
-    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-d82ec0ad0f4fa0a4ab426d9686cd193f
-    projectPath: Temp\UnityTempFile-d82ec0ad0f4fa0a4ab426d9686cd193f
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Test Scene\Temp\UnityTempFile-db06ef68f770a0745b3ce8e715d1113a
-    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-db06ef68f770a0745b3ce8e715d1113a
-    projectPath: Temp\UnityTempFile-db06ef68f770a0745b3ce8e715d1113a
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Test Scene\Temp\UnityTempFile-e4ddc4a1d321a024faa0f48129b60373
-    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-e4ddc4a1d321a024faa0f48129b60373
-    projectPath: Temp\UnityTempFile-e4ddc4a1d321a024faa0f48129b60373
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Test Scene\Temp\UnityTempFile-e952d5c70336fb840a45e0ee189036e5
-    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-e952d5c70336fb840a45e0ee189036e5
-    projectPath: Temp\UnityTempFile-e952d5c70336fb840a45e0ee189036e5
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Test Scene\Temp\UnityTempFile-ea5edf6e586ab1540bfee14aaadc96ee
-    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-ea5edf6e586ab1540bfee14aaadc96ee
-    projectPath: Temp\UnityTempFile-ea5edf6e586ab1540bfee14aaadc96ee
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Test Scene\Temp\UnityTempFile-eac235ca4b9f0334aa6a838a5250934c
-    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-eac235ca4b9f0334aa6a838a5250934c
-    projectPath: Temp\UnityTempFile-eac235ca4b9f0334aa6a838a5250934c
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Test Scene\Temp\UnityTempFile-ef5808de2eb66044995d0a513d72dc0b
-    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-ef5808de2eb66044995d0a513d72dc0b
-    projectPath: Temp\UnityTempFile-ef5808de2eb66044995d0a513d72dc0b
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Test Scene\Temp\UnityTempFile-f2767f61af02eab40862deaa33ac49c6
-    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-f2767f61af02eab40862deaa33ac49c6
-    projectPath: Temp\UnityTempFile-f2767f61af02eab40862deaa33ac49c6
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Test Scene\Temp\UnityTempFile-f768d5ca43bda0a42a5ed0c1797cf2fe
-    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-f768d5ca43bda0a42a5ed0c1797cf2fe
-    projectPath: Temp\UnityTempFile-f768d5ca43bda0a42a5ed0c1797cf2fe
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Test Scene\Temp\UnityTempFile-fb7bc181a19020e459cc6277cd3c218e
-    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-fb7bc181a19020e459cc6277cd3c218e
-    projectPath: Temp\UnityTempFile-fb7bc181a19020e459cc6277cd3c218e
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Test Scene\Temp\UnityTempFile-fba99433cbaa47d4092a3d7cfc950530
-    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-fba99433cbaa47d4092a3d7cfc950530
-    projectPath: Temp\UnityTempFile-fba99433cbaa47d4092a3d7cfc950530
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Test Scene\Temp\UnityTempFile-fbf40463c0f455b4b9e1b956fb6800fa
-    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-fbf40463c0f455b4b9e1b956fb6800fa
-    projectPath: Temp\UnityTempFile-fbf40463c0f455b4b9e1b956fb6800fa
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Test Scene\Temp\UnityTempFile-fe981c10aa2c05c429c3beb07657fc88
-    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-fe981c10aa2c05c429c3beb07657fc88
-    projectPath: Temp\UnityTempFile-fe981c10aa2c05c429c3beb07657fc88
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Test Scene\Temp\UnityTempFile-ff96ed3707ce23343928b060f98c06a6
-    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-ff96ed3707ce23343928b060f98c06a6
-    projectPath: Temp\UnityTempFile-ff96ed3707ce23343928b060f98c06a6
+  - path: Test Scene\Temp\UnityTempFile-f8670e627fe7144448e2d4ad366a96b4
+    fullPath: C:\Users\Allie\Documents\GitHub\magician\Test Scene\Temp\UnityTempFile-f8670e627fe7144448e2d4ad366a96b4
+    projectPath: Temp\UnityTempFile-f8670e627fe7144448e2d4ad366a96b4
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1

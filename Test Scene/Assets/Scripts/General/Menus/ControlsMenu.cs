@@ -23,6 +23,7 @@ public class ControlsMenu : MonoBehaviour
                 for (int k = 0; k < menuPanel.GetChild(j).GetChild(i).childCount; k++) // for each input in each column in columns
                 {
                     Transform temp = menuPanel.GetChild(j).GetChild(i).GetChild(k);
+                    if (!temp) return; // if temp doesn't exist just return
 
                     if (temp.name == "InteractKey")
                         temp.GetComponentInChildren<Text>().text = InputManager.IM.Interact.ToString();   
