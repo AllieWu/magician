@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2020-05-07T15:31:23.526-04:00
-  initializedAtString: 2020-05-07T15:31:23.526-04:00
+  lastUpdatedAtString: 2020-05-08T16:05:45.304-04:00
+  initializedAtString: 2020-05-08T16:05:45.304-04:00
   currentGitRemote:
     name: origin
     url: https://github.com/AllieWu/magician.git

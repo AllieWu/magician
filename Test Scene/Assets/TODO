@@ -11,5 +11,5 @@ FINISHED:
 4. Automatically fill up available spells based on current class(es) (5/1/2020)
 6. On play, the game starts paused for some reason? - FIXED (5/1/2020)
 7. Fix auto-fill input key text based on player profile (last saved input vals) (4/30/2020)
-
+8. Filling profiles with savedata information (5/7/2020)
 

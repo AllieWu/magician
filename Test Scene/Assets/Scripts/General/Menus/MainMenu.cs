@@ -50,7 +50,6 @@ public class MainMenu : MonoBehaviour
             foreach (Transform text in prof)
             {
                 string file = Application.persistentDataPath + "/saves/save" + prof.name[prof.name.Length - 1] + ".txt";
-                Debug.Log("Does: " + file + " Exist?");
                 if (!File.Exists(file)) return; // if this save doesn't exist, just return
 
                 Save playerData = SaveData.Load<Save>("save" + prof.name[prof.name.Length - 1]); // load in the info from save
