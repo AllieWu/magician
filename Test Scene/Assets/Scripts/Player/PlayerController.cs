@@ -48,8 +48,6 @@ public class PlayerController : MonoBehaviour
     public string saveprofilename;
     public Save playerData = new Save();
 
-    // playerLevel to be read from SaveScript
-    // currentHealth to be read from SaveScript
 
     private void OnEnable()
     {
@@ -75,6 +73,7 @@ public class PlayerController : MonoBehaviour
 
         saveprofilename = PlayerPrefs.GetString("profile");
     }
+
     private void Start()
     {
         body = GetComponent<Rigidbody2D>();
@@ -101,15 +100,10 @@ public class PlayerController : MonoBehaviour
         SetUpPlayerData(playerData);
 
         //Setting up XP Bar 
-        //currentXP = 0;
-        //playerLevel = 1;
-        //nextLevelXP = (int)Mathf.Floor(Mathf.Pow(playerLevel + 10, (float)1.75)) - 30;
-        //previousLevelXP = 0;
-        xpBar.value = (currentXP) / (nextLevelXP);
-        xpInfo.text = "Level: " + playerLevel + "     XP: " + currentXP + "/" + nextLevelXP;
+        xpBar.value = ((float)currentXP/(float)nextLevelXP);
+        xpInfo.text = "Lvl " + playerLevel + "   XP: " + currentXP + "/" + nextLevelXP;
 
         //Setting up health
-        //currentHealth = maxHealth;
         healthBar.value = CalculateHealth();
     }
 
@@ -182,14 +176,15 @@ public class PlayerController : MonoBehaviour
         while (currentXP > nextLevelXP)
         {
             playerLevel++;
-            nextLevelXP = (int)Mathf.Floor(Mathf.Pow(playerLevel + 10, (float)1.75)) - 30;
-            previousLevelXP = (int)Mathf.Floor(Mathf.Pow(playerLevel + 9, (float)1.75)) - 30;
+            previousLevelXP = nextLevelXP;
+            nextLevelXP = (int)Mathf.Floor(playerLevel+100 * Mathf.Pow(2, playerLevel/7)); 
+            //nextLevelXP = (int)Mathf.Floor(Mathf.Pow(playerLevel + 10, (float)1.75)) - 30;
+            //previousLevelXP = (int)Mathf.Floor(Mathf.Pow(playerLevel + 9, (float)1.75)) - 30;
         }
 
-        xpBar.value = (float)(currentXP - previousLevelXP) / (nextLevelXP - previousLevelXP);
-        //Debug.Log((float)(currentXP - previousLevelXP) / (nextLevelXP - previousLevelXP));
-        //Debug.Log(xpBar.value);
-        xpInfo.text = "Level: " + playerLevel + "     XP: " + currentXP + "/" + nextLevelXP;
+        xpBar.value = ((float)currentXP/(float)nextLevelXP);//(float)(currentXP - previousLevelXP) / (nextLevelXP - previousLevelXP);
+        Debug.Log(currentXP + "/" + nextLevelXP + "=" + xpBar.value);
+        xpInfo.text = "Lvl " + playerLevel + "     XP: " + currentXP + "/" + nextLevelXP;
     }
 
     void OnTriggerEnter2D(Collider2D other)

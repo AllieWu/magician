@@ -1,9 +1,13 @@
 TO DO:
-5. Properly scale game based on resolution
-
-IN PROGRESS:
 3. Find a way to package scene contents (gui/ui/player) when transferring to different scenes
 ** have a good idea - saw that if you make variables STATIC they stay between scenes!
+5. Properly scale game based on resolution
+10. Update Skills 1-5 based on what's available 
+11. fire arrow doesn't disappear on no hit
+13. Items dont save w profiles
+14. Drag and drop inventory items
+
+IN PROGRESS:
 
 FINISHED:
 1. Make it so you can't open inventory/quest/map/spells when in escape/pause screen, esc exits in-game uis (5/1/2020)
@@ -12,4 +16,6 @@ FINISHED:
 6. On play, the game starts paused for some reason? - FIXED (5/1/2020)
 7. Fix auto-fill input key text based on player profile (last saved input vals) (4/30/2020)
 8. Filling profiles with savedata information (5/7/2020)
+9. Re setup XPBAR - XPINFO - HEALTHBAR (5/11/2020)
+12. Delete profiles, and only show profile info if exists (5/11/2020)
 
