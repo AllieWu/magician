@@ -4629,6 +4629,7 @@ GameObject:
   - component: {fileID: 580904201}
   - component: {fileID: 580904199}
   - component: {fileID: 580904200}
+  - component: {fileID: 580904205}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -4675,11 +4676,18 @@ MonoBehaviour:
   GameIsPaused: 0
   player: {fileID: 1257682135}
   pauseUI: {fileID: 1538849561}
-  spellCreationUI: {fileID: 419801537}
+  jobChangerUI: {fileID: 0}
   mainUI: {fileID: 719204451}
   teleportUI: {fileID: 451739247}
   optionsMenu: {fileID: 338985640}
   controlsMenu: {fileID: 1114892938}
+  menus:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!114 &580904202
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4724,6 +4732,18 @@ Transform:
   m_Father: {fileID: 2080691819}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &580904205
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 580904198}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09532143261dd094fb63b2c16f637a2b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &586373559
 GameObject:
   m_ObjectHideFlags: 0
@@ -11645,6 +11665,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cooldown: 0.25
+  hand: []
   projectile: {fileID: 2765052099311668748, guid: 3fb75894de687c84fa3dd41af4388d4c,
     type: 3}
   lookDirection: {x: 0, y: 0, z: 0}
@@ -11663,7 +11684,9 @@ MonoBehaviour:
   healthBar: {fileID: 959570252}
   hud: {fileID: 1331020453}
   CanOpenTeleporter: 0
-  CanOpenSpellCreation: 0
+  CanOpenJobChanger: 0
+  spells: []
+  saveprofilename: 
 --- !u!114 &1257682138
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11679,6 +11702,9 @@ MonoBehaviour:
   damage: 12
   cooldown: 2
   castTime: 0.25
+  spellID: 0
+  availClass: 
+  spellName: 
   epPrefab: {fileID: 4340257587549872647, guid: 018b15023403e604da4a75a676ec5056,
     type: 3}
 --- !u!114 &1257682139
@@ -11696,6 +11722,9 @@ MonoBehaviour:
   damage: 7
   cooldown: 1.25
   castTime: 0
+  spellID: 0
+  availClass: 
+  spellName: 
   tPrefab: {fileID: 1112683158546750419, guid: 2f9829b02c97bc6439690c8813f17544, type: 3}
 --- !u!114 &1257682140
 MonoBehaviour:
@@ -11712,6 +11741,9 @@ MonoBehaviour:
   damage: 5
   cooldown: 0.5
   castTime: 0
+  spellID: 0
+  availClass: 
+  spellName: 
   fbPrefab: {fileID: 2765052099311668748, guid: 68964bc9de5351642bf799a8e9e6656a,
     type: 3}
 --- !u!61 &1257682141
@@ -13107,6 +13139,9 @@ MonoBehaviour:
   damage: 12
   cooldown: 2
   castTime: 0.25
+  spellID: 0
+  availClass: 
+  spellName: 
   epPrefab: {fileID: 4340257587549872647, guid: 018b15023403e604da4a75a676ec5056,
     type: 3}
 --- !u!114 &1454787875
@@ -13124,6 +13159,9 @@ MonoBehaviour:
   damage: 7
   cooldown: 1.25
   castTime: 0
+  spellID: 0
+  availClass: 
+  spellName: 
   tPrefab: {fileID: 1112683158546750419, guid: 2f9829b02c97bc6439690c8813f17544, type: 3}
 --- !u!114 &1454787876
 MonoBehaviour:
@@ -13140,6 +13178,9 @@ MonoBehaviour:
   damage: 5
   cooldown: 0.5
   castTime: 0
+  spellID: 0
+  availClass: 
+  spellName: 
   fbPrefab: {fileID: 366086071689048744, guid: d913560cdfa43404aacc97e67f2afd53, type: 3}
 --- !u!114 &1454787877
 MonoBehaviour:

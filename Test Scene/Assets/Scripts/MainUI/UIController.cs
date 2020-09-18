@@ -56,22 +56,22 @@ public class UIController : MonoBehaviour
         }
         else if (Input.GetKeyDown(KeyCode.Escape)) // manually use KeyCode.Escape, not a changeable binding
         {
-            if (optionsMenu.activeSelf)
+            if (optionsMenu && optionsMenu.activeSelf)
             {
                 optionsMenu.SetActive(!optionsMenu.activeSelf);
                 pauseUI.SetActive(true);
             }
-            else if (controlsMenu.activeSelf)
+            else if (controlsMenu&& controlsMenu.activeSelf)
             {
                 controlsMenu.SetActive(!controlsMenu.activeSelf); 
                 pauseUI.SetActive(true);
             }
             // account for exiting in-game menus
-            else if (teleportUI.activeSelf) 
+            else if (teleportUI && teleportUI.activeSelf) 
                 teleportUI.SetActive(!teleportUI.activeSelf);
-            else if (jobChangerUI.activeSelf)
+            else if (jobChangerUI && jobChangerUI.activeSelf)
                 jobChangerUI.SetActive(!jobChangerUI.activeSelf);
-            else if (mainUI.activeSelf)
+            else if (mainUI && mainUI.activeSelf)
                 mainUI.SetActive(!mainUI.activeSelf);
             else // otherwise toggle pause menu
                 pauseUI.SetActive(!pauseUI.activeSelf);
